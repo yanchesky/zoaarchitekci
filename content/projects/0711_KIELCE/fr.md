@@ -1,7 +1,7 @@
 ---
 id: "0711"
 language: "fr"
-slug: "/projekty/galeria_echo"
+slug: "/projekty/centre_commercial_echo"
 date: "2020-11-03"
 title: "Centre commercial “Galeria Echo”"
 year: "2011"

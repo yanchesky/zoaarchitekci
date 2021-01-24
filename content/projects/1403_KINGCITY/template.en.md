@@ -1,7 +1,7 @@
 ---
 id: "1403"
 language: "en"
-slug: "/projekty/king_city"
+slug: "/projekty/king_city_district"
 date: "2021-01-09"
 title: "King City"
 year: "2014"

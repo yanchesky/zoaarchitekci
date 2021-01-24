@@ -5,6 +5,8 @@
   "location": "Miejsce",
   "year": "Rok",
   "area": "Powierzchnia",
+  "street": "Ulica",
+  "avenue": "Aleja",
   "everything": "Wszystko",
   "allRightsReserved": "Wszystkie prawa zastrzeżone",
   "client": "Klient",
@@ -24,7 +26,6 @@
         "competition": "Projekt konkursowy",
         "completed": "Zrealizowany",
         "underConstruction": "W realizacji",
-        "private": "Prywatny",
         "conception": "Projekt koncepcyjny",
         "competitionMention": "Projekt konkursowy, wyróżnienie"
 

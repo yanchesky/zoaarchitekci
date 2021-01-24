@@ -1,7 +1,7 @@
 ---
 id: "1110"
 language: "fr"
-slug: "/projekty/outlet_park"
+slug: "/projekty/centre_commercial_outlet_park"
 date: "2021-01-09"
 title: "Outlet Park"
 year: "2011"

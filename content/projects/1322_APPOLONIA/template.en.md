@@ -1,7 +1,7 @@
 ---
 id: "1322"
 language: "en"
-slug: "/projekty/appolonia"
+slug: "/projekty/appolonia_district"
 date: "2021-01-09"
 title: "Appolonia"
 year: "2013"

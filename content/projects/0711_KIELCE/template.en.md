@@ -1,7 +1,7 @@
 ---
 id: "0711"
 language: "en"
-slug: "/projekty/galeria_echo"
+slug: "/projekty/echo_shopping_mall"
 date: "2020-11-03"
 title: "Shopping mall „Galeria Echo”"
 year: "2011"

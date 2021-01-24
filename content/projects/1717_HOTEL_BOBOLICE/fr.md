@@ -1,7 +1,7 @@
 ---
 id: "1717"
 language: "fr"
-slug: "/projekty/hotel_bobolice"
+slug: "/projekty/hôtel_bobolice"
 date: "2021-01-09"
 title: "Hôtel Bobolice"
 year: "2017"

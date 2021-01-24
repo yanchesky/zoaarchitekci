@@ -1,7 +1,7 @@
 ---
 id: "1202"
 language: "fr"
-slug: "/projekty/baltic_park_molo_hotel"
+slug: "/projekty/hotel_baltic_park_molo_2012"
 date: "2021-01-09"
 title: "Hotel Baltic Park Molo"
 year: "2012"

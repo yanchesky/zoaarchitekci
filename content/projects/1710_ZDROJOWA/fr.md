@@ -1,7 +1,7 @@
 ---
 id: "1710"
 language: "fr"
-slug: "/projekty/radisson_resort_kolobrzeg"
+slug: "/projekty/radisson_resort_kolobrzeg_fr"
 date: "2021-01-09"
 title: "Radisson Resort"
 year: "2017"

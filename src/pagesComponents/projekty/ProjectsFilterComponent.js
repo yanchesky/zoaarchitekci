@@ -13,7 +13,7 @@ const Wrapper = styled.form`
 
 const TagTitle = styled.label`
   position: relative;
-  margin: 0.125rem 2rem 0.125rem 0.25rem;
+  margin: 0.125rem 1rem 0.125rem 0.25rem;
   display: inline-block;
   cursor: pointer;
   text-transform: uppercase;

@@ -6,7 +6,7 @@ title: "Centrum handlowe „Galeria Echo”"
 year: "2011"
 client: "Echo Investment"
 area: "50 000"
-status: "zrealizowany"
+status: "completed"
 avenue: "Solidarności"
 location: "Kielce"
 images: 

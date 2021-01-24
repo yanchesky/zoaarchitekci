@@ -1,7 +1,7 @@
 ---
 id: "1017"
 language: "en"
-slug: "/projekty/sinfonia_varsovia"
+slug: "/projekty/sinfonia_varsovia_en"
 date: "2021-01-09"
 title: "Sinfonia Varsovia"
 year: "2010"
