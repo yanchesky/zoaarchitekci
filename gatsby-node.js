@@ -73,7 +73,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }, {});
 
   result.data.projects.edges.forEach(({ node }) => {
-    console.log("node:", node);
     createPage({
       path: node.childMarkdownRemark.frontmatter.slug,
       component: ProjectTemplate,

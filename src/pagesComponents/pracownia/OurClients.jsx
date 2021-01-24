@@ -10,7 +10,7 @@ import hbr from "src/assets/clients/hbr.jpg";
 import klinkier_bud from "src/assets/clients/klinkier_bud.png";
 import konstancin from "src/assets/clients/konstancin.jpg";
 import layetana_logo from "src/assets/clients/layetana_logo.png";
-import logo_WUM from "src/assets/clients/logo_WUM.jpg";
+import logo_WUM from "src/assets/clients/Logo_WUM.jpg";
 import makdom from "src/assets/clients/makdom.png";
 import sbridge_office from "src/assets/clients/s-bridge_office.jpg";
 import victoria_dom from "src/assets/clients/victoria_dom.png";
