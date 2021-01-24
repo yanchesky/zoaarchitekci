@@ -1,0 +1,39 @@
+---
+id: "1827"
+language: "en"
+slug: "/projekty/kalemie_city_development_study"
+date: "2021-01-09"
+title: "Kalemie city development study"
+year: "2020"
+client: "Province De Tanganyika"
+area: "30 000 km2"
+status: "underConstruction"
+location: "Democratic Republic of Congo"
+images: 
+    - "images/1.jpg"
+    - "images/2.jpg"
+    - "images/3.jpg"
+    - "images/4.jpg"    
+    - "images/5.jpg"    
+    - "images/6.jpg"    
+    - "images/7.jpg"    
+    - "images/8.jpg"    
+    - "images/9.jpg"    
+    - "images/10.jpg"    
+    - "images/11.jpg"    
+    - "images/12.jpg"    
+    - "images/13.jpg"    
+    - "images/14.jpg"    
+    - "images/15.jpg"    
+    - "images/16.jpg"    
+    - "images/17.jpg"    
+    - "images/18.jpg"    
+tags: 
+    - "urban planning"
+    - "office"
+    - "public utility"
+thumbnail: "images/1.jpg"
+---
+The most important task was to: identify the causes and a&nbsp;remedial plan related to the devastation of the natural environment and the rising of the water table, prepare a&nbsp;proposal to revitalize the "old" city, in particular, improve communication and improve living conditions in the hills, analyze the basic social, natural and economic needs and their possibilities implementation as part of the New Kalemie project, and indication of the appropriate model of the city, taking into account the socio-cultural and economic conditions of both present and future Kalemie.
+
+The decentralization of Kalemie is extremely important to us. The city was divided into forty sections - MACRO VILLAGE. The basic section of approximately one hundred hectares is intended for twenty, twenty-five thousand inhabitants. Individual units are to be self-sufficient, have their own schools, health centers, markets, cultural centers, centers of religious worship, places of work and leisure. 

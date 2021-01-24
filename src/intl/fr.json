@@ -1,0 +1,91 @@
+{
+  "aboutUs": "Workshop",
+  "projects": "Projects",
+  "contact": "Contact",
+  "location": "Location",
+  "year": "Année",
+  "area": "Superficie",
+  "street": "Rue",
+  "avenue": "Rue",
+  "everything": "All",
+  "allRightsReserved": "All rights reserved",
+  "client": "Maîtrise d’ouvrage",
+  "status": "Stade",
+  "footer": {
+    "information": "Information",
+    "contact": "Contact",
+    "socialMedia": "Social media"
+  },
+  "pages": {
+    "projects": {
+      "statuses": {
+        "competition4thPrize": "Travail de concours, 4 prix",
+        "competition3thPrize": "Travail de concours, 3 prix",
+        "competition2thPrize": "Travail de concours, 2de prix",
+        "competition1thPrize": "Travail de concours, 1ere prix",
+        "competition": "Travail de concours",
+        "completed": "Realisé",
+        "underConstruction": "En cours de réalisation",
+        "conception": "Travail de conception",
+        "competitionMention": "Mention spéciale"
+      }
+    },
+    "workshop": {
+      "paragraph": {
+        "1": "Nous sommes les architectes, les amis et fondateurs du bureau d'architecture ZOA ARCHITEKCI. Nous travaillons ensemble depuis 20 ans déjà, initialement dans le cadre de la société OPEN architectes et aujourd’hui sous le nom de ZOA. Nous comprenons la diversité et la complexité du monde, nous aimons écouter, nous apprécions notre travail. Chaque projet constitue pour nous une occasion d’observer attentivement l’espace et les besoins du client. Avec notre équipe nous recherchons constamment les meilleures solutions architecturales et d'aménagement urbain. Les solutions qui satisfont les attentes des clients et qui ajoutent de la valeur à&nbsp;leurs utilisateurs actuels et futurs.",
+        "2": "Le portefeuille de l’agence d’architecture ZOA ARCHITEKCI comporte des dizaines d’esquisses différentes, parmi lesquelles des immeubles d’habitations et de bureaux, de centres commerciaux, de bâtiments sportifs et médicaux. Une partie importante de ces projets constituent les commandes obtenues par concours. Nos projets sont situés dans de nombreuses villes polonaises. Depuis plusieurs années, nous échafaudons des projets également en Afrique subsaharienne."
+      },
+      "aboutUs": "About us",
+      "team": "Team",
+      "clients": "Clients",
+      "employees": {
+        "role": {
+          "partner": "Wspólnik",
+          "operationDirectorFemale": "dyrektorka operacyjna",
+          "architectSpecialistAdministrativeFemale": "architektka specjalistka ds. postępowań administracyjnych",
+          "architectManagerFemale": "architektka kierowniczka",
+          "architectManager": "architekt kierownik",
+          "seniorArchitectFemale": "starsza architektka",
+          "architect": "architekt",
+          "architectFemale": "architektka",
+          "officeAdministration": "administracja, sekretariat",
+          "assistantArchitect": "asystentka architekt"
+        }
+      },
+      "prizes": {
+        "title": "Prizes",
+        "2008": {
+          "1": "4e prix d'un concours recommandé par SARP pour le siège du Teatr Nowy à&nbsp;Varsovie"
+        },
+        "2009": {
+          "1": "3e prix au concours TUP sur les boulevards de la Vistule à&nbsp;Varsovie",
+          "2": "Premier prix du concours pour la conception de l'hôpital pédiatrique de l'Université de médecine de Varsovie à&nbsp;Varsovie"
+        },
+        "2010": {
+          "1": "1er prix du concours SARP pour le projet de revitalisation intérieure du ministère des Affaires étrangères à&nbsp;Varsovie",
+          "2": "Deuxième prix du concours SARP pour l'extension de la maternité de la rue Karowa à&nbsp;Varsovie"
+        },
+        "2011": {
+          "1": "Deuxième prix du concours SARP pour la reconstruction du bâtiment de la Faculté de journalisme et de sciences politiques de l'Université de Varsovie à&nbsp;Varsovie",
+          "2": "Mention honorable au concours SARP pour la conception du bâtiment du département de sculpture de l'Académie des Beaux-Arts de Varsovie"
+        },
+        "2012": {
+          "1": "1er prix du concours du centre d'hydrothérapie Konstancińskie à Konstancin Jeziorna"
+        },
+        "2013": {
+          "1": "Entreprise de construction de l'année dans la catégorie Studio d'architecture"
+        },
+        "2016": {
+          "1": "Nomination pour le prix du Président de la capitale de Varsovie dans la catégorie \"Bâtiment d'utilité publique\" pour l'hôpital pédiatrique de l'Université de médecine de Varsovie à&nbsp;Varsovie"
+        },
+        "2019": {
+          "1": "Deuxième prix du concours pour la conception du parc Żerański",
+          "2": "2e prix du concours pour la conception du stade Polonia"
+        },
+        "2020": {
+          "1": "Deuxième prix du concours pour la conception du bâtiment clinique, éducatif et audiovisuel PUM (Université Médicale de Poméranieà) Szczecin"
+        }
+      }
+    }
+  }
+}

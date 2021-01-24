@@ -1,0 +1,89 @@
+{
+  "aboutUs": "Workshop",
+  "projects": "Projects",
+  "contact": "Contact",
+  "location": "Location",
+  "year": "Year",
+  "area": "Area",
+  "everything": "All",
+  "allRightsReserved": "All rights reserved",
+  "client": "Client",
+  "status": "Phase",
+  "footer": {
+    "information": "Information",
+    "contact": "Contact",
+    "socialMedia": "Social media"
+  },
+  "pages": {
+    "projects": {
+      "statuses": {
+        "competition4thPrize": "Competition, IV prize",
+        "competition3thPrize": "Competition, III prize",
+        "competition2thPrize": "Competition, II prize",
+        "competition1thPrize": "Competition, I prize",
+        "completed": "Completed",
+        "underConstruction": "under construction",
+        "private": "Private",
+        "conception": "Conception",
+        "competitionMention": "Competition, mention"
+      }
+    },
+    "workshop": {
+      "paragraph": {
+        "1": "We are architects, friends and founders of architectural design studio ZOA ARCHITEKCI. We’ve been working together for 20 years, initially under the name OPEN architekci, currently under the name ZOA. We understand diversity and complexity of the world, we like to listen and we find great pleasure in what we do. Each project is an opportunity for us to look carefully at our client’s needs and to explore the potential of a place. Our team is constantly seeking for the best urban and architectural solutions - the ones that would not only fulfill the client’s expectations, but also enrich the space, making it valuable for its current and future occupants",
+        "2": "The portfolio of ZOA ARCHITEKCI architecture studio includes dozens of various projects, including residential, office, retail, sports or medical buildings. A&nbsp;significant part of them are orders obtained through competitions. Our projects are located in many Polish cities. For several years we have also been designing in Sub-Saharan Africa."
+      },
+      "aboutUs": "About us",
+      "team": "Team",
+      "clients": "Clients",
+      "employees": {
+        "role": {
+          "partner": "partner",
+          "operationDirectorFemale": "operational director",
+          "architectSpecialistAdministrativeFemale": "architektka specjalistka ds. postępowań administracyjnych",
+          "architectManagerFemale": "architektka kierowniczka",
+          "architectManager": "architekt kierownik",
+          "seniorArchitectFemale": "starsza architektka",
+          "architect": "architekt",
+          "architectFemale": "architektka",
+          "officeAdministration": "administracja, sekretariat",
+          "assistantArchitect": "asystentka architekt"
+        }
+      },
+      "prizes": {
+        "title": "Prizes",
+        "2008": {
+          "1": "4th prize in a&nbsp;competition recommended by SARP for the seat of Teatr Nowy in Warsaw"
+        },
+        "2009": {
+          "1": "3rd prize in the TUP competition on the Vistula Boulevards in Warsaw",
+          "2": "First prize in the competition for the design of the Pediatric Hospital of the Medical University of Warsaw in Warsaw"
+        },
+        "2010": {
+          "1": "1st prize in the SARP competition for the interior revitalization project of the Ministry of Foreign Affairs in Warsaw",
+          "2": "Second prize in the SARP competition for the extension of the Maternity Hospital at Karowa Street in Warsaw"
+        },
+        "2011": {
+          "1": "Second prize in the SARP competition for the reconstruction of the building of the Faculty of Journalism and Political Sciences of the University of Warsaw in Warsaw",
+          "2": "Honorable mention in the SARP competition for the design of the building of the Sculpture Department of the Academy of Fine Arts in Warsaw"
+        },
+        "2012": {
+          "1": "1st prize in the competition for the Konstancińskie Center of Hydrotherapy in Konstancin Jeziorna"
+        },
+        "2013": {
+          "1": "Construction Company of the Year Builder in the Architectural Studio category"
+        },
+        "2016": {
+          "1": "Nomination for the award of the President of the Capital City of Warsaw in the category of \"Public utility building\" for the Pediatric Hospital of the Medical University of Warsaw in Warsaw"
+        },
+        "2019": {
+          "1": "Second prize in the competition for the design of Żerański Park",
+          "2": "2nd prize in the competition for the design of the Polonia Stadium"
+        },
+        "2020": {
+          "1": "Second prize in the competition for the design of the PUM clinical-teaching and broadcasting building in Szczecin"
+        }
+      }
+    }
+  }
+}

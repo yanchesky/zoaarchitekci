@@ -1,0 +1,30 @@
+---
+id: "1717"
+language: "en"
+slug: "/projekty/hotel_bobolice"
+date: "2021-01-09"
+title: "Hotel Bobolice"
+year: "2017"
+client: "Private"
+area: "4 800 m2"
+status: "conception"
+location: "Bobolice"
+images: 
+    - "images/1.jpg"
+    - "images/2.jpg"
+    - "images/3.jpg"
+    - "images/4.jpg"    
+    - "images/5.jpg"    
+    - "images/6.jpg"    
+    - "images/7.jpg"    
+    - "images/8.jpg"    
+    - "images/9.jpg"    
+    - "images/10.jpg"    
+    - "images/11.jpg"    
+    - "images/12.jpg"    
+tags: 
+    - "hotels"
+    - "public utility"
+thumbnail: "images/1.jpg"
+---
+The area for the hotel investment is located in the immediate vicinity of the rebuilt castle in Bobolice. Our most important goal was to enter the new buildings as discreetly as possible, but also to make the most of the picturesque view.

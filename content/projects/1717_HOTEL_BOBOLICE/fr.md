@@ -1,0 +1,30 @@
+---
+id: "1717"
+language: "fr"
+slug: "/projekty/hotel_bobolice"
+date: "2021-01-09"
+title: "Hôtel Bobolice"
+year: "2017"
+client: "Particulier"
+area: "4 800 m2"
+status: "conception"
+location: "Bobolice"
+images: 
+    - "images/1.jpg"
+    - "images/2.jpg"
+    - "images/3.jpg"
+    - "images/4.jpg"    
+    - "images/5.jpg"    
+    - "images/6.jpg"    
+    - "images/7.jpg"    
+    - "images/8.jpg"    
+    - "images/9.jpg"    
+    - "images/10.jpg"    
+    - "images/11.jpg"    
+    - "images/12.jpg"    
+tags: 
+    - "hotels"
+    - "public utility"
+thumbnail: "images/1.jpg"
+---
+Le terrain d'investissement hôtelier est situé à&nbsp;proximité immédiate du château reconstruit à&nbsp;Bobolice. Notre objectif principal était d’inscrire l'hôtel le plus discrètement possible dans l’entourage, mais aussi de profiter au maximum de la vue pittoresque.

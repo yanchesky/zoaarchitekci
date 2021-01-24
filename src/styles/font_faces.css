@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Facundo;
+    src: url('../fonts/facundo_regular.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: Facundo;
+    src: url('../fonts/facundo_bold.otf');
+    font-weight: bold;
+}

@@ -1,0 +1,91 @@
+{
+  "aboutUs": "Pracownia",
+  "projects": "Projekty",
+  "contact": "Kontakt",
+  "location": "Miejsce",
+  "year": "Rok",
+  "area": "Powierzchnia",
+  "everything": "Wszystko",
+  "allRightsReserved": "Wszystkie prawa zastrzeżone",
+  "client": "Klient",
+  "status": "Faza",
+  "footer": {
+    "information": "Dane firmy",
+    "contact": "Kontakt",
+    "socialMedia": "Media społecznościowe"
+  },
+  "pages": {
+    "projects": {
+      "statuses": {
+        "competition4thPrize": "Projekt konkursowy, IV nagroda",
+        "competition3thPrize": "Projekt konkursowy, III nagroda",
+        "competition2thPrize": "Projekt konkursowy, II nagroda",
+        "competition1thPrize": "Projekt konkursowy, I nagroda",
+        "competition": "Projekt konkursowy",
+        "completed": "Zrealizowany",
+        "underConstruction": "W realizacji",
+        "private": "Prywatny",
+        "conception": "Projekt koncepcyjny",
+        "competitionMention": "Projekt konkursowy, wyróżnienie"
+
+      }
+    },
+    "workshop": {
+      "paragraph": {
+        "1": "Rozumiemy różnorodność i&nbsp;złożoność świata, lubimy słuchać, cieszy nas nasza praca. Każdy projekt jest dla nas okazją do uważnego przyglądania się potrzebom klienta oraz przestrzeni. Wraz z&nbsp;naszym zespołem nieustannie poszukujemy najlepszych rozwiązań urbanistycznych i&nbsp;architektonicznych. Takich, które spełnią oczekiwania klientów i&nbsp;wzbogacą przestrzeń, stanowiąc wartość dla jej obecnych i&nbsp;przyszłych użytkowników.",
+        "2": "W portfolio pracowni architektonicznej ZOA ARCHITEKCI znajdują się dziesiątki różnorodnych projektów, w&nbsp;tym budynki mieszkalne, biurowe, handlowe, sportowe czy medyczne. Istotną część spośród nich stanowią zlecenia uzyskane na drodze konkursów. \nNasze projekty zlokalizowane są w&nbsp;wielu polskich miastach. Od kilku lat projektujemy również w&nbsp;Afryce Subsaharyjskiej."
+      },
+      "aboutUs": "O nas",
+      "team": "Zespół",
+      "clients": "Klienci",
+      "employees": {
+        "role": {
+          "partner": "wspólnik",
+          "operationDirectorFemale": "dyrektorka operacyjna",
+          "architectSpecialistAdministrativeFemale": "architektka specjalistka ds. postępowań administracyjnych",
+          "architectManagerFemale": "architektka kierowniczka",
+          "architectManager": "architekt kierownik",
+          "seniorArchitectFemale": "starsza architektka",
+          "architect": "architekt",
+          "architectFemale": "architektka",
+          "officeAdministration": "administracja, sekretariat",
+          "assistantArchitect": "asystentka architekt"
+        }
+      },
+      "prizes": {
+        "title": "Nagrody",
+        "2008": {
+          "1": "IV nagroda w konkursie rekomendowanym przez SARP na siedzibę Teatru Nowego w&nbsp;Warszawie"
+        },
+        "2009": {
+          "1": "III nagroda w&nbsp;konkursie TUP na Bulwary Wisły w&nbsp;Warszawie",
+          "2": "I nagroda w&nbsp;konkursie na projekt Szpitala pediatrycznego WUM w&nbsp;Warszawie"
+        },
+        "2010": {
+          "1": "I nagroda w&nbsp;konkursie SARP na projekt rewitalizacji wnętrz Ministerstwa Spraw Zagranicznych w&nbsp;Warszawie",
+          "2": "II nagroda w&nbsp;konkursie SARP na projekt rozbudowy Szpitala Położniczego przy ul. Karowej w&nbsp;Warszawie"
+        },
+        "2011": {
+          "1": "I nagroda w&nbsp;konkursie SARP na przebudowę budynku Wydziału Dziennikarstwa i&nbsp;Nauk Politycznych UW w&nbsp;Warszawie",
+          "2": "Wyróżnienie honorowe w konkursie SARP na projekt budynku Wydziału Rzeźby ASP w&nbsp;Warszawie"
+        },
+        "2012": {
+          "1": "I nagroda w&nbsp;konkursie na Konstancińskie Centrum Hydroterapii w&nbsp;Konstancinie Jeziornej"
+        },
+        "2013": {
+          "1": "Budowlana Firma Roku Builder w kategorii Pracownia Architektoniczna"
+        },
+        "2016": {
+          "1": "Nominacja do nagrody Prezydenta m.&nbsp;st.&nbsp;Warszawy w&nbsp;kategorii „Budynek użyteczności publicznej” dla Szpitala Pediatrycznego WUM w&nbsp;Warszawie"
+        },
+        "2019": {
+          "1": "II nagroda w&nbsp;konkursie na projekt Parku Żerańskiego",
+          "2": "II nagroda w&nbsp;konkursie na projekt Stadionu Polonii"
+        },
+        "2020": {
+          "1": "II nagroda w&nbsp;konkursie na projekt budynku kliniczno-dydaktyczno-nadawczego PUM w&nbsp;Szczecinie"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+---
+id: "1710"
+language: "fr"
+slug: "/projekty/radisson_resort_kolobrzeg"
+date: "2021-01-09"
+title: "Radisson Resort"
+year: "2017"
+client: "Zdrojowa"
+area: "10 500 m2"
+status: "underConstruction"
+location: "Kołobrzeg"
+street: "Morawskiego"
+images: 
+    - "images/SCHWARTZ-KOLOBRZEG.jpg"
+    - "images/1.jpg"
+    - "images/2.jpg"
+    - "images/3.jpg"
+    - "images/4.jpg"    
+    - "images/5.jpg"    
+    - "images/6.jpg"    
+    - "images/7.jpg"    
+    - "images/8.jpg"    
+    - "images/9.jpg"    
+    - "images/10.jpg"    
+tags: 
+    - "hotels"
+    - "public utility"
+thumbnail: "images/1.jpg"
+---
+Un riche programme fonctionnel comprenant entre autres: trois piscines (parc aquatique, une piscine extérieure et une piscine sur le toit), un espace de bien-être, deux restaurants et bars a&nbsp;été composé de manière à&nbsp;profiter pleinement de la parcelle. L'architecture fait référence à&nbsp;la tradition des complexes hôteliers de la côte. 
