@@ -17,7 +17,7 @@ images:
     - "images/3.jpg"
     - "images/4.jpg"    
 tags: 
-    - "residential"
+    - "logements"
 thumbnail: "images/1.jpg"
 ---
 Un bâtiment intimiste, situé dans la partie post-industrielle du quartier Żoliborz. L’objectif principal de notre équipe était d'offrir aux résidents une grande cour ensoleillée, séparée du bruit des rues avoisinantes. L'architecture du bâtiment a&nbsp;été inspirée par les bâtiments simples et structurés du WSM (Coopérative d’habitation de Varsovie) d'avant-guerre.

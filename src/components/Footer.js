@@ -170,8 +170,8 @@ const Footer = () => {
               <a href="mailto:biuro@zoaarchitekci.pl">biuro@zoaarchitekci.pl</a>
             </Paragraph>
             <Paragraph>
-              <a href="mailto:sekretariat@zoaarchitekci.com">
-                sekretariat@zoaarchitekci.com
+              <a href="mailto:sekretariat@zoaarchitekci.pl">
+                sekretariat@zoaarchitekci.pl
               </a>
             </Paragraph>
             <Paragraph>

@@ -23,8 +23,8 @@ images:
     - "images/11.jpg"    
     - "images/12.jpg"    
 tags: 
-    - "hotels"
-    - "public utility"
-thumbnail: "images/1.jpg"
+    - "hôtels"
+    - "bâtiments publics"
+thumbnail: "images/3.jpg"
 ---
 Le terrain d'investissement hôtelier est situé à&nbsp;proximité immédiate du château reconstruit à&nbsp;Bobolice. Notre objectif principal était d’inscrire l'hôtel le plus discrètement possible dans l’entourage, mais aussi de profiter au maximum de la vue pittoresque.

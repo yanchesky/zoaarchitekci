@@ -15,8 +15,8 @@ images:
     - "images/3.jpg"
     - "images/4.jpg"    
 tags: 
-    - "competitions"
-    - "public utility"
+    - "concours d'architecture"
+    - "bâtiments publics"
 thumbnail: "images/1.jpg"
 ---
 L’ensemble d’immeubles existants de L'Académie des Beaux-Arts est situé dans les bâtiments post-industriels de l’ancien Établissement Sanitaire municipale. Il constitue un organisme spécifique conditionnant la création de l’espace. Le terrain est entouré d’un mur de brique, derrière lequel on trouve des cours et des bâtiments intimes. Cela permet d'obtenir des espaces séparés et calmes parfaitement adaptés à&nbsp;l'annexion par les artistes.

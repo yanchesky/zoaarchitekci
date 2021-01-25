@@ -9,7 +9,7 @@ export const queryWelcomeSliderImages = () =>
         nodes {
           relativePath
           childImageSharp {
-            fluid(maxWidth: 2000, quality: 100) {
+            fluid(maxWidth: 2000, quality: 85) {
               ...GatsbyImageSharpFluid
             }
           }

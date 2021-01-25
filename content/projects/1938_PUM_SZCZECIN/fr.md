@@ -21,10 +21,10 @@ images:
     - "images/9.jpg"    
     - "images/10.jpg"    
 tags: 
-    - "competitions"
-    - "health care"
-    - "public utility"
-thumbnail: "images/1.jpg"
+    - "concours d'architecture"
+    - "bâtiments médico-sociaux"
+    - "bâtiments publics"
+thumbnail: "images/7.jpg"
 ---
 L’investissement prévu d'une grande installation à&nbsp;des fins spécialisées a&nbsp;lieu sur un emplacement particulier. Premièrement, ce terrain n'est accessible que depuis la rue Unii Lubelskiej, à&nbsp;travers un grand parking, qui, conformément aux conditions du concours, doit être sauvegardé. Deuxièmement, du côté nord, le terrain avoisine des maisons familiales basses. Ensuite, ce qui est probablement le plus important, il est situé entièrement dans un bassin pour un stade jamais construit.
 

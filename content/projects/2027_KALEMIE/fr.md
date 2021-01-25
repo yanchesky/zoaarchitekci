@@ -1,5 +1,5 @@
 ---
-id: "1827"
+id: "2027"
 language: "fr"
 slug: "/projekty/etude_du_developpement_urbain"
 date: "2021-01-09"
@@ -29,9 +29,9 @@ images:
     - "images/17.jpg"    
     - "images/18.jpg"    
 tags: 
-    - "urban planning"
-    - "office"
-    - "public utility"
+    - "logements"
+    - "immobilier d'entreprise"
+    - "bâtiments publics"
 thumbnail: "images/1.jpg"
 ---
 L'objectif le plus important était l'identification des causes et l’organisation d'un plan de réparation liés à&nbsp;la dévastation du milieu naturel et à&nbsp;la montée de la nappe phréatique. Ensuite il fallait préparer un projet de revitalisation de la "vieille" ville, et surtout d’améliorer la communication et les conditions de vie des gens vivant dans les collines. Une tâche également importante était d'analyser les besoins fondamentaux sociaux, naturels et économiques et ensuite des possibilités de leur mise en œuvre dans le cadre du projet “Nowy Kalemie” (Nouveau Kalemie) et par la suite la recommandation du modèle approprié de la ville, qui tient compte des conditions sociales, culturelles et économiques de la Kalemie d’aujourd’hui et de demain.

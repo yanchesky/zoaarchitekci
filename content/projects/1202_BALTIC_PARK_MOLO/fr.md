@@ -13,9 +13,9 @@ images:
     - "images/1.jpg"
     - "images/2.jpg"    
 tags: 
-    - "hotels"
-    - "public utility"
-    - "competitions"
+    - "hôtels"
+    - "bâtiments publics"
+    - "concours d'architecture"
 thumbnail: "images/1.jpg"
 ---
 Le principe général de la forme des deux bâtiments est la disposition des étages en bandes. Des lignes distinctives de plaques de balcon ont été découpées avec des lignes de verre. Ces éléments apparemment simples et calmes sont juxtaposés à&nbsp;un décalage - chaque étage successif glisse vers le bas depuis l'étage inférieur. Afin d'intensifier l'impression de dynamique, un vecteur de décalage différent a&nbsp;été utilisé dans chacun des bâtiments, les dirigeant dans des directions opposées. Les troncs des bâtiments formés de cette manière étaient posés sur une base solide de deux étages. Dans la zone du rez-de-chaussée, la base contient de nombreuses ouvertures en verre, ce qui favorise la création des relations entre l'intérieur et son environnement.

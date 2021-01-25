@@ -7,7 +7,7 @@
   "area": "Powierzchnia",
   "street": "Ulica",
   "avenue": "Aleja",
-  "everything": "Wszystko",
+  "everything": "Wszystkie",
   "allRightsReserved": "Wszystkie prawa zastrzeżone",
   "client": "Klient",
   "status": "Faza",
@@ -50,7 +50,7 @@
           "architect": "architekt",
           "architectFemale": "architektka",
           "officeAdministration": "administracja, sekretariat",
-          "assistantArchitect": "asystentka architekt"
+          "assistantArchitectFemale": "asystentka architekta"
         }
       },
       "prizes": {

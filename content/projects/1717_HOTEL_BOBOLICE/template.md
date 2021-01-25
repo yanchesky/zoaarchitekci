@@ -24,6 +24,6 @@ images:
 tags: 
     - "użyteczności publicznej"
     - "hotelowe"
-thumbnail: "images/1.jpg"
+thumbnail: "images/3.jpg"
 ---
 Teren pod inwestycję hotelu znajduje się w&nbsp;bezpośrednim sąsiedztwie odbudowanego zamku w&nbsp;Bobolicach. Naszym najważniejszym celem było wpisanie nowej zabudowy w sposób możliwie dyskretny ale pozwalający również na wykorzystanie w maksymalny sposób malowniczego widoku.

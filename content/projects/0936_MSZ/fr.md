@@ -16,9 +16,9 @@ images:
     - "images/5.jpg"    
     - "images/6.jpg"    
 tags: 
-    - "competitions"
-    - "office"
-    - "public utility"
+    - "concours d'architecture"
+    - "immobilier d'entreprise"
+    - "bâtiments publics"
 thumbnail: "images/1.jpg"
 ---
 L’objectif des architectes était de redonner aux intérieurs du Ministère leur rang mérité et leurs normes de fonctionnalité et d'esthétique contraignants. Ce projet vise la création d’un image moderne, bien qu'il reste enracineé dans la tradition, de l’Etat Polonais, qui pourra faire face aux défits contemporains.  

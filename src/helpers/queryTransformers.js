@@ -35,16 +35,18 @@ export const transformQueryProjects = (graphQuery, filterString = "") => () => {
         thumbnail.language === filterString ||
         (thumbnail.language === null && filterString === "pl")
     )
-    .sort((a, b) => parseInt(a.order) - parseInt(b.order));
+    .sort((a, b) => parseInt(b.order) - parseInt(a.order));
 };
 
 export const transformQueryEmployees = (graphQuery) => {
-  return graphQuery.employees.edges.map((employee) => {
-    const {
-      childMarkdownRemark: {
-        frontmatter: { name, order, image, role },
-      },
-    } = employee.node;
-    return { name, order, image, id: employee.id, role };
-  });
+  return graphQuery.employees.edges
+    .map((employee) => {
+      const {
+        childMarkdownRemark: {
+          frontmatter: { name, order, image, role },
+        },
+      } = employee.node;
+      return { name, order, image, id: employee.id, role };
+    })
+    .sort((a, b) => a.order - b.order);
 };

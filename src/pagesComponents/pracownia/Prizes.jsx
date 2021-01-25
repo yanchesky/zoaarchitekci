@@ -57,7 +57,9 @@ const Prizes = () => {
   return (
     <>
       <HeadingWrapper>
-        <StyledHeading>Nagrody</StyledHeading>
+        <StyledHeading>
+          {t.formatMessage({ id: "pages.workshop.prizes.title" })}
+        </StyledHeading>
       </HeadingWrapper>
 
       <MainWrapper>

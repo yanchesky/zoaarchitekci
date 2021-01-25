@@ -16,10 +16,10 @@ images:
     - "images/4.jpg"    
     - "images/5.jpg"        
 tags: 
-    - "urban planning"
-    - "residential"
-    - "office"
-    - "public utility"
+    - "urbanisme"
+    - "logements"
+    - "immobilier d'entreprise"
+    - "bâtiments publics"
     - "retail"
 thumbnail: "images/1.jpg"
 ---

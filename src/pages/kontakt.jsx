@@ -7,6 +7,7 @@ import { media } from "src/helpers";
 import facebookIcon from "../assets/svg/facebook-brands.svg";
 import instagramIcon from "../assets/svg/instagram-brands.svg";
 import linkedinIcon from "../assets/svg/linkedin-in-brands.svg";
+import { useIntl } from "gatsby-plugin-intl";
 
 const SocialMediaLink = styled.a`
   display: inline-flex;
@@ -29,7 +30,7 @@ const StyledHeading = styled.h1`
   text-transform: uppercase;
   font-weight: normal;
   margin: 0;
-  ${media.mobile`
+  ${media[540]`
       grid-column-start: 1;
       grid-column-end: 3;
    `};
@@ -42,55 +43,16 @@ const Paragraph = styled.span`
   margin: 0.25rem 0;
 `;
 
-const HeadingWrapper = styled.div`
-  grid-column-end: 8;
-  grid-column-start: 1;
-  ${media.mobile`
-      grid-column-start: 2;  
-  `};
-  ${media.tablet`
-      grid-column-start: 3;  
-  `};
-
-  ${media.desktop`
-      grid-column-start: 2;
-      grid-column-end: 8;
-      
-  `};
-`;
-
-const MailsWrapper = styled.div`
-  grid-column-start: 1;
-  grid-column-end: 5;
-
-  ${media.mobile`
-      grid-column-start: 2;  
-  `};
-  ${media.tablet`
-      grid-column-start: 3;  
-  `};
-  ${media.desktop`
-      grid-column-start: 2;
-      grid-column-end: 4;
-  `};
-`;
-
 const AddressWrapper = styled.div`
   display: grid;
-  max-width: 26rem;
+  max-width: 29rem;
   margin: 0 auto;
   grid-template-columns: 1fr;
   grid-row-gap: 2rem;
-  ${media.mobile`
+  grid-column-gap: 2rem;
+  ${media["540"]`
     grid-template-columns: 1fr 1fr;
   `};
-`;
-
-const StyledLink = styled.a`
-  display: block;
-  text-decoration: underline;
-  color: ${(props) => props.theme.colors["gray-500"]};
-  margin-bottom: 2rem;
 `;
 
 const AddressLinks = styled.a`
@@ -106,7 +68,7 @@ const AddressLinks = styled.a`
 `;
 
 const SocialMediaWrapper = styled.div`
-  ${media.mobile`
+  ${media[540]`
     grid-column-start: 2;
     grid-column-end: 3;
   `};
@@ -116,22 +78,27 @@ const SocialMediaWrapper = styled.div`
 `;
 
 const Kontakt = () => {
+  const t = useIntl();
   return (
     <ContactLayout>
       <AddressWrapper>
-        <StyledHeading>Kontakt</StyledHeading>
+        <StyledHeading>{t.formatMessage({ id: "contact" })}</StyledHeading>
         <div>
-          <Paragraph>ZOA ARCHITEKCI</Paragraph>
+          <Paragraph>ZOA ARCHITEKCI sp. z o.o.</Paragraph>
           <Paragraph>ul. Pilicka 27/1</Paragraph>
           <Paragraph>02-613 Warszawa</Paragraph>
           <Paragraph>NIP: 123456789</Paragraph>
         </div>
         <div>
-          <AddressLinks href="#">+48 22 844 22 11</AddressLinks>
-          <AddressLinks href="#">+48 22 252 16 35</AddressLinks>
-          <AddressLinks href="#">+48 22 253 86 34</AddressLinks>
-          <AddressLinks href="#">biuro@zoaarchitekci.com</AddressLinks>
-          <AddressLinks href="#">sekretariat@zoaarchitekci.com</AddressLinks>
+          <AddressLinks href="tel:+48228442211">+48 22 844 22 11</AddressLinks>
+          <AddressLinks href="tel:+48222521635">+48 22 252 16 35</AddressLinks>
+          <AddressLinks href="tel:+48222538634">+48 22 253 86 34</AddressLinks>
+          <AddressLinks href="mailto:biuro@zoaarchitekci.pl">
+            biuro@zoaarchitekci.pl
+          </AddressLinks>
+          <AddressLinks href="mailto:sekretariat@zoaarchitekci.pl">
+            sekretariat@zoaarchitekci.pl
+          </AddressLinks>
         </div>
         <SocialMediaWrapper>
           <SocialMediaLink size="1.2rem" icon={facebookIcon}>

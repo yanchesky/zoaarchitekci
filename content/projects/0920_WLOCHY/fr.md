@@ -16,7 +16,7 @@ images:
     - "images/2.jpg"
     - "images/3.jpg" 
 tags: 
-    - "residential"
+    - "logements"
 thumbnail: "images/2.jpg"
 ---
 Le projet d’un lotissement d’immeubles familiaux intimistes avec des appartements pas chers. Un parc public mis en disposition d’habitants constitue un point caractéristique de ce lotissement. À un stade suivant la construction des bâtiments de service et de commerce est prévue. 

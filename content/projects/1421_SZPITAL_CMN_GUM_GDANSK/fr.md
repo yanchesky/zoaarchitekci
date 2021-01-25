@@ -15,9 +15,9 @@ images:
     - "images/3.jpg"
     - "images/4.jpg"    
 tags: 
-    - "competitions"
-    - "health care"
-    - "public utility"
+    - "concours d'architecture"
+    - "bâtiments médico-sociaux"
+    - "bâtiments publics"
 thumbnail: "images/1.jpg"
 ---
 L'objectif principal était de créer un bâtiment réalisant un programme d'utilité riche imposé par l'investisseur, s'intégrant harmonieusement dans l’infrastructure existante, tout en augmentant en même temps le standard de l'espace environnant, créant des conditions favorables pour les utilisateurs, agréables pour les patients, avec une disposition d’espace claire, tout en optimisant l'utilisation du terrain.

@@ -14,8 +14,8 @@ images:
     - "images/1.jpg"
     - "images/2.jpg"
 tags: 
-    - "residential"
-    - "competitions"
+    - "logements"
+    - "concours d'architecture"
 thumbnail: "images/1.jpg"
 ---
 L'immeuble de grande hauteur est situé à&nbsp;la fermeture du quai du port de Popowice. Le vent et l'eau vivent ici en symbiose. La nature changeante des éléments directement liés à&nbsp;l'emplacement se reflète dans la forme dynamique et émotionnelle du bâtiment. Celui est construit d'éléments architecturaux calmes et tamisés, sans décoration superflue, permettant néanmoins la création d'un objet original et mémorable, constituant un nouveau SIGNE distinct.

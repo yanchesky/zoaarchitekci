@@ -19,10 +19,10 @@ images:
     - "images/6.jpg"    
     - "images/7.jpg"    
 tags: 
-    - "public utility"
-    - "hotels"
-    - "health care"
-    - "competitions"
+    - "bâtiments publics"
+    - "hôtels"
+    - "bâtiments médico-sociaux"
+    - "concours d'architecture"
 thumbnail: "images/1.jpg"
 ---
 Un projet compliqué de restructuration d'un bâtiment provisoire en un luxueux centre SPA à&nbsp;proximité immédiate des historiques tours de graduation de Konstancin. Il était également important de respecter le contexte local, nécessitant une coopération étroite avec le restaurateur, ainsi que les exigences du client concernant la qualité de l'architecture. Le bâtiment, bien qu'il ressemble à&nbsp;des pavillons d'ambiance disséminés dans le parc, abrite un hôtel, une piscine, une salle de fitness et une gamme entière de cabinets de bien-être. 

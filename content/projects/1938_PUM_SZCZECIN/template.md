@@ -23,7 +23,7 @@ tags:
     - "konkursowe"
     - "ochrony zdrowia"
     - "użyteczności publicznej"
-thumbnail: "images/1.jpg"
+thumbnail: "images/7.jpg"
 ---
 Teren pod planowaną inwestycję dużego obiektu o&nbsp;specjalistycznym przeznaczeniu jest szczególny z&nbsp;kilku powodów. Po pierwsze jest on dostępny tylko od strony ulicy Unii Lubelskiej, poprzez duży parking, który, zgodnie z&nbsp;warunkami konkursu, przeznaczony jest do zachowania. Po drugie, od strony północnej sąsiaduje z&nbsp;niską  zabudową jednorodzinną. I,&nbsp;co chyba najważniejsze, w&nbsp;całości stanowi nieckę pod nigdy nie zrealizowany stadion.
 

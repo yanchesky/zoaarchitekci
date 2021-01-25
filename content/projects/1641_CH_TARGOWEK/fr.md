@@ -18,8 +18,8 @@ images:
     - "images/4.jpg"    
     - "images/5.jpg"    
 tags: 
-    - "public utility"
-    - "urban planning"
+    - "bâtiments publics"
+    - "urbanisme"
     - "retail"
 thumbnail: "images/1.jpg"
 ---

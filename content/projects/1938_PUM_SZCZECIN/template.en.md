@@ -24,7 +24,7 @@ tags:
     - "competitions"
     - "health care"
     - "public utility"
-thumbnail: "images/1.jpg"
+thumbnail: "images/7.jpg"
 ---
 The area for the planned investment of a&nbsp;large facility with specialized purposes is special for several reasons. First of all, it is accessible only from Unii Lubelskiej street, through a&nbsp;large parking lot, which, in accordance with the terms of the competition, is intended to be kept. Secondly, on the north side it is adjacent to low single-family buildings. And, perhaps most importantly, it is entirely a basin for a never-realized stadium.
 

@@ -21,9 +21,9 @@ images:
     - "images/7.jpg"    
     - "images/8.jpg"    
 tags: 
-    - "public utility"
+    - "bâtiments publics"
     - "retail"
-    - "urban planning"
+    - "urbanisme"
 thumbnail: "images/1.jpg"
 ---
 Le plus grand bâtiment de ce type à&nbsp;Kielce. L’objectif principal de ce projet était de relier le bâtiment à&nbsp;la ville grâce à&nbsp;une communication appropriée et les façades en verre permettant l'ouvrir au monde extérieur.  

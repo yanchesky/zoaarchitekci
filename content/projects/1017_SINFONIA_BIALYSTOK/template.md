@@ -16,6 +16,6 @@ images:
 tags: 
     - "użyteczności publicznej"
     - "konkursowe"
-thumbnail: "images/1.jpg"
+thumbnail: "images/4.jpg"
 ---
 Od strony północnej zlokalizowano plac miejski, będący zamknięciem ul. Kobielskiej, którego pierzeje tworzą istniejące budynki domu towarowego oraz szkoły i&nbsp;projektowany budynek Sali koncertowej. Fasada frontonu nowego Gmachu z&nbsp;wertykalnymi podziałami o&nbsp;zmiennym rytmie zdradza przeznaczenie obiektu. Definiuje również funkcję placu, z&nbsp;którego urządzono główne wejście. Od strony południowej (wewnętrznej) zdecydowano się na ograniczenie do niezbędnego minimum zarówno gabarytów jak i&nbsp;architektonicznych środków wyrazu projektowanego budynku tak, by nie dominował istniejącego założenia wpisując się w charakter układu zabudowy.

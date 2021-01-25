@@ -60,8 +60,9 @@ export const onExit = (el, index, removeElement) => {
       opacity: [0, 1],
     },
     onUpdate: ({ opacity, translateY }) => {
-      el.style.transform = `scale(${1 - opacity})`;
-      el.style.opacity = `${opacity}`;
+      el.style.transform = `scale(${1 - opacity / 2})`;
+      console.log("opacity:", opacity);
+      el.style.opacity = `${1 - opacity}`;
     },
     onComplete: removeElement,
   });

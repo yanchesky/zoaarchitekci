@@ -23,8 +23,8 @@ images:
     - "images/9.jpg"    
     - "images/10.jpg"    
 tags: 
-    - "hotels"
-    - "public utility"
+    - "hôtels"
+    - "bâtiments publics"
 thumbnail: "images/1.jpg"
 ---
 Un riche programme fonctionnel comprenant entre autres: trois piscines (parc aquatique, une piscine extérieure et une piscine sur le toit), un espace de bien-être, deux restaurants et bars a&nbsp;été composé de manière à&nbsp;profiter pleinement de la parcelle. L'architecture fait référence à&nbsp;la tradition des complexes hôteliers de la côte. 

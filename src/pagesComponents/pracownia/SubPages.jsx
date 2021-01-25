@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { media } from "src/helpers";
 import { Link } from "gatsby";
 import { useLocation } from "@reach/router";
+import { useIntl } from "gatsby-plugin-intl";
 
 const Container = styled.div`
   position: fixed;
@@ -43,30 +44,31 @@ const SubLink = styled(Link)`
 
 const SubPages = () => {
   const location = useLocation();
+  const t = useIntl();
 
   return (
     <Container>
       <Wrapper>
         <SubLink className={location.hash === "" ? "checked" : ""} to="#">
-          O&nbsp;nas
+          {t.formatMessage({ id: "pages.workshop.aboutUs" })}
         </SubLink>
         <SubLink
           className={location.hash === "#employees-section" ? "checked" : ""}
           to="#employees-section"
         >
-          Zespół
+          {t.formatMessage({ id: "pages.workshop.team" })}
         </SubLink>
         <SubLink
           className={location.hash === "#our-clients-section" ? "checked" : ""}
           to="#our-clients-section"
         >
-          Klienci
+          {t.formatMessage({ id: "pages.workshop.clients" })}
         </SubLink>
         <SubLink
           className={location.hash === "#prizes-section" ? "checked" : ""}
           to="#prizes-section"
         >
-          Nagrody
+          {t.formatMessage({ id: "pages.workshop.prizes.title" })}
         </SubLink>
       </Wrapper>
     </Container>

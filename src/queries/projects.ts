@@ -28,8 +28,8 @@ export const queryProjects = () => {
                 thumbnail {
                   id
                   childImageSharp {
-                    fluid(maxWidth: 450, quality: 100) {
-                      ...GatsbyImageSharpFluid
+                    fluid(maxWidth: 450, quality: 75) {
+                      ...GatsbyImageSharpFluid_withWebp
                     }
                   }
                 }

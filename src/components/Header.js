@@ -41,9 +41,9 @@ const StyledList = styled.ul`
   position: absolute;
   //left: calc(100vw - 480px);
   right: 0;
-  width: 416px;
-  top: 38px;
-  ${media.tablet`
+  width: 490px;
+  top: 36px;
+  ${media[740]`
     display: flex;
   `};
 `;
@@ -61,7 +61,7 @@ const HamgurgerWrapper = styled.div`
   height: 2.5rem;
   width: 3.5rem;
   z-index: 10;
-  ${media.tablet`
+  ${media[740]`
     display: none;
   `};
 `;

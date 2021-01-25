@@ -15,6 +15,7 @@ import makdom from "src/assets/clients/makdom.png";
 import sbridge_office from "src/assets/clients/s-bridge_office.jpg";
 import victoria_dom from "src/assets/clients/victoria_dom.png";
 import white_stone from "src/assets/clients/white_stone.jpg";
+import { useIntl } from "gatsby-plugin-intl";
 
 const clients = [
   {
@@ -104,10 +105,13 @@ const HeadingWrapper = styled.div`
 `;
 
 const OurClients = () => {
+  const t = useIntl();
   return (
     <>
       <HeadingWrapper>
-        <StyledHeading>Klienci</StyledHeading>
+        <StyledHeading>
+          {t.formatMessage({ id: "pages.workshop.clients" })}
+        </StyledHeading>
       </HeadingWrapper>
       <MainWrapper>
         {clients.map(({ icon, alt }, index, arr) => (

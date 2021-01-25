@@ -25,6 +25,6 @@ images:
 tags: 
     - "hotels"
     - "public utility"
-thumbnail: "images/1.jpg"
+thumbnail: "images/3.jpg"
 ---
 The area for the hotel investment is located in the immediate vicinity of the rebuilt castle in Bobolice. Our most important goal was to enter the new buildings as discreetly as possible, but also to make the most of the picturesque view.

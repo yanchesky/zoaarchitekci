@@ -7,6 +7,7 @@ const breakpoints = {
   mobile: 475,
   smallest: 470,
   540: 540,
+  740: 740,
   bigTablet: 836,
   full: 1250,
 };

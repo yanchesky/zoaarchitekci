@@ -1,13 +1,13 @@
 {
-  "aboutUs": "Workshop",
-  "projects": "Projects",
-  "contact": "Contact",
+  "aboutUs": "l'agence",
+  "projects": "Projets",
+  "contact": "Nous contacter",
   "location": "Location",
   "year": "Année",
   "area": "Superficie",
   "street": "Rue",
   "avenue": "Rue",
-  "everything": "All",
+  "everything": "tous les projets",
   "allRightsReserved": "All rights reserved",
   "client": "Maîtrise d’ouvrage",
   "status": "Stade",
@@ -35,9 +35,9 @@
         "1": "Nous sommes les architectes, les amis et fondateurs du bureau d'architecture ZOA ARCHITEKCI. Nous travaillons ensemble depuis 20 ans déjà, initialement dans le cadre de la société OPEN architectes et aujourd’hui sous le nom de ZOA. Nous comprenons la diversité et la complexité du monde, nous aimons écouter, nous apprécions notre travail. Chaque projet constitue pour nous une occasion d’observer attentivement l’espace et les besoins du client. Avec notre équipe nous recherchons constamment les meilleures solutions architecturales et d'aménagement urbain. Les solutions qui satisfont les attentes des clients et qui ajoutent de la valeur à&nbsp;leurs utilisateurs actuels et futurs.",
         "2": "Le portefeuille de l’agence d’architecture ZOA ARCHITEKCI comporte des dizaines d’esquisses différentes, parmi lesquelles des immeubles d’habitations et de bureaux, de centres commerciaux, de bâtiments sportifs et médicaux. Une partie importante de ces projets constituent les commandes obtenues par concours. Nos projets sont situés dans de nombreuses villes polonaises. Depuis plusieurs années, nous échafaudons des projets également en Afrique subsaharienne."
       },
-      "aboutUs": "About us",
-      "team": "Team",
-      "clients": "Clients",
+      "aboutUs": "notre vision",
+      "team": "l'equipe",
+      "clients": "nos clients",
       "employees": {
         "role": {
           "partner": "Wspólnik",
@@ -49,11 +49,11 @@
           "architect": "architekt",
           "architectFemale": "architektka",
           "officeAdministration": "administracja, sekretariat",
-          "assistantArchitect": "asystentka architekt"
+          "assistantArchitectFemale": "asystentka architekta"
         }
       },
       "prizes": {
-        "title": "Prizes",
+        "title": "prix d'architecture",
         "2008": {
           "1": "4e prix d'un concours recommandé par SARP pour le siège du Teatr Nowy à&nbsp;Varsovie"
         },

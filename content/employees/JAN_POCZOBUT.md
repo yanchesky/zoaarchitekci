@@ -1,5 +1,5 @@
 ---
-order: "4"
+order: "12"
 name: "Jan Poczobut"
 role: "architectManager"
 image: "images/JAN_POCZOBUT.jpg"    

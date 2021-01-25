@@ -19,7 +19,7 @@ images:
 tags: 
     - "competitions"
     - "public utility"
-thumbnail: "images/1.jpg"
+thumbnail: "images/3.jpg"
 ---
 The aim of the design was to create an object that would complement the landscape of Chęciny and its environs in a&nbsp;way that would allow recognizing the limits of human activity and would prove that this activity can harmoniously coexist with its surroundings. It was decided to use simple geometrical solids, composed in a&nbsp;
 logical way, without pretending to be the work of nature and leaving no doubt that their creator is a&nbsp;human being. The project was designed with a&nbsp;conscious use of scale and composition in a&nbsp;

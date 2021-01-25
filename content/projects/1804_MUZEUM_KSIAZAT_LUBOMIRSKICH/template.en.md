@@ -18,7 +18,7 @@ images:
 tags: 
     - "competitions"
     - "public utility"
-thumbnail: "images/1.jpg"
+thumbnail: "images/5.jpg"
 ---
 The surrounding urban fabric was created in various cultural contexts, different periods of time and in various styles, however, despite its pluralistic context, it leaves a&nbsp;consistent image of the city.
 

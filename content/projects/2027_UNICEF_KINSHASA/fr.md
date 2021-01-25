@@ -11,16 +11,16 @@ status: "conception"
 location: "République Démocratique du Congo"
 images: 
     - "images/1.jpg"
-    - "images/2.jpg"
-    - "images/3.jpg"
     - "images/4.jpg"    
     - "images/5.jpg"    
     - "images/6.jpg"    
     - "images/7.jpg"    
     - "images/8.jpg"    
+    - "images/2.jpg"
+    - "images/3.jpg"
 tags: 
-    - "public utility"
-    - "office"
-thumbnail: "images/1.jpg"
+    - "bâtiments publics"
+    - "immobilier d'entreprise"
+thumbnail: "images/5.jpg"
 ---
 La conception architecturale du siège du PNUD / UNICEF implique la construction de deux bâtiments installés sur une base commune hébergeant des salles communes / salles multifonctionnelles, une cantine / et un parking souterrain. L'architecture du complexe est déterminée par les conditions climatiques - nous avons mis un accent particulier sur la protection contre le soleil en installant des plaques de plafond d’ombrage.

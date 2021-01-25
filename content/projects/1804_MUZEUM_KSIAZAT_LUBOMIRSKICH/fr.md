@@ -16,9 +16,9 @@ images:
     - "images/4.jpg"    
     - "images/5.jpg"    
 tags: 
-    - "competitions"
-    - "public utility"
-thumbnail: "images/1.jpg"
+    - "concours d'architecture"
+    - "bâtiments publics"
+thumbnail: "images/5.jpg"
 ---
 Le tissu urbain environnant naissait durant les contextes culturels variés, à différentes époques et dans les styles hétérogènes. Pourtant, malgré le contexte pluraliste, il laisse une image cohérente de la ville.
 L'emplacement du bâtiment ne révèle pas de traits dominants, il est situé dans une zone de construction compacte. En raison de la façon dont son aspect architectural est perçu à&nbsp;travers des perspectives et des angles différents, il devrait être un hommage au traitement du bâtiment conçu comme un élément complétant l’ensemble de «murs» dans l'urbanisme de la ville.

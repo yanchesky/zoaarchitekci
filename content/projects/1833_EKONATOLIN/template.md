@@ -15,6 +15,6 @@ images:
     - "images/4.jpg"    
 tags: 
     - "mieszkaniowe"
-thumbnail: "images/1.jpg"
+thumbnail: "images/4.jpg"
 ---
 Projektowane osiedle jest odpowiedzią na aspiracje tej części społeczeństwa, która marzy o niedrogich, dostępnych domach. Parametry powierzchniowe domów odpowiadają zapotrzebowaniu na najpopularniejsze metraże w budynkach wielorodzinnych. Domy o&nbsp;różnych wielkościach zostały wymieszane tak by nie tworzyć skupisk ludzi o&nbsp;różnych zasobach finansowych czy w&nbsp;różnych grupach wiekowych. Duża część terenu została zaprojektowana jako wspólne przestrzenie publiczne, służące integracji.

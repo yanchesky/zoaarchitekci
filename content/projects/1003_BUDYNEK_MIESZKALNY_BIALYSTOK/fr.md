@@ -13,7 +13,7 @@ images:
     - "images/1.jpg"
     - "images/2.jpg"    
 tags: 
-    - "residential"
+    - "logements"
 thumbnail: "images/1.jpg"
 ---
 Selon la conception du client, l'immeuble devait constituer un point caractéristique et reconnaissable dans l’espace de la ville. 

@@ -21,10 +21,10 @@ images:
     - "images/10.jpg"    
     - "images/11.jpg"    
 tags: 
-    - "health care"
-    - "public utility"
-    - "competitions"
-thumbnail: "images/1.jpg"
+    - "bâtiments médico-sociaux"
+    - "bâtiments publics"
+    - "concours d'architecture"
+thumbnail: "images/3.jpg"
 ---
 L'hôpital pédiatrique de l'Université de médecine de Varsovie est le plus grand bâtiment de ce type depuis la construction du Centre de Santé d'Enfant (Centrum Zdrowia Dziecka). Une technologie avancée et complexe, indispensable dans ce type de bâtiment a&nbsp;été enveloppée habilement pour que les patients, leurs soignants ainsi que les employés puissent se sentir au plus grand confort. 
 

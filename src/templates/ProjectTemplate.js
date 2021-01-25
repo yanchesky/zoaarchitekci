@@ -5,6 +5,7 @@ import IntersectingImage from "src/components/IntersectingImage";
 import Footer from "../components/Footer";
 import { media } from "src/helpers";
 import { injectIntl } from "gatsby-plugin-intl";
+import Img from "gatsby-image";
 
 const Container = styled.main`
   margin: 1.5rem;
@@ -164,9 +165,17 @@ const ProjectTemplate = ({ intl, data }) => {
       </Wrapper>
       <div style={{ marginTop: "3rem" }}>
         {frontmatter.images?.map(({ childImageSharp }) => (
-          <IntersectingImage
+          <Img
             key={childImageSharp.id}
-            childImageSharp={childImageSharp}
+            fluid={childImageSharp.fluid}
+            style={{
+              height: "100%",
+              width: "100%",
+              maxHeight: "100vh",
+              marginBottom: "6rem",
+            }}
+            imgStyle={{ objectFit: "contain" }}
+            objectFit="cover"
           />
         ))}
       </div>

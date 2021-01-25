@@ -1,5 +1,5 @@
 ---
-id: "1827"
+id: "2027"
 slug: "/projekty/studium_rozwoju_miasta_kalemie"
 date: "2021-01-09"
 title: "Studium Rozwoju Miasta w Kalemie"

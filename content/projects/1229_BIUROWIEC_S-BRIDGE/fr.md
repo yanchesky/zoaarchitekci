@@ -14,8 +14,8 @@ images:
     - "images/SCHWARTZ-S_BRIDGE.jpg"
     - "images/1.jpg"    
 tags: 
-    - "office"
-    - "public utility"
+    - "immobilier d'entreprise"
+    - "bâtiments publics"
 thumbnail: "images/1.jpg"
 ---
 Un immeuble de bureaux intimiste qui fait partie d'un investissement à&nbsp;usage mixte.

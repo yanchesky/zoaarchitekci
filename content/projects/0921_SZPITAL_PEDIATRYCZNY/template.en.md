@@ -24,7 +24,7 @@ tags:
     - "health care"
     - "public utility"
     - "competitions"
-thumbnail: "images/1.jpg"
+thumbnail: "images/3.jpg"
 ---
 The Pediatric Hospital of the Medical University of Warsaw is the largest facility of this type built since the „Children's Health Center”. The complicated technology, indispensable in this type of building, has been wrapped to give comfort and a&nbsp;sense of security to patients, their caregivers and employees.
 

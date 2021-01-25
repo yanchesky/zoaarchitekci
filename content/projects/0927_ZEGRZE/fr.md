@@ -16,7 +16,7 @@ images:
     - "images/3.jpg"
     - "images/4.jpg"    
 tags: 
-    - "residential"
+    - "logements"
 thumbnail: "images/1.jpg"
 ---
 Le  principe général du façonnage du bâtiment est l'aménagement des étages en bandes et la création des lignes des plaques de balcon distinctives avec des faces variées, permettant de profiter pleinement de la vue. 

@@ -17,7 +17,7 @@ images:
 tags: 
     - "public utility"
     - "competitions"
-thumbnail: "images/1.jpg"
+thumbnail: "images/4.jpg"
 ---
 On the north side, a&nbsp;city square was located, closing ul. Kobielska, the frontage of which consists of the existing buildings of the department store and schools, and the planned building of the concert hall. The façade of the frontage of the new building, with vertical divisions with a&nbsp;variable rhythm, reveals the purpose of the building. It also defines the function of the square from which the main entrance is arranged. From the south (internal) side, it was decided to limit both the dimensions and the architectural means of expression of the designed building to the necessary minimum, so that it does not dominate the existing assumption and fits into the character of the development layout.
 

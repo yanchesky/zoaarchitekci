@@ -16,9 +16,9 @@ images:
     - "images/2.jpg"
     - "images/3.jpg"
 tags: 
-    - "public utility"
+    - "bâtiments publics"
     - "retail"
-    - "urban planning"
+    - "urbanisme"
 thumbnail: "images/1.jpg"
 ---
 Ce qui caractérise le bâtiment est sans doute l’utilisation précise de la couleur et de la lumière permettant son identification sans équivoque.

@@ -14,7 +14,7 @@ images:
     - "images/2.jpg"
     - "images/3.jpg"
 tags: 
-    - "public utility"
+    - "bâtiments publics"
 thumbnail: "images/1.jpg"
 ---
 Le projet est une réponse aux besoins de la communauté de l'un des quartiers de la ville nigériane de Warri. Dans complexe on trouvera: un centre sportif pour les jeunes, des ateliers pour les habitants et une piscine de loisir.

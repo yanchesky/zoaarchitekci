@@ -18,7 +18,7 @@ images:
     - "images/6.jpg"    
     - "images/7.jpg"    
 tags: 
-    - "competitions"
+    - "concours d'architecture"
 thumbnail: "images/1.jpg"
 ---
 Reconnaissant les valeurs naturelles et culturelles du parc Żerański, nous voulons limiter notre interférence à&nbsp;l'introduction de l'infrastructure indispensable (trottoirs, pistes cyclables, lieux d'activités diverses) Nous voulons aussi souligner les caractère précieux et unique de cet endroit. La partie ouest du quartier est visiblement dominée par la nature, on n'y voit pas de traces de l'activité humaine. La partie orientale est une décharge de l'industrie du bâtiment, on dirait - ue monument du passé spécifique. Pourtant, même ici, la nature a décidé de reprendre le contrôle, «absorbant»  les déchets laissés par l'homme.
