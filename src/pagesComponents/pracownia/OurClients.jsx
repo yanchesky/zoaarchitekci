@@ -17,7 +17,7 @@ import victoria_dom from "src/assets/clients/victoria_dom.png";
 import white_stone from "src/assets/clients/white_stone.jpg";
 import warbud from "src/assets/clients/Warbud.png";
 import zdrojowa from "src/assets/clients/Zdrojowa.png";
-import warynski from "src/assets/clients/warynski.jpg";
+import warynski from "src/assets/clients/warynski.JPG";
 import kongo from "src/assets/clients/kongo.jpg";
 import rendeavour from "src/assets/clients/rendeavour.jpeg";
 import siemens from "src/assets/clients/Siemens.png";
