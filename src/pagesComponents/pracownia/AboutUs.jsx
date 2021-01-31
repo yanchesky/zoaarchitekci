@@ -20,11 +20,16 @@ const AboutUsContent = styled.div`
 `;
 
 const StyledHeading = styled.h1`
+  white-space: nowrap;
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: normal;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  ${media.tablet`
+      margin-top: -2rem;
+      grid-column-end: 1;
+  `};
 `;
 
 const StyledParagraph = styled.p`
@@ -38,25 +43,30 @@ const AboutUsSection = () => {
   const t = useIntl();
 
   return (
-    <AboutUsContent>
+    <>
       <StyledHeading id="about-us-section">
         {t.formatMessage({ id: "pages.workshop.aboutUs" })}
       </StyledHeading>
-      <StyledParagraph
-        dangerouslySetInnerHTML={{
-          __html: t.formatMessage({ id: "pages.workshop.paragraph.1" }),
-        }}
-      />
-
-      <StyledParagraph>
-        <span
+      <AboutUsContent>
+        <StyledParagraph
           dangerouslySetInnerHTML={{
-            __html: t.formatMessage({ id: "pages.workshop.paragraph.2" }),
+            __html: t.formatMessage({ id: "pages.workshop.paragraph.1" }),
           }}
         />
-        <div id="employees-section" />
-      </StyledParagraph>
-    </AboutUsContent>
+
+        <StyledParagraph>
+          <span
+            dangerouslySetInnerHTML={{
+              __html: t.formatMessage({ id: "pages.workshop.paragraph.2" }),
+            }}
+          />
+        </StyledParagraph>
+        <div
+          style={{ position: "relative", top: "-4rem" }}
+          id="employees-section"
+        />
+      </AboutUsContent>
+    </>
   );
 };
 

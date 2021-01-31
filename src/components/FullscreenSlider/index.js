@@ -1,8 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Img from "gatsby-image";
 import styled from "styled-components";
+import NiceLoadingImage from "src/components/NiceLoadingImage";
 
 const Wrapper = styled.main`
   width: 100vw;
@@ -10,28 +12,60 @@ const Wrapper = styled.main`
   top: 0;
   left: 0;
   position: fixed;
+
+  .slick-dots {
+    bottom: 20px;
+
+    > li button:before {
+      font-size: 8px;
+    }
+  }
 `;
 
-const StyledImage = styled(Img)`
+const StyledImage = styled(NiceLoadingImage)`
   height: 100vh;
 `;
 
 const settings = {
-  dots: false,
+  dots: true,
   arrows: false,
   infinite: true,
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
   adaptiveHeight: true,
+
+  accessibility: false,
 };
 
 const FullscreenSlider = ({ images }) => {
+  const ref = React.useRef(null);
+
+  React.useEffect(() => {
+    var goNext;
+    if (ref) {
+      goNext = setInterval(function () {
+        ref?.current?.slickNext();
+        console.log("tick");
+      }, 4000);
+    }
+    return () => {
+      console.log("unmounting");
+
+      clearInterval(goNext);
+    };
+  }, [ref.current]);
   return (
     <Wrapper>
-      <Slider fade {...settings}>
+      <Slider ref={ref} fade {...settings}>
         {images.map((image, index) => (
-          <StyledImage key={index} fluid={image} objectFit="cover" />
+          <NiceLoadingImage
+            style={{ height: "100vh" }}
+            key={index}
+            fluid={image}
+            objectFit="cover"
+            fullHeight
+          />
         ))}
       </Slider>
     </Wrapper>

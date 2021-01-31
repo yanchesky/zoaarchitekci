@@ -19,7 +19,6 @@ images:
     - "images/5.jpg"    
 tags: 
     - "public utility"
-    - "urban planning"
     - "retail"
 thumbnail: "images/1.jpg"
 ---

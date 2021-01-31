@@ -23,7 +23,6 @@ images:
 tags: 
     - "bâtiments publics"
     - "retail"
-    - "urbanisme"
 thumbnail: "images/1.jpg"
 ---
 Le plus grand bâtiment de ce type à&nbsp;Kielce. L’objectif principal de ce projet était de relier le bâtiment à&nbsp;la ville grâce à&nbsp;une communication appropriée et les façades en verre permettant l'ouvrir au monde extérieur.  

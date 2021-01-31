@@ -1,6 +1,6 @@
 ---
-order: "5"
+order: "13"
 name: "Katarzyna Ciżyńska"
-role: "assistantArchitectFemale"
+role: "assistantFemale"
 image: "images/KATARZYNA_CIZYNSKA.jpg"    
 ---

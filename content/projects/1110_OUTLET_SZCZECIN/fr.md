@@ -18,7 +18,6 @@ images:
 tags: 
     - "bâtiments publics"
     - "retail"
-    - "urbanisme"
 thumbnail: "images/1.jpg"
 ---
 Ce qui caractérise le bâtiment est sans doute l’utilisation précise de la couleur et de la lumière permettant son identification sans équivoque.

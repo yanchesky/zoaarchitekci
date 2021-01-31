@@ -1,7 +1,7 @@
 ---
 id: "1833"
 language: "en"
-slug: "/projekty/zespół_budynków_jednorodzinnych"
+slug: "/projekty/housing_estate"
 date: "2021-01-09"
 title: "Housing estate"
 year: "2018"

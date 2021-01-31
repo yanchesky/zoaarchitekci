@@ -23,7 +23,6 @@ images:
 tags: 
     - "public utility"
     - "retail"
-    - "urban planning"
 thumbnail: "images/1.jpg"
 ---
 The largest facility of this type in Kielce. The main design assumption was to connect the building with the city through appropriate communication and glass facades, opening the building to the outside world.

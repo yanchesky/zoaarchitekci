@@ -32,6 +32,7 @@ tags:
     - "office"
     - "public utility"
     - "residential"
+    - "urban planning"
 thumbnail: "images/1.jpg"
 ---
 The most important task was to: identify the causes and a&nbsp;remedial plan related to the devastation of the natural environment and the rising of the water table, prepare a&nbsp;proposal to revitalize the "old" city, in particular, improve communication and improve living conditions in the hills, analyze the basic social, natural and economic needs and their possibilities implementation as part of the New Kalemie project, and indication of the appropriate model of the city, taking into account the socio-cultural and economic conditions of both present and future Kalemie.

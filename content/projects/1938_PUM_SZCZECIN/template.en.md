@@ -7,7 +7,7 @@ title: "Clinical, research and teaching building of PUM"
 year: "2019"
 client: "Pomorski Uniwersytet Medyczny"
 area: "54 000 m2"
-status: "competition2thPrizee"
+status: "competition2thPrize"
 location: "Stetin"
 images: 
     - "images/1.jpg"

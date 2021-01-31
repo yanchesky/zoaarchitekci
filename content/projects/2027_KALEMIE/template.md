@@ -31,6 +31,7 @@ tags:
     - "mieszkaniowe"
     - "biurowe"
     - "użyteczności publicznej"
+    - "urbanistyczne"
 thumbnail: "images/1.jpg"
 ---
 Najważniejszym zadaniem było: zidentyfikowanie przyczyn oraz plan naprawczy związany z&nbsp;dewastacją środowiska naturalnego i&nbsp;podnoszeniem się lustra wody, przygotowanie propozycji rewitalizacji „starego” miasta, a&nbsp;w&nbsp;szczególności usprawnienie komunikacji i&nbsp;poprawa warunków bytowych na wzgórzach, analiza podstawowych potrzeb społecznych, przyrodniczych i&nbsp;ekonomicznych oraz możliwości ich realizacji w ramach projektu Nowego Kalemie, oraz wskazanie właściwego modelu miasta, uwzględniającego uwarunkowania społecznokulturowoekonomiczne zarówno obecnego, jak i&nbsp;przyszłego Kalemie.

@@ -19,7 +19,6 @@ images:
 tags: 
     - "użyteczności publicznej"
     - "retail"
-    - "urbanistyczne"
 thumbnail: "images/1.jpg"
 ---
 Rozbudowa i&nbsp;przebudowa obiektu była szczególnie wymagająca z&nbsp;racji na duże oczekiwania władz miasta w&nbsp;celu poprawy jakości przestrzeni publicznej centrum Szczecina. Naszym podstawowym celem, poza zaprojektowaniem przyjaznego i&nbsp;efektywnego obiektu handlowego było nadanie budynkowi cech śródmiejskiej zabudowy, wchodzącej w&nbsp;interakcję z&nbsp;sąsiedztwem.

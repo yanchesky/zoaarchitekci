@@ -18,7 +18,6 @@ images:
 tags: 
     - "public utility"
     - "retail"
-    - "urban planning"
 thumbnail: "images/1.jpg"
 ---
 A characteristic feature of the object is the precise use of color and light for unambiguous identification.

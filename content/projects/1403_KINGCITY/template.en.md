@@ -14,6 +14,7 @@ images:
     - "images/2.jpg"
     - "images/3.jpg"
 tags: 
+    - "urban planning"
     - "residential"
 thumbnail: "images/1.jpg"
 ---

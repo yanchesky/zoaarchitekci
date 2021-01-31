@@ -21,6 +21,12 @@ const NavigationWrapper = styled.div`
   &.bg-white {
     background: white;
   }
+
+  nav > div > ul > li > a {
+    &.bg-white {
+      color: red;
+    }
+  }
 `;
 
 const Navigation = styled.nav`

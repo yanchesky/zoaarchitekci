@@ -30,9 +30,10 @@ const StyledHeading = styled.h1`
   text-transform: uppercase;
   font-weight: normal;
   margin: 0;
-  ${media[540]`
+  ${media.desktop`
       grid-column-start: 1;
-      grid-column-end: 3;
+      grid-column-end: 5;
+      
    `};
 `;
 
@@ -43,15 +44,17 @@ const Paragraph = styled.span`
   margin: 0.25rem 0;
 `;
 
-const AddressWrapper = styled.div`
+const ContactWrapper = styled.div`
   display: grid;
-  max-width: 29rem;
+  max-width: 300px;
   margin: 0 auto;
   grid-template-columns: 1fr;
   grid-row-gap: 2rem;
   grid-column-gap: 2rem;
-  ${media["540"]`
-    grid-template-columns: 1fr 1fr;
+  ${media.desktop`
+    max-width: ${(props) => props.theme.sizes.footerWidth};
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   `};
 `;
 
@@ -67,10 +70,21 @@ const AddressLinks = styled.a`
   }
 `;
 
-const SocialMediaWrapper = styled.div`
-  ${media[540]`
+const AddressContactWrapper = styled.div`
+  ${media.desktop`
+   grid-column-start: 3;
+ `};
+`;
+
+const AddressWrapper = styled.div`
+  ${media.desktop`
     grid-column-start: 2;
-    grid-column-end: 3;
+  `};
+`;
+
+const SocialMediaWrapper = styled.div`
+  ${media.desktop`
+    
   `};
 
   display: flex;
@@ -81,15 +95,15 @@ const Kontakt = () => {
   const t = useIntl();
   return (
     <ContactLayout>
-      <AddressWrapper>
+      <ContactWrapper>
         <StyledHeading>{t.formatMessage({ id: "contact" })}</StyledHeading>
-        <div>
+        <AddressWrapper>
           <Paragraph>ZOA ARCHITEKCI sp. z o.o.</Paragraph>
           <Paragraph>ul. Pilicka 27/1</Paragraph>
           <Paragraph>02-613 Warszawa</Paragraph>
           <Paragraph>NIP: 123456789</Paragraph>
-        </div>
-        <div>
+        </AddressWrapper>
+        <AddressContactWrapper>
           <AddressLinks href="tel:+48228442211">+48 22 844 22 11</AddressLinks>
           <AddressLinks href="tel:+48222521635">+48 22 252 16 35</AddressLinks>
           <AddressLinks href="tel:+48222538634">+48 22 253 86 34</AddressLinks>
@@ -99,7 +113,7 @@ const Kontakt = () => {
           <AddressLinks href="mailto:sekretariat@zoaarchitekci.pl">
             sekretariat@zoaarchitekci.pl
           </AddressLinks>
-        </div>
+        </AddressContactWrapper>
         <SocialMediaWrapper>
           <SocialMediaLink size="1.2rem" icon={facebookIcon}>
             <span>facebook</span>
@@ -111,7 +125,7 @@ const Kontakt = () => {
             <span>linkedin</span>
           </SocialMediaLink>
         </SocialMediaWrapper>
-      </AddressWrapper>
+      </ContactWrapper>
     </ContactLayout>
   );
 };

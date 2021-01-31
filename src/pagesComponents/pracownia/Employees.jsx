@@ -4,12 +4,19 @@ import styled from "styled-components";
 import { media, transformQueryEmployees } from "../../helpers";
 import { queryEmployees } from "../../queries/employees";
 import { useIntl } from "gatsby-plugin-intl";
+import NiceLoadingImage from "src/components/NiceLoadingImage";
 
 const StyledHeading = styled.h1`
+  white-space: nowrap;
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: normal;
-  margin-top: 4rem;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  ${media.tablet`
+      
+      
+  `};
 `;
 
 const AboutUsContent = styled.div`
@@ -75,6 +82,19 @@ const EmployeesWrapper = styled.div`
   `};
 `;
 
+const FirstDummy = styled.div`
+  display: none;
+  ${media.desktop`
+    display: block;
+  `};
+`;
+const SecondDummy = styled.div`
+  display: none;
+  ${media.tablet`
+    display: block;
+  `};
+`;
+
 const Employees = () => {
   const t = useIntl();
   const employees = queryEmployees();
@@ -82,11 +102,10 @@ const Employees = () => {
 
   return (
     <>
-      <AboutUsContent>
-        <StyledHeading>
-          {t.formatMessage({ id: "pages.workshop.team" })}
-        </StyledHeading>
-      </AboutUsContent>
+      <StyledHeading>
+        {t.formatMessage({ id: "pages.workshop.team" })}
+      </StyledHeading>
+
       <EmployeesWrapper>
         {transformedEmployees.map((employee, index, arr) => {
           const isEven = index % 2 === 0;
@@ -98,7 +117,7 @@ const Employees = () => {
               {/*</EmployeeNameWrapper>*/}
 
               <EmployeePhotoWrapper isEven={isEven} key={employee.id}>
-                <Img
+                <NiceLoadingImage
                   fluid={employee.image?.childImageSharp?.fluid}
                   style={{ maxWidth: "100%" }}
                   objectFit="cover"
@@ -111,9 +130,20 @@ const Employees = () => {
                       id: `pages.workshop.employees.role.${employee.role}`,
                     })}
                   </Role>
-                  {arr.length === index + 1 && <div id="our-clients-section" />}
+                  {arr.length === index + 1 && (
+                    <div
+                      style={{ position: "relative", top: "-4rem" }}
+                      id="prizes-section"
+                    />
+                  )}
                 </OnlyMobile>
               </EmployeePhotoWrapper>
+              {index === 1 && <FirstDummy />}
+              {index === 2 && (
+                <>
+                  <FirstDummy /> <SecondDummy />
+                </>
+              )}
             </>
           );
         })}

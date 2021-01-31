@@ -19,7 +19,6 @@ images:
     - "images/5.jpg"    
 tags: 
     - "bâtiments publics"
-    - "urbanisme"
     - "retail"
 thumbnail: "images/1.jpg"
 ---

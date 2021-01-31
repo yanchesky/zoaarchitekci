@@ -6,7 +6,7 @@ title: "Teatr Nowy Warszawa"
 year: "2008"
 client: "Teatr Nowy"
 area: "7 000 m2"
-status: ""
+status: "competition4thPrize"
 location: "Warszawa"
 images: 
     - "images/1.jpg"

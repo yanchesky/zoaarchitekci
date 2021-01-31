@@ -19,9 +19,6 @@ const IndexPage = () => {
     //Array.from(links).forEach((link) => link.classList.add("welcome-slider"));
 
     wrapper.classList.remove("bg-white");
-    return () => {
-      //wrapper.classList.add("bg-white");
-    };
   }, [location.pathname]);
 
   return <FullscreenSlider images={backgroundPhotos} />;

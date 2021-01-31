@@ -15,6 +15,7 @@ images:
     - "images/3.jpg"
 tags: 
     - "logements"
+    - "urbanisme"
 thumbnail: "images/1.jpg"
 ---
 Un projet urbain ambitieux du nouveau quartier de la ville de Takoradi, située sur le Golfe de Guinée. Ce projet est une tentative de répondre à&nbsp;la demande croissante d'espace urbain de bonne qualité en Afrique de l'Ouest. Le problème principal était de faire face aux conditions locales d'utilisation de l'environnement naturel ainsi qu’une tentative d'utiliser la verdure comme protection naturelle contre les conditions climatiques.

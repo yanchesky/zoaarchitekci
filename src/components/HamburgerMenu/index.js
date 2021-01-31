@@ -9,7 +9,8 @@ import {
   LinksList,
   LanguagesWrapper,
 } from "./styledComponents";
-import { changeLocale, injectIntl } from "gatsby-plugin-intl";
+import { changeLocale, injectIntl, useIntl } from "gatsby-plugin-intl";
+import { useLocation } from "@reach/router";
 
 const HamburgerMenu = ({
   intl,
@@ -18,6 +19,7 @@ const HamburgerMenu = ({
   translateToFrench,
 }) => {
   const hamburgerMenuCheckbox = useRef();
+  const location = useLocation();
 
   React.useEffect(() => {
     hamburgerMenuCheckbox.current = document.querySelector(".checkbox-toggle");
@@ -25,6 +27,20 @@ const HamburgerMenu = ({
 
   const closeHamburgerMenu = () =>
     (hamburgerMenuCheckbox.current.checked = false);
+
+  const pageToEnglish = location.pathname.replace(intl.locale, "en");
+  const pageToPolish = location.pathname.replace(intl.locale, "pl");
+  const pageToFrench = location.pathname.replace(intl.locale, "fr");
+
+  const routeToEnglish = translateToEnglish
+    ? `/en${translateToEnglish}`
+    : pageToEnglish;
+  const routeToPolish = translateToPolish
+    ? `/pl${translateToPolish}`
+    : pageToPolish;
+  const routeToFrench = translateToFrench
+    ? `/fr${translateToFrench}`
+    : pageToFrench;
 
   return (
     <HamburgerWrapper>
@@ -36,40 +52,28 @@ const HamburgerMenu = ({
         <div>
           <div>
             <LinksList>
-              <NavigationLink onClick={closeHamburgerMenu} to="/pracownia">
+              <NavigationLink
+                onClick={closeHamburgerMenu}
+                to={`/${intl.locale}/pracownia`}
+              >
                 {intl.formatMessage({ id: "aboutUs" })}
               </NavigationLink>
-              <NavigationLink onClick={closeHamburgerMenu} to="/projekty">
+              <NavigationLink
+                onClick={closeHamburgerMenu}
+                to={`/${intl.locale}/projekty`}
+              >
                 {intl.formatMessage({ id: "projects" })}
               </NavigationLink>
-              <NavigationLink onClick={closeHamburgerMenu} to="/kontakt">
+              <NavigationLink
+                onClick={closeHamburgerMenu}
+                to={`/${intl.locale}/kontakt`}
+              >
                 {intl.formatMessage({ id: "contact" })}
               </NavigationLink>
               <LanguagesWrapper>
-                <FadeInOutLink
-                  to="#"
-                  onClick={() => {
-                    changeLocale("pl", translateToPolish);
-                  }}
-                >
-                  PL
-                </FadeInOutLink>
-                <FadeInOutLink
-                  to="#"
-                  onClick={(e) => {
-                    changeLocale("en", translateToEnglish);
-                  }}
-                >
-                  EN
-                </FadeInOutLink>
-                <FadeInOutLink
-                  to="#"
-                  onClick={() => {
-                    changeLocale("fr", translateToFrench);
-                  }}
-                >
-                  FR
-                </FadeInOutLink>
+                <FadeInOutLink to={routeToPolish}>PL</FadeInOutLink>
+                <FadeInOutLink to={routeToEnglish}>EN</FadeInOutLink>
+                <FadeInOutLink to={routeToFrench}>FR</FadeInOutLink>
               </LanguagesWrapper>
             </LinksList>
           </div>

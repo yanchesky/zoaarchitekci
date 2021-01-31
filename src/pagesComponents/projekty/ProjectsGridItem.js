@@ -5,6 +5,7 @@ import { Flipped } from "react-flip-toolkit";
 
 import { onExit, onElementAppear } from "src/helpers";
 import { FadeInOutLink } from "src/components/NavigationLink";
+import NiceLoadingImage from "src/components/NiceLoadingImage";
 
 const revealGradient = keyframes`  
   from {
@@ -108,6 +109,7 @@ const RolloverBox = styled.div`
 `;
 
 const ProjectsGridItem = ({ project, locale }) => {
+  const ref = React.useRef(null);
   return (
     <Flipped
       flipId={project.id}
@@ -117,7 +119,7 @@ const ProjectsGridItem = ({ project, locale }) => {
     >
       <ImageWrapper>
         <FadeInOutLink to={`/${locale}${project.slug}`}>
-          <Img
+          <NiceLoadingImage
             style={{ height: "100%", maxHeight: "321px" }}
             fluid={project.thumbnail?.childImageSharp?.fluid}
             objectFit="cover"

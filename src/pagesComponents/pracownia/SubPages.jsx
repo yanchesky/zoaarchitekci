@@ -33,7 +33,7 @@ const SubLink = styled(Link)`
   margin-left: 1rem;
   font-size: 0.75rem;
   letter-spacing: 0.5px;
-  padding: 0.5rem 0;
+  padding: 0.5rem 0 1rem;
   color: ${(props) => props.theme.colors["gray-400"]};
   text-shadow: 0.5px 0 0 ${(props) => props.theme.colors["gray-400"]};
 
@@ -59,16 +59,16 @@ const SubPages = () => {
           {t.formatMessage({ id: "pages.workshop.team" })}
         </SubLink>
         <SubLink
-          className={location.hash === "#our-clients-section" ? "checked" : ""}
-          to="#our-clients-section"
-        >
-          {t.formatMessage({ id: "pages.workshop.clients" })}
-        </SubLink>
-        <SubLink
           className={location.hash === "#prizes-section" ? "checked" : ""}
           to="#prizes-section"
         >
           {t.formatMessage({ id: "pages.workshop.prizes.title" })}
+        </SubLink>
+        <SubLink
+          className={location.hash === "#our-clients-section" ? "checked" : ""}
+          to="#our-clients-section"
+        >
+          {t.formatMessage({ id: "pages.workshop.clients" })}
         </SubLink>
       </Wrapper>
     </Container>

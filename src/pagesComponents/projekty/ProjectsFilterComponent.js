@@ -1,13 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { media } from "src/helpers";
 import { useIntl } from "gatsby-plugin-intl";
 
 const Wrapper = styled.form`
-  margin: 4rem 1.5rem 1rem;
-  ${media.mobile`
-    margin: 4rem 0 1rem;
-  `};
+  margin: 4rem 0 1rem;
   padding: 0;
 `;
 

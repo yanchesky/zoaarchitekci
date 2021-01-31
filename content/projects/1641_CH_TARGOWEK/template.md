@@ -18,7 +18,6 @@ images:
     - "images/5.jpg"    
 tags: 
     - "użyteczności publicznej"
-    - "urbanistyczne"
     - "retail"
 thumbnail: "images/1.jpg"
 ---

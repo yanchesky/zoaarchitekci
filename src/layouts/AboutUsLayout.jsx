@@ -9,14 +9,14 @@ const Wrapper = styled.main`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
   grid-auto-flow: column;
-  grid-row-gap: 4rem;
+  grid-row-gap: 2rem;
   max-width: ${(props) => props.theme.sizes.maxWidth};
   margin: 0 auto;
   margin-bottom: 8rem;
 
   ${media.mobile`
     grid-row-gap: 4rem;
-    grid-column-gap: 4rem;
+    grid-column-gap: 2rem;
   `};
   ${media.bigTablet`
     grid-row-gap: 4rem;
@@ -25,6 +25,7 @@ const Wrapper = styled.main`
 
 const MarginContainer = styled.div`
   position: relative;
+  top: 40px;
   margin: 1.5rem;
   ${media.mobile`
     margin: 3rem;

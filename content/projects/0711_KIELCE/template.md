@@ -22,7 +22,6 @@ images:
 tags: 
     - "użyteczności publicznej"
     - "retail"
-    - "urbanistyczne"
 thumbnail: "images/1.jpg"
 ---
 Największy tego typu obiekt w&nbsp;Kielcach. Głównym założeniem projektowym było związanie budynku z&nbsp;miastem poprzez odpowiednią komunikację oraz szklane elewacje, otwierające obiekt na świat zewnętrzny.

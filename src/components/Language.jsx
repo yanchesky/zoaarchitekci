@@ -3,6 +3,7 @@ import { FadeInOutLink } from "./NavigationLink";
 import { changeLocale } from "gatsby-plugin-intl";
 import { useIntl } from "gatsby-plugin-intl";
 import styled from "styled-components";
+import { useLocation } from "@reach/router";
 import GrowSelectList from "./GrowSelectList";
 
 import langaugeIcon from "src/assets/svg/globe_icon.svg";
@@ -23,12 +24,28 @@ const Language = ({
   translateToFrench,
 }) => {
   const intl = useIntl();
+  const location = useLocation();
+
   const [open, setOpen] = useState(false);
   const anchorRef = useRef(null);
 
   const handleClose = () => {
     setOpen(false);
   };
+
+  const pageToEnglish = location.pathname.replace(intl.locale, "en");
+  const pageToPolish = location.pathname.replace(intl.locale, "pl");
+  const pageToFrench = location.pathname.replace(intl.locale, "fr");
+
+  const routeToEnglish = translateToEnglish
+    ? `/en${translateToEnglish}`
+    : pageToEnglish;
+  const routeToPolish = translateToPolish
+    ? `/pl${translateToPolish}`
+    : pageToPolish;
+  const routeToFrench = translateToFrench
+    ? `/fr${translateToFrench}`
+    : pageToFrench;
 
   return (
     <>
@@ -46,13 +63,7 @@ const Language = ({
         &nbsp;{intl.locale.toUpperCase()}
       </Link>
       <GrowSelectList open={open} setOpen={setOpen} ref={anchorRef}>
-        <FadeInOutLink
-          to="#"
-          onClick={(e) => {
-            changeLocale("pl", translateToPolish);
-            handleClose(e);
-          }}
-        >
+        <FadeInOutLink to={routeToPolish} onClick={handleClose}>
           <Link
             style={{
               display: "block",
@@ -62,13 +73,7 @@ const Language = ({
             Polski
           </Link>
         </FadeInOutLink>
-        <FadeInOutLink
-          to="#"
-          onClick={(e) => {
-            changeLocale("en", translateToEnglish);
-            handleClose(e);
-          }}
-        >
+        <FadeInOutLink to={routeToEnglish} onClick={handleClose}>
           <Link
             style={{
               display: "block",
@@ -78,13 +83,7 @@ const Language = ({
             English
           </Link>
         </FadeInOutLink>
-        <FadeInOutLink
-          to="#"
-          onClick={(e) => {
-            changeLocale("fr", translateToFrench);
-            handleClose(e);
-          }}
-        >
+        <FadeInOutLink to={routeToFrench} onClick={handleClose}>
           <Link
             style={{
               display: "block",

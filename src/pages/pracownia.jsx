@@ -12,8 +12,8 @@ const AboutUs = () => {
     <AboutUsLayout>
       <AboutUsSection />
       <Employees />
-      <OurClients />
       <Prizes />
+      <OurClients />
     </AboutUsLayout>
   );
 };

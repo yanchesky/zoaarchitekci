@@ -13,6 +13,7 @@ images:
     - "images/2.jpg"
     - "images/3.jpg"
 tags: 
+    - "urbanistyczne"
     - "mieszkaniowe"
 thumbnail: "images/1.jpg"
 ---

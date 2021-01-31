@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 import { media } from "src/helpers";
 import { injectIntl } from "gatsby-plugin-intl";
 import Img from "gatsby-image";
+import SEO from "src/components/SEO";
+import NiceLoadingImage from "../components/NiceLoadingImage";
 
 const Container = styled.main`
   margin: 1.5rem;
@@ -115,8 +117,11 @@ const ProjectTemplate = ({ intl, data }) => {
     markdownRemark: { frontmatter, html },
   } = data;
 
+  const strippedDescription = html.replace(/(<([^>]+)>)/gi, "").split(".")[0];
+
   return (
     <Container>
+      <SEO title={frontmatter.title} description={strippedDescription} />
       <Wrapper>
         <ProjectTitle>{frontmatter.title}</ProjectTitle>
         <DescirptionWrapper>
@@ -165,7 +170,7 @@ const ProjectTemplate = ({ intl, data }) => {
       </Wrapper>
       <div style={{ marginTop: "3rem" }}>
         {frontmatter.images?.map(({ childImageSharp }) => (
-          <Img
+          <NiceLoadingImage
             key={childImageSharp.id}
             fluid={childImageSharp.fluid}
             style={{
@@ -175,7 +180,6 @@ const ProjectTemplate = ({ intl, data }) => {
               marginBottom: "6rem",
             }}
             imgStyle={{ objectFit: "contain" }}
-            objectFit="cover"
           />
         ))}
       </div>

@@ -17,7 +17,6 @@ images:
 tags: 
     - "użyteczności publicznej"
     - "retail"
-    - "urbanistyczne"
 thumbnail: "images/1.jpg"
 ---
 Cechą charakterystyczną obiektu jest precyzyjne użycie koloru i&nbsp;światła w celu jednoznacznej identyfikacji.

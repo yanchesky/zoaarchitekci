@@ -7,7 +7,7 @@ title: "Residential complex"
 year: "2019"
 client: "Private"
 area: "67 200 m2"
-status: "Conception"
+status: "conception"
 location: "Warsaw"
 street: "Podskarbińska"
 images: 

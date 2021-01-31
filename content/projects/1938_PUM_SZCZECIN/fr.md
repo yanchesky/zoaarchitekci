@@ -7,7 +7,7 @@ title: "Bâtiment clinique, didactique  et de recherche à Szczecin"
 year: "2019"
 client: "Université de médecine de Poméranie"
 area: "54 000 m2"
-status: "competition2thPrizee"
+status: "competition2thPrize"
 location: "Szczecin"
 images: 
     - "images/1.jpg"

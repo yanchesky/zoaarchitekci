@@ -21,7 +21,7 @@ const IntersectingImage = ({ childImageSharp }) => {
   }
 
   return (
-    <FadingWrapper className="image-faded" ref={ref} id={childImageSharp.id}>
+    <FadingWrapper ref={ref} id={childImageSharp.id}>
       <Img
         className="mb-24"
         fluid={childImageSharp.fluid}
