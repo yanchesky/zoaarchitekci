@@ -50,6 +50,7 @@ export const transformQueryEmployees = (graphQuery) => {
     })
     .sort((a, b) => a.order - b.order);
 
+  console.log("graphQuery.markdownRemark:", graphQuery.markdownRemark);
   const pastEmployees = graphQuery.markdownRemark.frontmatter.names;
 
   return {
