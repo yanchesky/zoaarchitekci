@@ -7,7 +7,7 @@ export const queryEmployees = () => {
         filter: {
           extension: { eq: "md" }
           relativeDirectory: { regex: "/employees/" }
-          id: { ne: "ec85422a-8659-58ce-9ac6-8a682d222817" }
+          name: { ne: "PAST_EMPLOYEES" }
         }
       ) {
         edges {
