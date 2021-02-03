@@ -31,10 +31,21 @@ export const queryEmployees = () => {
           }
         }
       }
-      markdownRemark(id: { eq: "ff46738e-fcaf-5135-921f-cc346dc5e5c7" }) {
-        id
-        frontmatter {
-          names
+      pastEmployees: allFile(
+        filter: {
+          extension: { eq: "md" }
+          relativeDirectory: { regex: "/past_employees/" }
+        }
+      ) {
+        edges {
+          node {
+            id
+            childMarkdownRemark {
+              frontmatter {
+                names
+              }
+            }
+          }
         }
       }
     }
