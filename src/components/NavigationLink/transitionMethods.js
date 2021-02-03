@@ -1,13 +1,6 @@
 import gsap from "gsap";
 
 export const exit = ({ node }) => {
-  const links = document.getElementsByClassName("heading-links");
-
-  Array.from(links).forEach((link) => {
-    // console.log("REMOVING CLASS");
-    // link.classList.add("main-section");
-    // link.classList.remove("welcome-slider");
-  });
   gsap.to(node, { opacity: 0, duration: 0.3 });
 };
 

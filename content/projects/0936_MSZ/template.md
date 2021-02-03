@@ -1,5 +1,5 @@
 ---
-id: "0936"
+id: "936"
 slug: "/projekty/ministerstwo_spraw_zagranicznych"
 date: "2021-01-09"
 title: "Ministerstwo Spraw Zagranicznych, projekt wnętrz"

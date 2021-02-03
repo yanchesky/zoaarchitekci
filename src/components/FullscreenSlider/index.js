@@ -2,7 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Img from "gatsby-image";
 import styled from "styled-components";
 import NiceLoadingImage from "src/components/NiceLoadingImage";
 
@@ -22,10 +21,6 @@ const Wrapper = styled.main`
   }
 `;
 
-const StyledImage = styled(NiceLoadingImage)`
-  height: 100vh;
-`;
-
 const settings = {
   dots: true,
   arrows: false,
@@ -34,13 +29,11 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   adaptiveHeight: true,
-
   accessibility: false,
 };
 
 const FullscreenSlider = ({ images }) => {
   const ref = React.useRef(null);
-
   React.useEffect(() => {
     var goNext;
     if (ref) {
@@ -50,8 +43,6 @@ const FullscreenSlider = ({ images }) => {
       }, 4000);
     }
     return () => {
-      console.log("unmounting");
-
       clearInterval(goNext);
     };
   }, [ref.current]);

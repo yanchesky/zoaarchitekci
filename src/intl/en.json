@@ -36,19 +36,20 @@
       },
       "aboutUs": "About us",
       "team": "Team",
+      "workedWithUs": "Worked with us",
       "clients": "Clients",
       "employees": {
         "role": {
           "partner": "partner",
           "operationDirectorFemale": "operational director",
-          "architectSpecialistAdministrativeFemale": "architektka specjalistka ds. postępowań administracyjnych",
-          "architectManagerFemale": "architektka kierowniczka",
-          "architectManager": "architekt kierownik",
-          "seniorArchitectFemale": "starsza architektka",
-          "architect": "architekt",
-          "architectFemale": "architektka",
-          "officeAdministration": "administracja, sekretariat",
-          "assistantFemale": "asystentka architekta"
+          "architectSpecialistAdministrativeFemale": "architect specialist in administrative proceedings",
+          "architectManagerFemale": "chief architect",
+          "architectManager": "chief architect",
+          "seniorArchitectFemale": "senior architect",
+          "architect": "architect",
+          "architectFemale": "architect",
+          "officeAdministration": "administration, secretariat",
+          "assistantFemale": "architect's assistant"
         }
       },
       "prizes": {

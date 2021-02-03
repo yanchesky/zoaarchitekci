@@ -27,7 +27,7 @@ const Year = styled.p`
 `;
 
 const Prize = styled.div`
-  margin: 1rem 0;
+  margin-bottom: 1rem;
   grid-column-start: 1;
   ${media.tablet`
     

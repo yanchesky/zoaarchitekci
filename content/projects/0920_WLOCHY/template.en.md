@@ -1,5 +1,5 @@
 ---
-id: "0920"
+id: "920"
 language: "en"
 slug: "/projekty/residential_complex_cegielniana"
 date: "2020-11-06"

@@ -1,5 +1,5 @@
 ---
-id: "0711"
+id: "711"
 language: "en"
 slug: "/projekty/echo_shopping_mall"
 date: "2020-11-03"

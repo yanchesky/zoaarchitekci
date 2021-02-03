@@ -1,5 +1,5 @@
 ---
-id: "0927"
+id: "927"
 language: "fr"
 slug: "/projekty/groupe_des_immeubles_dhabitation"
 date: "2021-01-09"

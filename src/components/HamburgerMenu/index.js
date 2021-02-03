@@ -9,7 +9,7 @@ import {
   LinksList,
   LanguagesWrapper,
 } from "./styledComponents";
-import { changeLocale, injectIntl, useIntl } from "gatsby-plugin-intl";
+import { injectIntl } from "gatsby-plugin-intl";
 import { useLocation } from "@reach/router";
 
 const HamburgerMenu = ({

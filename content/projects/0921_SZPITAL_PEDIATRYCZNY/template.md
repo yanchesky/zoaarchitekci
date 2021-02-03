@@ -1,5 +1,5 @@
 ---
-id: "0921"
+id: "921"
 slug: "/projekty/dzieciecy_szpital_kliniczny_wum"
 date: "2021-01-09"
 title: "Dziecięcy Szpital Kliniczny WUM"

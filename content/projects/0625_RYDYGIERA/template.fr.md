@@ -1,5 +1,5 @@
 ---
-id: "0625"
+id: "625"
 language: "fr"
 slug: "/projekty/zielony_zoliborz"
 date: "2020-11-02"

@@ -1,5 +1,5 @@
 ---
-id: "0936"
+id: "936"
 language: "fr"
 slug: "/projekty/ministere_des_affaires_etrangeres_decor_dinterieur"
 date: "2021-01-09"

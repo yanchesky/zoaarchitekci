@@ -12,11 +12,15 @@ const MarginContainer = styled.div`
   `};
 `;
 
-function Layout({ children, onFilterClick, tags }) {
+function Layout({ children }) {
   return (
     <section style={{ overflowY: "hidden" }}>
       <MarginContainer>
-        <main style={{ maxWidth: "1366px", margin: "0 auto" }}>{children}</main>
+        <main
+          style={{ maxWidth: "1366px", margin: "0 auto", overflow: "hidden" }}
+        >
+          {children}
+        </main>
         <Footer />
       </MarginContainer>
     </section>

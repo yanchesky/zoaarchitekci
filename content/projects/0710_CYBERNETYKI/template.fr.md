@@ -1,5 +1,5 @@
 ---
-id: "0710"
+id: "710"
 language: "fr"
 slug: "/projekty/cybernetyki_résidentiels"
 date: "2020-11-03"

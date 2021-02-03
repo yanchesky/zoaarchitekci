@@ -1,5 +1,5 @@
 ---
-id: "0711"
+id: "711"
 language: "fr"
 slug: "/projekty/centre_commercial_echo"
 date: "2020-11-03"

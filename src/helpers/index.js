@@ -2,31 +2,6 @@ import { spring } from "react-flip-toolkit";
 export * from "./breakpoints";
 export * from "./queryTransformers";
 
-export function debounce(func, wait, immediate) {
-  let timeout;
-  return function () {
-    let context = this,
-      args = arguments;
-    clearTimeout(timeout);
-    timeout = setTimeout(function () {
-      timeout = null;
-      if (!immediate) func.apply(context, args);
-    }, wait);
-    if (immediate && !timeout) func.apply(context, args);
-  };
-}
-
-export function throttle(func, timeFrame) {
-  let lastTime = 0;
-  return function () {
-    let now = new Date();
-    if (now - lastTime >= timeFrame) {
-      func();
-      lastTime = now;
-    }
-  };
-}
-
 export function shuffle(a) {
   let j, x, i;
   for (i = a.length - 1; i > 0; i--) {
@@ -51,8 +26,22 @@ export const flattenTags = (projects) => () => {
   return Array.from(new Set(tags.flat()));
 };
 
+export const divideArray = (array, arraysNumber) => {
+  const wordsPerLine = Math.ceil(array.length / arraysNumber);
+  const dividedArray = [];
+
+  for (let line = 0; line < arraysNumber; line++) {
+    dividedArray.push([]);
+    for (let i = 0; i < wordsPerLine; i++) {
+      const value = array[i + line * wordsPerLine];
+      if (!value) continue; //avoid adding "undefined" values
+      dividedArray[line].push(value);
+    }
+  }
+  return dividedArray;
+};
+
 export const onExit = (el, index, removeElement) => {
-  //return removeElement(el);
   spring({
     config: { overshootClamping: false },
     values: {

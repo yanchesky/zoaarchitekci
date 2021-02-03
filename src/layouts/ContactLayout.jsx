@@ -6,6 +6,9 @@ const MarginContainer = styled.div`
   margin: 1.5rem;
   ${media.mobile`
     margin: 6rem 3rem;
+    min-height: calc(100vh - 277px);
+    display: flex;
+    align-items: center;
   `};
 `;
 

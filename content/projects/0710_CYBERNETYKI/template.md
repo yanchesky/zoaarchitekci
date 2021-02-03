@@ -1,5 +1,5 @@
 ---
-id: "0710"
+id: "710"
 slug: "/projekty/zespół_budynków_wielorodzinnych_cybernetyki"
 date: "2020-11-03"
 title: "„Mozaika Mokotów” zespół budynków wielorodzinnych"

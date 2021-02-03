@@ -2,9 +2,11 @@
     font-family: Facundo;
     src: url('../fonts/facundo_regular.otf');
     font-style: normal;
+    font-display: fallback;
 }
 @font-face {
     font-family: Facundo;
     src: url('../fonts/facundo_bold.otf');
     font-weight: bold;
+    font-display: fallback;
 }

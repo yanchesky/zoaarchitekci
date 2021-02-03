@@ -1,8 +1,7 @@
 import React from "react";
-import Img from "gatsby-image";
 import styled from "styled-components";
-import { media, transformQueryEmployees } from "../../helpers";
-import { queryEmployees } from "../../queries/employees";
+import { media, transformQueryEmployees, divideArray } from "src/helpers";
+import { queryEmployees } from "src/queries/employees";
 import { useIntl } from "gatsby-plugin-intl";
 import NiceLoadingImage from "src/components/NiceLoadingImage";
 
@@ -13,26 +12,6 @@ const StyledHeading = styled.h1`
   font-weight: normal;
   grid-column-start: 1;
   grid-column-end: 7;
-  ${media.tablet`
-      
-      
-  `};
-`;
-
-const AboutUsContent = styled.div`
-  margin: 0;
-  grid-column-start: 1;
-  grid-column-end: 7;
-  text-align: left;
-  max-width: 29rem;
-  ${media.tablet`
-    grid-column-start: 2;
-    grid-column-end: 6;
-  `};
-
-  ${media.desktop`
-    grid-column-start: 3;
-  `};
 `;
 
 const OnlyMobile = styled.div`
@@ -98,8 +77,11 @@ const SecondDummy = styled.div`
 const Employees = () => {
   const t = useIntl();
   const employees = queryEmployees();
-  const transformedEmployees = transformQueryEmployees(employees);
+  const { presentEmployees, pastEmployees } = transformQueryEmployees(
+    employees
+  );
 
+  const dividedEmployees = divideArray(pastEmployees, 3);
   return (
     <>
       <StyledHeading>
@@ -107,20 +89,16 @@ const Employees = () => {
       </StyledHeading>
 
       <EmployeesWrapper>
-        {transformedEmployees.map((employee, index, arr) => {
+        {presentEmployees.map((employee, index, arr) => {
           const isEven = index % 2 === 0;
           return (
             <>
-              {/*<EmployeeNameWrapper isEven={isEven}>*/}
-              {/*  <Name isEven={isEven}>{employee.name}</Name>*/}
-              {/*  <Role isEven={isEven}>Role</Role>*/}
-              {/*</EmployeeNameWrapper>*/}
-
               <EmployeePhotoWrapper isEven={isEven} key={employee.id}>
                 <NiceLoadingImage
                   fluid={employee.image?.childImageSharp?.fluid}
                   style={{ maxWidth: "100%" }}
                   objectFit="cover"
+                  alt={employee.name}
                 />
 
                 <OnlyMobile>
@@ -130,12 +108,6 @@ const Employees = () => {
                       id: `pages.workshop.employees.role.${employee.role}`,
                     })}
                   </Role>
-                  {arr.length === index + 1 && (
-                    <div
-                      style={{ position: "relative", top: "-4rem" }}
-                      id="prizes-section"
-                    />
-                  )}
                 </OnlyMobile>
               </EmployeePhotoWrapper>
               {index === 1 && <FirstDummy />}
@@ -147,6 +119,24 @@ const Employees = () => {
             </>
           );
         })}
+      </EmployeesWrapper>
+      <StyledHeading>
+        {t.formatMessage({ id: "pages.workshop.workedWithUs" })}
+      </StyledHeading>
+      <EmployeesWrapper>
+        {dividedEmployees.map((employeesColumn, index, arr) => (
+          <div>
+            {employeesColumn.map((employee, index) => (
+              <p key={index}>{employee}</p>
+            ))}
+            {index === arr.length - 1 && (
+              <div
+                style={{ position: "relative", top: "-4rem" }}
+                id="prizes-section"
+              />
+            )}
+          </div>
+        ))}
       </EmployeesWrapper>
     </>
   );

@@ -10,7 +10,6 @@ const Wrapper = styled.div`
 `;
 
 const StyledImage = styled.img`
-  filter: grayscale(75%);
   width: 100px;
   ${media.mobile`
     width: ${(props) => props.scaledWidth};

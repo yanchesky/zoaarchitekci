@@ -1,5 +1,5 @@
 ---
-id: "0927"
+id: "927"
 language: "en"
 slug: "/projekty/residential_complex_zegrze"
 date: "2021-01-09"

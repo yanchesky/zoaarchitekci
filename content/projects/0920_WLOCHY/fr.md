@@ -1,5 +1,5 @@
 ---
-id: "0920"
+id: "920"
 language: "fr"
 slug: "/projekty/groupe_dimmeubles_dhabitation_a_varsovie"
 date: "2020-11-06"

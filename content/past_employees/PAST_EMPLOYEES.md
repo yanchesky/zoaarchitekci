@@ -1,0 +1,57 @@
+---
+names:
+    - Mikołaj Wieczorek
+    - Iwona Filiks
+    - Aneta Chudobińska-Rosa
+    - Karolina Szalbót
+    - Katarzyna Trochimowicz
+    - Justyna Nowik-Borowska
+    - Emil Kotowski
+    - Monika Badura
+    - Paulina Kalska
+    - Dominika Starzec
+    - Kacper Guranowski
+    - Michał Ruman
+    - Marta Osowiecka
+    - Krzysztof Henger
+    - Inga Mierzejewska
+    - Małgorzata Pniak
+    - Monika Zalewska
+    - Łukasz Lautsch
+    - Sebastian Tabędzki
+    - Agnieszka Jaglarska
+    - Piotr Zieliński
+    - Michał Rogowski
+    - Alicja Kanigowska
+    - Magdalena Łodygowska
+    - Agata Fisiak
+    - Marta Olszowy
+    - Anne Marie Komba Wobondi
+    - Marcin Giemza
+    - Katarzyna Kujawa
+    - Iwona Neupauer
+    - Justyna Wiśniewska
+    - Zuzanna Ufnalska
+    - Magdalena Jurewicz
+    - Marcin Biliński
+    - Diep Nguyen Hong
+    - Urszula Godlewska
+    - Urszula Konowrocka
+    - Nina Wójcicka
+    - Katarzyna Ostaszewska
+    - Anna Wajda
+    - Paulina Włodek
+    - Kinga Harczuk
+    - Giandomenico Racamato
+    - Olga Nowogrodzka
+    - Joanna Aleksandrowicz
+    - Weronika Budnik
+    - Kuba Kasprzak
+    - Ewa Konieczna
+    - Kamila Miryn
+    - Magdalena Paprocka
+    - Kajetan Szeliński
+    - Nina Wójcicka
+    - Marta Sójka
+    - Unai Gomez Arriaran
+---

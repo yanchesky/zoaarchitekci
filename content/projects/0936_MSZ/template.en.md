@@ -1,5 +1,5 @@
 ---
-id: "0936"
+id: "936"
 language: "en"
 slug: "/projekty/ministry_of_foreign_affairs"
 date: "2021-01-09"

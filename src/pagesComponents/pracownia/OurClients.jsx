@@ -4,17 +4,29 @@ import { media } from "src/helpers/breakpoints";
 
 import OurClient from "src/components/OurClient";
 
-import atrium from "src/assets/clients/atrium.gif";
-import echo_investment from "src/assets/clients/echo_investment.jpg";
-import hbr from "src/assets/clients/hbr.jpg";
+import atrium from "src/assets/clients/atrium.png";
+import echo_investment from "src/assets/clients/echo_investment.png";
+import hbr from "src/assets/clients/hbr.png";
 import klinkier_bud from "src/assets/clients/klinkier_bud.png";
-import konstancin from "src/assets/clients/konstancin.jpg";
+import konstancin from "src/assets/clients/konstancin.png";
 import layetana_logo from "src/assets/clients/layetana_logo.png";
 import logo_WUM from "src/assets/clients/Logo_WUM.jpg";
 import makdom from "src/assets/clients/makdom.png";
-import sbridge_office from "src/assets/clients/s-bridge_office.jpg";
+import sbridge_office from "src/assets/clients/s-bridge_office.png";
 import victoria_dom from "src/assets/clients/victoria_dom.png";
-import white_stone from "src/assets/clients/white_stone.jpg";
+import white_stone from "src/assets/clients/white_stone.png";
+import msw from "src/assets/clients/Logo_Ministerstwa_Spraw_Zagranicznych.png";
+import tanganyika from "src/assets/clients/tanganyika.png";
+import drk from "src/assets/clients/demokratyczna-republika-konga.png";
+import globalworth from "src/assets/clients/globalworth.png";
+import napollo from "src/assets/clients/Napollo.png";
+import polnord from "src/assets/clients/Polnord-CMYK_Logo-Polnord-Poziome.png";
+import randevour from "src/assets/clients/rendeavour.png";
+import siemens from "src/assets/clients/Siemens.png";
+import warbud from "src/assets/clients/Warbud.png";
+import zdrojowa from "src/assets/clients/Zdrojowa.png";
+import warynski from "src/assets/clients/warynski.png";
+import kongo from "src/assets/clients/kongo.jpg";
 
 import { useIntl } from "gatsby-plugin-intl";
 
@@ -74,16 +86,67 @@ const clients = [
     scale: 1.2,
     alt: "White Stone logo",
   },
-  // {
-  //   icon: warbud,
-  //   scale: 1.9,
-  //   alt: "Warbud logo",
-  // },
-  // {
-  //   icon: zdrojowa,
-  //   scale: 1.9,
-  //   alt: "Zdrojowa hotels logo",
-  // },
+  {
+    icon: msw,
+    scale: 1.7,
+    alt: "Ministerstwo Spraw Zagranicznych logo",
+  },
+  {
+    icon: tanganyika,
+    scale: 2,
+    alt: "Tanganyika logo",
+  },
+
+  {
+    icon: drk,
+    scale: 1.4,
+    alt: "Democratic republic of kongo logo",
+  },
+  {
+    icon: globalworth,
+    scale: 1.7,
+    alt: "globalworth logo",
+  },
+  {
+    icon: napollo,
+    scale: 1.7,
+    alt: "napollo logo",
+  },
+  {
+    icon: polnord,
+    scale: 1.5,
+    alt: "polnord logo",
+  },
+  {
+    icon: randevour,
+    scale: 1.4,
+    alt: "randevour logo",
+  },
+  {
+    icon: siemens,
+    scale: 1.4,
+    alt: "siemens logo",
+  },
+  {
+    icon: warbud,
+    scale: 1.4,
+    alt: "warbud logo",
+  },
+  {
+    icon: zdrojowa,
+    scale: 1.4,
+    alt: "warbud logo",
+  },
+  {
+    icon: warynski,
+    scale: 2,
+    alt: "warynski logo",
+  },
+  {
+    icon: kongo,
+    scale: 1.1,
+    alt: "kongo logo",
+  },
 ];
 
 const StyledHeading = styled.h1`
@@ -113,22 +176,6 @@ const MainWrapper = styled.div`
   grid-row-gap: 3rem;
 `;
 
-const HeadingWrapper = styled.div`
-  margin: 0;
-  grid-column-start: 1;
-  grid-column-end: 7;
-  text-align: left;
-  max-width: 29rem;
-  ${media.tablet`
-    grid-column-start: 2;
-    grid-column-end: 6;
-  `};
-
-  ${media.desktop`
-    grid-column-start: 3;
-  `};
-`;
-
 const OurClients = () => {
   const t = useIntl();
   return (
@@ -138,17 +185,8 @@ const OurClients = () => {
       </StyledHeading>
 
       <MainWrapper>
-        {clients.map((brand, index, arr) => (
-          <>
-            <OurClient key={index} {...brand}>
-              {/*{arr.length === index + 1 && (*/}
-              {/*  <div*/}
-              {/*    style={{ position: "relative", top: "-4rem" }}*/}
-              {/*    id="prizes-section"*/}
-              {/*  />*/}
-              {/*)}*/}
-            </OurClient>
-          </>
+        {clients.map((brand, index) => (
+          <OurClient key={index} {...brand} />
         ))}
       </MainWrapper>
     </>

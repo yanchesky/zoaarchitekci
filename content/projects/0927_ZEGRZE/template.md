@@ -1,5 +1,5 @@
 ---
-id: "0927"
+id: "927"
 slug: "/projekty/zespół_budynków_mieszkalnych_zegrze"
 date: "2021-01-09"
 title: "Zespół Budynków Mieszkalnych"

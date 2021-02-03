@@ -1,5 +1,5 @@
 ---
-id: "0711"
+id: "711"
 slug: "/projekty/galeria_echo"
 date: "2020-11-03"
 title: "Centrum handlowe „Galeria Echo”"

@@ -12,7 +12,7 @@ const StyledImage = styled(Img)`
   }
 `;
 
-const NiceLoadingImage = ({ fluid, style, imgStyle, fullHeight }) => {
+const NiceLoadingImage = ({ fluid, style, imgStyle, alt = "", fullHeight }) => {
   const ref = React.useRef(null);
   return (
     <StyledImage
@@ -27,6 +27,7 @@ const NiceLoadingImage = ({ fluid, style, imgStyle, fullHeight }) => {
       imgStyle={imgStyle}
       objectFit="cover"
       fullHeight={fullHeight}
+      alt={alt}
     />
   );
 };

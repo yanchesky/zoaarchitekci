@@ -1,5 +1,5 @@
 ---
-id: "0921"
+id: "921"
 language: "en"
 slug: "/projekty/pediatric_hospital_of_warsaw_medical_university"
 date: "2021-01-09"

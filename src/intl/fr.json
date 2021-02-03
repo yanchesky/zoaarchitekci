@@ -12,9 +12,9 @@
   "client": "Maîtrise d’ouvrage",
   "status": "Stade",
   "footer": {
-    "information": "Information",
+    "information": "Données de l'entreprise",
     "contact": "Contact",
-    "socialMedia": "Social media"
+    "socialMedia": "Des médias sociaux"
   },
   "pages": {
     "projects": {
@@ -37,19 +37,20 @@
       },
       "aboutUs": "notre vision",
       "team": "l'equipe",
+      "workedWithUs": "A travaillé avec nous",
       "clients": "nos clients",
       "employees": {
         "role": {
-          "partner": "Wspólnik",
-          "operationDirectorFemale": "dyrektorka operacyjna",
-          "architectSpecialistAdministrativeFemale": "architektka specjalistka ds. postępowań administracyjnych",
-          "architectManagerFemale": "architektka kierowniczka",
-          "architectManager": "architekt kierownik",
-          "seniorArchitectFemale": "starsza architektka",
-          "architect": "architekt",
-          "architectFemale": "architektka",
-          "officeAdministration": "administracja, sekretariat",
-          "assistantFemale": "asystentka architekta"
+          "partner": "Partenaire",
+          "operationDirectorFemale": "Directrice opérationnel",
+          "architectSpecialistAdministrativeFemale": "Architecte, spécialiste des procédures ",
+          "architectManagerFemale": "Architecte chef",
+          "architectManager": "Architecte chef",
+          "seniorArchitectFemale": "Architecte senior",
+          "architect": "Architecte",
+          "architectFemale": "Architecte",
+          "officeAdministration": "Administration, secrétariat",
+          "assistantFemale": "Assistante d'archiecte"
         }
       },
       "prizes": {

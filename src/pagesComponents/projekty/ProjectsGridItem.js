@@ -1,5 +1,4 @@
 import React from "react";
-import Img from "gatsby-image";
 import styled, { keyframes } from "styled-components";
 import { Flipped } from "react-flip-toolkit";
 
@@ -123,6 +122,7 @@ const ProjectsGridItem = ({ project, locale }) => {
             style={{ height: "100%", maxHeight: "321px" }}
             fluid={project.thumbnail?.childImageSharp?.fluid}
             objectFit="cover"
+            alt={project.title}
           />
           <RolloverBox />
           <DescriptionWrapper>

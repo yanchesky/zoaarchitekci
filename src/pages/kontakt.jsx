@@ -1,13 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-import ContactLayout from "src/layouts/ContactLayout";
+import { useIntl } from "gatsby-plugin-intl";
 
+import ContactLayout from "src/layouts/ContactLayout";
+import SEO from "src/components/SEO";
 import { media } from "src/helpers";
 
 import facebookIcon from "../assets/svg/facebook-brands.svg";
 import instagramIcon from "../assets/svg/instagram-brands.svg";
 import linkedinIcon from "../assets/svg/linkedin-in-brands.svg";
-import { useIntl } from "gatsby-plugin-intl";
 
 const SocialMediaLink = styled.a`
   display: inline-flex;
@@ -32,7 +33,7 @@ const StyledHeading = styled.h1`
   margin: 0;
   ${media.desktop`
       grid-column-start: 1;
-      grid-column-end: 5;
+      grid-column-end: 2;
       
    `};
 `;
@@ -93,8 +94,14 @@ const SocialMediaWrapper = styled.div`
 
 const Kontakt = () => {
   const t = useIntl();
+  const description =
+    "ZOA ARCHITEKCI sp. z o.o. | ul. Pilicka 27/1 | 02-613 Warszawa";
   return (
     <ContactLayout>
+      <SEO
+        title={t.formatMessage({ id: "contact" })}
+        description={description}
+      />
       <ContactWrapper>
         <StyledHeading>{t.formatMessage({ id: "contact" })}</StyledHeading>
         <AddressWrapper>

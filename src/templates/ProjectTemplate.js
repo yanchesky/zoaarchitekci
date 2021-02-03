@@ -1,11 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 import styled from "styled-components";
-import IntersectingImage from "src/components/IntersectingImage";
 import Footer from "../components/Footer";
 import { media } from "src/helpers";
 import { injectIntl } from "gatsby-plugin-intl";
-import Img from "gatsby-image";
 import SEO from "src/components/SEO";
 import NiceLoadingImage from "../components/NiceLoadingImage";
 
@@ -169,7 +167,7 @@ const ProjectTemplate = ({ intl, data }) => {
         </DetailsGridContainer>
       </Wrapper>
       <div style={{ marginTop: "3rem" }}>
-        {frontmatter.images?.map(({ childImageSharp }) => (
+        {frontmatter.images?.map(({ childImageSharp }, index) => (
           <NiceLoadingImage
             key={childImageSharp.id}
             fluid={childImageSharp.fluid}
@@ -180,6 +178,7 @@ const ProjectTemplate = ({ intl, data }) => {
               marginBottom: "6rem",
             }}
             imgStyle={{ objectFit: "contain" }}
+            alt={`${frontmatter.title}-${index + 1}`}
           />
         ))}
       </div>

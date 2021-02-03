@@ -1,5 +1,5 @@
 ---
-id: "0808"
+id: "808"
 language: "fr"
 slug: "/projekty/théâtre_nowy"
 date: "2020-11-04"

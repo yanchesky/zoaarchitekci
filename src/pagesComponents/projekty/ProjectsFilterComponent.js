@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useIntl } from "gatsby-plugin-intl";
 
 const Wrapper = styled.form`
-  margin: 4rem 0 1rem;
+  margin: 1rem 0 1rem;
   padding: 0;
 `;
 

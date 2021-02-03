@@ -1,5 +1,5 @@
 ---
-id: "0808"
+id: "808"
 language: "en"
 slug: "/projekty/nowy_teatr_warszawa"
 date: "2020-11-04"

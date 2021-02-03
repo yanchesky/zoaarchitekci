@@ -39,7 +39,7 @@ export const transformQueryProjects = (graphQuery, filterString = "") => () => {
 };
 
 export const transformQueryEmployees = (graphQuery) => {
-  return graphQuery.employees.edges
+  const presentEmployees = graphQuery.employees.edges
     .map((employee) => {
       const {
         childMarkdownRemark: {
@@ -49,4 +49,11 @@ export const transformQueryEmployees = (graphQuery) => {
       return { name, order, image, id: employee.id, role };
     })
     .sort((a, b) => a.order - b.order);
+
+  const pastEmployees = graphQuery.markdownRemark.frontmatter.names;
+
+  return {
+    presentEmployees,
+    pastEmployees,
+  };
 };

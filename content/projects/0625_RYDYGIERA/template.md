@@ -1,5 +1,5 @@
 ---
-id: "0625"
+id: "625"
 slug: "/projekty/zielony_żoliborz"
 date: "2020-11-02"
 title: "„Zielony Żoliborz” zespół budynków wielorodzinnych"

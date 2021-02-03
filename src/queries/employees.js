@@ -7,6 +7,7 @@ export const queryEmployees = () => {
         filter: {
           extension: { eq: "md" }
           relativeDirectory: { regex: "/employees/" }
+          id: { ne: "ec85422a-8659-58ce-9ac6-8a682d222817" }
         }
       ) {
         edges {
@@ -28,6 +29,12 @@ export const queryEmployees = () => {
               }
             }
           }
+        }
+      }
+      markdownRemark(id: { eq: "ff46738e-fcaf-5135-921f-cc346dc5e5c7" }) {
+        id
+        frontmatter {
+          names
         }
       }
     }

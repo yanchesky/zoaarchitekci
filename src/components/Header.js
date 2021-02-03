@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { injectIntl, useIntl } from "gatsby-plugin-intl";
+import { injectIntl } from "gatsby-plugin-intl";
 
 import HamburgerMenu from "./HamburgerMenu";
 import NavigationLink from "./NavigationLink";
@@ -73,6 +73,7 @@ const HamgurgerWrapper = styled.div`
 `;
 
 const Header = ({ intl, urlOptions }) => {
+  // jeśli jakiś projekt ma wersję językową, to bierzemy sluga i uwzględniamy w tłumaczeniu (każdy slug jest inny w zleżności od języka)
   const translateToEnglish = urlOptions?.["en"] || urlOptions?.["default"];
   const translateToPolish = urlOptions?.["pl"] || urlOptions?.["default"];
   const translateToFrench = urlOptions?.["fr"] || urlOptions?.["default"];

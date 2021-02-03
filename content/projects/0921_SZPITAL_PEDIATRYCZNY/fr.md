@@ -1,5 +1,5 @@
 ---
-id: "0921"
+id: "921"
 language: "fr"
 slug: "/projekty/lhopital_pediatrique_de_luniversite_de_medecine_de_varsovie"
 date: "2021-01-09"

@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { useIntl } from "gatsby-plugin-intl";
-import { media } from "../../helpers";
+import { media } from "src/helpers";
+import SEO from "src/components/SEO";
 
 const AboutUsContent = styled.div`
   margin: 0;
@@ -25,9 +26,9 @@ const StyledHeading = styled.h1`
   text-transform: uppercase;
   font-weight: normal;
   grid-column-start: 1;
-  grid-column-end: 7;
+  grid-column-end: 2;
   ${media.tablet`
-      margin-top: -2rem;
+     
       grid-column-end: 1;
   `};
 `;
@@ -41,9 +42,14 @@ const StyledParagraph = styled.p`
 
 const AboutUsSection = () => {
   const t = useIntl();
-
+  const description = t.formatMessage({ id: "pages.workshop.paragraph.1" });
+  const strippedDescription = description.split(".")[0];
   return (
     <>
+      <SEO
+        title={t.formatMessage({ id: "pages.workshop.aboutUs" })}
+        description={strippedDescription}
+      />
       <StyledHeading id="about-us-section">
         {t.formatMessage({ id: "pages.workshop.aboutUs" })}
       </StyledHeading>

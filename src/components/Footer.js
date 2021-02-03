@@ -155,7 +155,7 @@ const Footer = () => {
             <ColumnTitle>
               {t.formatMessage({ id: "footer.information" })}
             </ColumnTitle>
-            <Paragraph>ZOA architekci sp. z o.o.</Paragraph>
+            <Paragraph>ZOA&nbsp;ARCHITEKCI&nbsp;sp.&nbsp;z&nbsp;o.o.</Paragraph>
             <Paragraph>ul. Pilicka 27/1</Paragraph>
             <Paragraph>02-613 Warszawa</Paragraph>
             <Paragraph>NIP: 123456789</Paragraph>

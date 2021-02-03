@@ -1,5 +1,5 @@
 ---
-id: "0920"
+id: "920"
 slug: "/projekty/zespół_budynków_wielorodzinnych_cegielniana"
 date: "2020-11-06"
 title: "Zespół budynków wielorodzinnych"
