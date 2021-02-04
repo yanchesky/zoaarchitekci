@@ -10,10 +10,9 @@ import langaugeIcon from "src/assets/svg/globe_icon.svg";
 
 const Link = styled.span`
   cursor: pointer;
-  color: ${(props) => props.theme.colors["gray-600"]};
+
   margin-left: 1rem;
   &:hover {
-    color: ${(props) => props.theme.colors["gray-800"]};
     text-decoration: underline;
   }
 `;
@@ -56,6 +55,7 @@ const Language = ({
         aria-haspopup="true"
       >
         <img
+          className="globe-icon"
           style={{ position: "relative", top: "2px" }}
           width={"16px"}
           src={langaugeIcon}

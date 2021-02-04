@@ -25,27 +25,18 @@ const settings = {
   dots: true,
   arrows: false,
   infinite: true,
-  speed: 500,
+  speed: 600,
+  autoplaySpeed: 3000,
   slidesToShow: 1,
   slidesToScroll: 1,
   adaptiveHeight: true,
+  autoplay: true,
   accessibility: false,
+  pauseOnHover: false,
 };
 
 const FullscreenSlider = ({ images }) => {
   const ref = React.useRef(null);
-  React.useEffect(() => {
-    var goNext;
-    if (ref) {
-      goNext = setInterval(function () {
-        ref?.current?.slickNext();
-        console.log("tick");
-      }, 4000);
-    }
-    return () => {
-      clearInterval(goNext);
-    };
-  }, [ref.current]);
   return (
     <Wrapper>
       <Slider ref={ref} fade {...settings}>

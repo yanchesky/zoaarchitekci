@@ -21,12 +21,6 @@ const NavigationWrapper = styled.div`
   &.bg-white {
     background: white;
   }
-
-  nav > div > ul > li > a {
-    &.bg-white {
-      color: red;
-    }
-  }
 `;
 
 const Navigation = styled.nav`
@@ -47,11 +41,24 @@ const StyledList = styled.ul`
   position: absolute;
   //left: calc(100vw - 480px);
   right: 0;
+  color: black;
   width: 490px;
   top: 36px;
   ${media[740]`
     display: flex;
   `};
+
+  .globe-icon {
+    filter: brightness(0);
+  }
+
+  &.grayed-header-fonts {
+    color: ${(props) => props.theme.colors["gray-600"]};
+
+    .globe-icon {
+      filter: brightness(1);
+    }
+  }
 `;
 
 const Logo = styled.img`
@@ -81,8 +88,8 @@ const Header = ({ intl, urlOptions }) => {
   return (
     <NavigationWrapper className="bg-white" id="navigation-wrapper">
       <Navigation>
-        <FadeInOutLink to={`/${intl.locale}`}>
-          <Logo src={ZoaLogo} />
+        <FadeInOutLink aria="Logo" to={`/${intl.locale}`}>
+          <Logo alt="logo" src={ZoaLogo} />
         </FadeInOutLink>
         <div style={{ position: "relative", left: 0, top: "-64px" }}>
           <HamgurgerWrapper>
@@ -92,7 +99,10 @@ const Header = ({ intl, urlOptions }) => {
               translateToFrench={translateToFrench}
             />
           </HamgurgerWrapper>
-          <StyledList>
+          <StyledList
+            id="desktop-links-wrapper"
+            className="grayed-header-fonts"
+          >
             <NavigationLink to={`/${intl.locale}/pracownia/`}>
               {intl.formatMessage({ id: "aboutUs" })}
             </NavigationLink>

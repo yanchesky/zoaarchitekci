@@ -10,12 +10,11 @@ const scrollToTop = () => {
 };
 
 const FadeInOutLinkWrapper = styled.li`
-  color: #9ca3af;
   font-size: 1.125rem;
   margin: 0 0.5rem;
 
   &:hover {
-    color: #6b7280;
+    //color: #6b7280;
     transition: none;
   }
 
@@ -39,7 +38,7 @@ const StyledTransitionLink = styled(TransitionLink)`
   text-transform: uppercase;
   letter-spacing: 0.05em;
   cursor: pointer;
-  color: ${(props) => props.theme.colors["gray-600"]};
+  //color: ${(props) => props.theme.colors["gray-600"]};
   &:hover {
     text-decoration: underline;
   }
@@ -49,6 +48,7 @@ export const FadeInOutLink = ({
   children,
   shouldScrollToTop,
   to,
+  aria,
   onlyOut,
   onClick,
 }) => {
@@ -56,6 +56,7 @@ export const FadeInOutLink = ({
     <StyledTransitionLink
       as={shouldScrollToTop ? "span" : ""}
       activeClassName="active-link"
+      aria-label={aria}
       to={shouldScrollToTop ? null : to}
       exit={!onlyOut && { length: 0.3, trigger: exit }}
       entry={{ delay: 0.3, length: 0.3, trigger: entry }}

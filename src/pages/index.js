@@ -14,8 +14,13 @@ const IndexPage = () => {
 
   useEffect(() => {
     const wrapper = document.getElementById("navigation-wrapper");
+    const links = document.getElementById("desktop-links-wrapper");
 
     wrapper.classList.remove("bg-white");
+    links.classList.remove("grayed-header-fonts");
+    return () => {
+      links.classList.add("grayed-header-fonts");
+    };
   }, [location.pathname]);
 
   return <FullscreenSlider images={backgroundPhotos} />;

@@ -193,6 +193,7 @@ const Footer = () => {
             <SocialMediaLink
               href="https://www.facebook.com/OPEN-architekci-413609808705428"
               size="1.2rem"
+              aria-label="Facebook"
               icon={facebookIcon}
             >
               <span>facebook</span>
@@ -200,11 +201,17 @@ const Footer = () => {
             <SocialMediaLink
               href="https://www.instagram.com/open_architekci/"
               size="1.1rem"
+              aria-label="Instagram"
               icon={instagramIcon}
             >
               <span>instagram</span>
             </SocialMediaLink>
-            <SocialMediaLink baseline size="1.0rem" icon={linkedinIcon}>
+            <SocialMediaLink
+              aria-label="Linkedin"
+              baseline
+              size="1.0rem"
+              icon={linkedinIcon}
+            >
               <span>linkedin</span>
             </SocialMediaLink>
           </SocialMediaLinksWrapper>
