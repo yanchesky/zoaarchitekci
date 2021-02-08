@@ -17,7 +17,6 @@ import victoria_dom from "src/assets/clients/victoria_dom.png";
 import white_stone from "src/assets/clients/white_stone.png";
 import msw from "src/assets/clients/Logo_Ministerstwa_Spraw_Zagranicznych.png";
 import tanganyika from "src/assets/clients/tanganyika.png";
-import drk from "src/assets/clients/demokratyczna-republika-konga.png";
 import globalworth from "src/assets/clients/globalworth.png";
 import napollo from "src/assets/clients/Napollo.png";
 import polnord from "src/assets/clients/Polnord-CMYK_Logo-Polnord-Poziome.png";
@@ -26,7 +25,6 @@ import siemens from "src/assets/clients/Siemens.png";
 import warbud from "src/assets/clients/Warbud.png";
 import zdrojowa from "src/assets/clients/Zdrojowa.png";
 import warynski from "src/assets/clients/warynski.png";
-import kongo from "src/assets/clients/kongo.jpg";
 
 import { useIntl } from "gatsby-plugin-intl";
 
@@ -96,12 +94,6 @@ const clients = [
     scale: 2,
     alt: "Tanganyika logo",
   },
-
-  {
-    icon: drk,
-    scale: 1.4,
-    alt: "Democratic republic of kongo logo",
-  },
   {
     icon: globalworth,
     scale: 1.7,
@@ -141,11 +133,6 @@ const clients = [
     icon: warynski,
     scale: 2,
     alt: "warynski logo",
-  },
-  {
-    icon: kongo,
-    scale: 1.1,
-    alt: "kongo logo",
   },
 ];
 
