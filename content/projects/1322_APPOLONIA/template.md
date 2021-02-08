@@ -22,4 +22,5 @@ tags:
     - "retail"
 thumbnail: "images/1.jpg"
 ---
-Ambitny projekt urbanistyczny nowej dzielnicy Akry, miasta położonego nad Zatoką Gwinejską. Jest on próba odpowiedzi na rosnące zapotrzebowanie dobrej jakości przestrzeni urbanistycznej w Afryce Zachodniej. Podstawowymi problemami było zmierzenie się z&nbsp;lokalnymi uwarunkowaniami dotyczącymi wykorzystania środowiska naturalnego oraz próba wykorzystania zieleni jako naturalnej ochrony przed warunkami klimatycznymi.
+Ambitny projekt urbanistyczny nowej dzielnicy Akry, miasta położonego nad Zatoką Gwinejską. Jest on próbą odpowiedzi na rosnące zapotrzebowanie na dobrej jakości przestrzeń urbanistyczną w Afryce Zachodniej. Podstawowymi problemami było zmierzenie się z lokalnymi uwarunkowaniami dotyczącymi wykorzystania środowiska naturalnego oraz próba wykorzystania zieleni jako naturalnej ochrony przed warunkami klimatycznymi.
+

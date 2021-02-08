@@ -6,7 +6,7 @@ date: "2021-01-09"
 title: "King City"
 year: "2014"
 client: "Rendeavour"
-area: "1 000 Ha"
+area: "1 000 ha"
 status: "conception"
 location: "Takarodi, Ghana"
 images: 

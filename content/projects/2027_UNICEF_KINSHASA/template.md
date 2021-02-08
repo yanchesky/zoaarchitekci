@@ -22,4 +22,4 @@ tags:
     - "użyteczności publicznej"
 thumbnail: "images/5.jpg"
 ---
-Projekt siedziby UNDP/UNICEF zakłada budowę dwóch budynków osadzonych na wspólnej bazie mieszczącej pomieszczenia wspólne /sale wielofunkcyjne, kantynę/ oraz garaż. Architektura zespołu uwarunkowana jest warunkami klimatycznymi - szczególny nacisk położono na ochronę przed słońcem w&nbsp;postaci zacieniających płyt stropowych.
+Projekt siedziby UNDP/UNICEF zakłada budowę dwóch budynków osadzonych na wspólnej bazie mieszczącej pomieszczenia wspólne/sale wielofunkcyjne, kantynę oraz garaż. Architektura zespołu uwarunkowana jest warunkami klimatycznymi - szczególny nacisk położono na ochronę przed słońcem w&nbsp;postaci zacieniających płyt stropowych.

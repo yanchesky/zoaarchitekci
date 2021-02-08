@@ -15,4 +15,5 @@ tags:
     - "mieszkaniowe"
 thumbnail: "images/1.jpg"
 ---
-Budynek, w&nbsp;założeniu inwestora miał stanowić rozpoznawalny znak w&nbsp;przestrzeni miasta.
+Budynek w założeniu inwestora miał stanowić rozpoznawalny znak w przestrzeni miasta.
+

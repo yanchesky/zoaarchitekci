@@ -17,4 +17,5 @@ tags:
     - "użyteczności publicznej"
 thumbnail: "images/1.jpg"
 ---
-W projekcie zdecydowano się powiązać organicznie bulwar Wisły z&nbsp;miastem, umożliwiając swobodną, bezkolizyjną komunikację pomiędzy Starym Miastem, Podzamczem i&nbsp;Powiślem. Dodatkowo zapewniono atrakcyjne zagospodarowanie brzegu rzeki będące magnesem dla mieszkańców oraz turystów. W projekcie założono adaptację istniejących przejść podziemnych w&nbsp;rejonie Podzamcza, wykonanie dodatkowego przejścia pod Wisłostradą i&nbsp;tarasu widokowego. Dodatkowo zlokalizowano nowe przystanki komunikacji miejskiej na moście Śląsko- Dąbrowskim oraz lokalizację przejścia dla pieszych na wylocie ul. Nowy Zjazd.
+W projekcie zdecydowano się powiązać organicznie bulwar Wisły z miastem, umożliwiając swobodną, bezkolizyjną komunikację pomiędzy Starym Miastem, Podzamczem i Powiślem. Dodatkowo zapewniono atrakcyjne zagospodarowanie brzegu rzeki będące magnesem dla mieszkańców oraz turystów. W projekcie założono adaptację istniejących przejść podziemnych w rejonie Podzamcza, wykonanie dodatkowego przejścia pod Wisłostradą i tarasu widokowego. Dodatkowo zlokalizowano nowe przystanki komunikacji miejskiej na moście Śląsko-Dąbrowskim oraz lokalizację przejścia dla pieszych na wylocie ul. Nowy Zjazd.
+

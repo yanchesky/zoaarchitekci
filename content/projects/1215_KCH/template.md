@@ -24,4 +24,5 @@ tags:
     - "konkursowe"
 thumbnail: "images/1.jpg"
 ---
-Skomplikowany projekt przebudowy prowizorycznego budynku w&nbsp;luksusowy ośrodek SPA w&nbsp;bezpośrednim sąsiedztwie zabytkowych, konstancińskich tężni. Równie ważne było uszanowanie lokalnego kontekstu, wymagające ścisłej współpracy z konserwatorem jak i&nbsp;oczekiwań Inwestora co do jakości architektury. Budynek, pomimo, że sprawiający wrażenie kameralnych pawilonów rozrzuconych w parku, mieści hotel, basen, salę fitness oraz pełną gamę gabinetów odnowy biologicznej.
+Skomplikowany projekt przebudowy prowizorycznego budynku w luksusowy ośrodek SPA w bezpośrednim sąsiedztwie zabytkowych, konstancińskich tężni. Równie ważne było uszanowanie lokalnego kontekstu, wymagające ścisłej współpracy z konserwatorem jak i oczekiwań Inwestora co do jakości architektury. Budynki, pomimo, że sprawiają wrażenie kameralnych pawilonów rozrzuconych w parku, mieszczą hotel, basen, salę fitness oraz pełną gamę gabinetów odnowy biologicznej.
+

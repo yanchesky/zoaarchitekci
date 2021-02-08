@@ -18,4 +18,5 @@ tags:
     - "użyteczności publicznej"
 thumbnail: "images/1.jpg"
 ---
-Istniejący zespół budynków ASP, zlokalizowany w&nbsp;poprzemysłowych budynkach dawnych Miejskich Zakładów Sanitarnych, stanowi „organizm” o&nbsp;charakterystycznej zasadzie kształtowania przestrzeni. Teren założenia otoczono ceglanym murem, za którym "ukryto" kameralne dziedzińce oraz budynki. Dzięki temu uzyskano miejsca wydzielone, zapewniające spokój, znakomicie nadające się na zaanektowanie przez artystów.
+Istniejący zespół budynków ASP, zlokalizowany w poprzemysłowych budynkach dawnych Miejskich Zakładów Sanitarnych, stanowi „organizm” o charakterystycznej zasadzie kształtowania przestrzeni. Teren założenia otoczono ceglanym murem, za którym „ukryto" kameralne dziedzińce oraz budynki. Dzięki temu uzyskano miejsca wydzielone, zapewniające spokój, znakomicie nadające się na zaanektowanie przez artystów.
+

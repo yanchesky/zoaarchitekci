@@ -19,6 +19,7 @@ tags:
     - "użyteczności publicznej"
 thumbnail: "images/5.jpg"
 ---
-Otaczająca tkanka miejska powstawała w&nbsp;różnorodnych kontekstach kulturowych, różnych okresach czasu oraz w&nbsp;zróżnicowanych stylach, jednakże pomimo pluralistycznego kontekstu zostawia on spójny w&nbsp;odbiorze obraz miasta. Lokalizacja projektowanego gmachu nie nosi znamion dominanty, znajduje się w&nbsp;zwięzłej zabudowie i&nbsp;ze względu na sposób postrzegania jej architektury przez określone perspektywy i&nbsp;narożniki powinna być ukłonem w&nbsp;stronę traktowania projektowanego budynku jako uzupełnienia zespołu „ścian” w&nbsp;urbanistyce miasta.
+Otaczająca tkanka miejska powstawała w różnorodnych kontekstach kulturowych, różnym czasie oraz w zróżnicowanych stylach. Jednak pomimo pluralistycznego kontekstu zostawia ona spójny w odbiorze obraz miasta.
 
-Lokalizacja projektowanego gmachu nie nosi znamion dominanty, znajduje się w&nbsp;zwięzłej zabudowie i&nbsp;ze względu na sposób postrzegania jej architektury przez określone perspektywy i&nbsp;narożniki powinna być ukłonem w&nbsp;stronę traktowania projektowanego budynku jako uzupełnienia zespołu „ścian” w&nbsp;urbanistyce miasta.
+
+Lokalizacja projektowanego gmachu nie nosi znamion dominanty, znajduje się w zwięzłej zabudowie i ze względu na sposób postrzegania jej architektury przez określone perspektywy i narożniki powinna być ukłonem w stronę traktowania projektowanego budynku jako uzupełnienia zespołu „ścian” w urbanistyce miasta. 

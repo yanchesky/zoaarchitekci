@@ -17,4 +17,5 @@ tags:
     - "użyteczności publicznej"
 thumbnail: "images/1.jpg"
 ---
-Wyjątkowo skomplikowany projekt z&nbsp;racji na konieczność dostosowania rozwiązań do częściowo wykonanej konstrukcji obiektu o&nbsp;zupełnie innym przeznaczeniu oraz wpisanie w&nbsp;założenie kompozycyjne istniejącego osiedla z&nbsp;przełomu wieków.
+Wyjątkowo skomplikowany projekt ze względu na konieczność dostosowania rozwiązań do częściowo wykonanej konstrukcji obiektu o zupełnie innym przeznaczeniu oraz wpisanie w założenie kompozycyjne istniejącego osiedla z przełomu wieków.
+

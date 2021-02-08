@@ -6,7 +6,7 @@ date: "2021-01-09"
 title: "Concours pour le centre culturel de Bamiyan"
 year: "2015"
 client: "Communauté de Bamiyan"
-area: "1000 m2"
+area: "1 000 m2"
 status: "conception"
 location: "Afghanistan"
 images: 

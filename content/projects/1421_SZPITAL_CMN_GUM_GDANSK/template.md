@@ -19,6 +19,7 @@ tags:
     - "użyteczności publicznej"
 thumbnail: "images/1.jpg"
 ---
-Zasadniczym celem było stworzenie obiektu realizującego bogaty program użytkowy narzucony przez Inwestora, harmonijnie wpisującego się w&nbsp;istniejącą zabudowę i&nbsp;układ komunikacyjny i&nbsp;jednocześnie podnoszącego standard otaczającej przestrzeni, stwarzającego sprzyjające warunki użytkownikom, przyjaznego pacjentom, o czytelnym układzie przestrzennym, przy jednoczesnym optymalnym wykorzystaniu danego terenu.
+Zasadniczym celem było stworzenie obiektu realizującego bogaty program użytkowy narzucony przez Inwestora. Harmonijnie wpisujący się w istniejącą zabudowę i układ komunikacyjny obiekt, jednocześnie podnosi standard otaczającej przestrzeni, stwarzając sprzyjające warunki użytkownikom, jest przyjazny pacjentom, ma czytelny układ przestrzenny. Jednocześnie optymalnie wykorzystany został dany teren.
 
-Jednocześnie projekt uwzględnia konieczność podziału inwestycji na dwa etapy w&nbsp;taki sposób, by obiekt funkcjonował w&nbsp;okrojonej formie po realizacji pierwszego etapu bez konieczności reorganizacji po rozbudowie.
+Jednocześnie projekt uwzględnia konieczność podziału inwestycji na dwa etapy w taki sposób, by obiekt funkcjonował w okrojonej formie po realizacji pierwszego etapu bez konieczności reorganizacji po rozbudowie.
+

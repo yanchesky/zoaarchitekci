@@ -1,11 +1,11 @@
 ---
 id: "1541"
-slug: "/projekty/centrum_kulturalne_w_bamiyan"
+slug: "/projekty/centrum_kulturalne_w_bamianie"
 date: "2021-01-09"
-title: "Konkurs na centrum kulturalne w Bamiyan"
+title: "Konkurs na centrum kulturalne w Bamianie"
 year: "2015"
 client: "Społeczność Bamiyan"
-area: "1000 m2"
+area: "1 000 m2"
 status: "conception"
 location: "Afganistan"
 images: 
@@ -20,4 +20,4 @@ tags:
     - "konkursowe"
 thumbnail: "images/1.jpg"
 ---
-Naszym celem było wpisanie się w&nbsp;bogatą historię Bamiyanu oraz stworzenie wyraźnego znaku współczesności. Założyliśmy, że w&nbsp;takim miejscu teraźniejszość może nie zdominować przeszłości. Dlatego zdecydowaliśmy się na prostą, klarowną formę i&nbsp;ograniczone sposoby wypowiedzi do niezbędnego minimum. Chcielibyśmy, aby budowla czerpała z&nbsp;bogatej tradycji tego miejsca, dlatego jako główny materiał budowlany użyliśmy lokalnego kamienia. Wprowadziliśmy elementy inspirowane tradycją, zarówno w sposobie aranżacji przestrzeni (wewnętrzny dziedziniec, sale), jak i&nbsp;poprzez specyficzne rozwiązania architektoniczne.
+Naszym celem było wpisanie się w bogatą historię Bamianu oraz stworzenie wyraźnego znaku współczesności. Założyliśmy, że w takim miejscu teraźniejszość nie może zdominować przeszłości. Dlatego zdecydowaliśmy się na prostą, klarowną formę i ograniczenie sposobu wypowiedzi do niezbędnego minimum. Chcielibyśmy, aby budowla czerpała z bogatej tradycji tego miejsca, dlatego jako główny materiał budowlany użyliśmy lokalnego kamienia. Wprowadziliśmy elementy inspirowane tradycją, zarówno w sposobie aranżacji przestrzeni (wewnętrzny dziedziniec, sale), jak i poprzez specyficzne rozwiązania architektoniczne.

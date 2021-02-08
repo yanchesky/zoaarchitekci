@@ -6,7 +6,7 @@ date: "2021-01-09"
 title: "Competition for Park Żerański"
 year: "2019"
 client: "Miasto Stołeczne Warszawa"
-area: "13,5 Ha"
+area: "13,5 ha"
 status: "conception"
 location: "Warsaw"
 images: 

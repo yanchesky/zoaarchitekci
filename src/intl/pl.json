@@ -19,10 +19,10 @@
   "pages": {
     "projects": {
       "statuses": {
-        "competition4thPrize": "Projekt konkursowy, IV nagroda",
-        "competition3thPrize": "Projekt konkursowy, III nagroda",
-        "competition2thPrize": "Projekt konkursowy, II nagroda",
-        "competition1thPrize": "Projekt konkursowy, I nagroda",
+        "competition4thPrize": "Projekt konkursowy, IV nagroda",
+        "competition3thPrize": "Projekt konkursowy, III nagroda",
+        "competition2thPrize": "Projekt konkursowy, II nagroda",
+        "competition1thPrize": "Projekt konkursowy, I nagroda",
         "competition": "Projekt konkursowy",
         "completed": "Zrealizowany",
         "underConstruction": "W realizacji",

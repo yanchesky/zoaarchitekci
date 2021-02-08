@@ -6,7 +6,7 @@ date: "2021-01-09"
 title: "Groupe des immeubles d’habitation"
 year: "2011"
 client: "Particulier"
-area: "4000 m2"
+area: "4 000 m2"
 status: "underConstruction"
 location: "Zegrze"
 images: 

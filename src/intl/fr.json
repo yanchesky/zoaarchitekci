@@ -19,10 +19,10 @@
   "pages": {
     "projects": {
       "statuses": {
-        "competition4thPrize": "Travail de concours, 4 prix",
-        "competition3thPrize": "Travail de concours, 3 prix",
-        "competition2thPrize": "Travail de concours, 2de prix",
-        "competition1thPrize": "Travail de concours, 1ere prix",
+        "competition4thPrize": "Travail de concours, 4 prix",
+        "competition3thPrize": "Travail de concours, 3 prix",
+        "competition2thPrize": "Travail de concours, 2de prix",
+        "competition1thPrize": "Travail de concours, 1ere prix",
         "competition": "Travail de concours",
         "completed": "Realisé",
         "underConstruction": "En cours de réalisation",

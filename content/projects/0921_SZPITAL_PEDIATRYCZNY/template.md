@@ -25,5 +25,6 @@ tags:
     - "konkursowe"
 thumbnail: "images/3.jpg"
 ---
-Szpital Pediatryczny WUM jest największym tego typu obiektem wybudowanym od czasów Centrum Zdrowia Dziecka. Skomplikowana technologia, nieodzowna w tego typu budynku, została opakowana tak by dać komfort i&nbsp;poczucie bezpieczeństwa zarówno pacjentom, ich opiekunom jak i&nbsp;pracownikom.
+Szpital Pediatryczny WUM jest największym tego typu obiektem wybudowanym od czasów Centrum Zdrowia Dziecka. Skomplikowana technologia, nieodzowna w tego typu budynku, została opakowana tak, by dać komfort i poczucie bezpieczeństwa zarówno pacjentom, ich opiekunom jak i pracownikom.
+
 

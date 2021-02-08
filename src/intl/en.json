@@ -17,10 +17,10 @@
   "pages": {
     "projects": {
       "statuses": {
-        "competition4thPrize": "Competition, IV prize",
-        "competition3thPrize": "Competition, III prize",
-        "competition2thPrize": "Competition, II prize",
-        "competition1thPrize": "Competition, I prize",
+        "competition4thPrize": "Competition, IV prize",
+        "competition3thPrize": "Competition, III prize",
+        "competition2thPrize": "Competition, II prize",
+        "competition1thPrize": "Competition, I prize",
         "competition": "Competition",
         "completed": "Completed",
         "underConstruction": "under construction",

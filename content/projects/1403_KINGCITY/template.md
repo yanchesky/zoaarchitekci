@@ -5,7 +5,7 @@ date: "2021-01-09"
 title: "King City"
 year: "2014"
 client: "Rendeavour"
-area: "1 000 Ha"
+area: "1 000 ha"
 status: "conception"
 location: "Takarodi, Ghana"
 images: 
@@ -17,4 +17,5 @@ tags:
     - "mieszkaniowe"
 thumbnail: "images/1.jpg"
 ---
-Ambitny projekt urbanistyczny nowej dzielnicy Takoradi, miasta położonego nad Zatoką Gwinejską. Jest on próba odpowiedzi na rosnące zapotrzebowanie dobrej jakości przestrzeni urbanistycznej w&nbsp;Afryce Zachodniej. Podstawowymi problemami było zmierzenie się z&nbsp;lokalnymi uwarunkowaniami dotyczącymi wykorzystania środowiska naturalnego oraz próba wykorzystania zieleni jako naturalnej ochrony przed warunkami klimatycznymi.
+Ambitny projekt urbanistyczny nowej dzielnicy Takoradi, miasta położonego nad Zatoką Gwinejską. Jest on próbą odpowiedzi na rosnące zapotrzebowanie na dobrej jakości przestrzeń urbanistyczną w Afryce Zachodniej. Podstawowymi problemami było zmierzenie się z lokalnymi uwarunkowaniami dotyczącymi wykorzystania środowiska naturalnego oraz próba wykorzystania zieleni jako naturalnej ochrony przed warunkami klimatycznymi.
+

@@ -21,4 +21,4 @@ tags:
     - "retail"
 thumbnail: "images/1.jpg"
 ---
-Przebudowa i&nbsp;rozbudowa obiektu miała na celu odświeżenie i&nbsp;ujednolicenie kompleksu. Wyzwaniem było zrealizowanie zapadających w pamięć elewacji przy zadanym przez Inwestora, budżecie.
+Przebudowa i rozbudowa obiektu miała na celu odświeżenie i ujednolicenie kompleksu. Wyzwaniem było zrealizowanie zapadających w pamięć elewacji, przy zadanym przez Inwestora budżecie.

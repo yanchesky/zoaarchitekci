@@ -20,6 +20,8 @@ tags:
     - "użyteczności publicznej"
 thumbnail: "images/1.jpg"
 ---
-Budynek zlokalizowany jest na warszawskiej Woli, w&nbsp;sąsiedztwie istniejącego budynku EQlibrium. Wypełnia on narożnik ul. Jana Kazimierza i&nbsp;Wschowskiej, dopełniając usługowy kwartał zabudowy.
+Budynek zlokalizowany jest na warszawskiej Woli, w sąsiedztwie istniejącego budynku EQlibrium. Wypełnia on narożnik ul. Jana Kazimierza i Wschowskiej, dopełniając usługowy kwartał zabudowy.
 
-Budynek wizualnie składa się z&nbsp;dwóch brył. Od strony południowej znajduje się część niższa zaś od północnej znajduje się wyższa bryła, o&nbsp;smuklejszych proporcjach. Cała elewacja jest szklana, o&nbsp;zmiennym rytmie okien, tak by w&nbsp;sposób optymalny zapewnić przyszłym użytkownikom dostęp do światła naturalnego.
+
+Budynek wizualnie składa się z dwóch brył. Od strony południowej znajduje się część niższa zaś od północnej znajduje się wyższa bryła, o smuklejszych proporcjach. Cała elewacja jest szklana, o zmiennym rytmie okien, tak by w sposób optymalny zapewnić przyszłym użytkownikom dostęp do światła naturalnego.
+
