@@ -54,4 +54,5 @@ names:
     - Nina Wójcicka
     - Marta Sójka
     - Unai Gomez Arriaran
+    - Daniel Mermer
 ---
