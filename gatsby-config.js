@@ -6,7 +6,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    //"gatsby-plugin-sitemap",
     "gatsby-plugin-sharp",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-root-import",
@@ -37,21 +36,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/intl`,
+        languages: ["en", "fr", "pl"],
+        defaultLanguage: `pl`,
+        redirect: true,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "content",
         path: "./content",
       },
       __key: "content",
-    },
-    {
-      resolve: `gatsby-plugin-intl`,
-      options: {
-        path: `${__dirname}/src/intl`,
-        languages: [`en`, `pl`, `fr`],
-        defaultLanguage: `pl`,
-        redirect: true,
-      },
     },
     "gatsby-transformer-remark",
     // {

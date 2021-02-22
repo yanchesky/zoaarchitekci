@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 function MainLayout({ children, ...rest }) {
-  const urlOptions = rest.pageContext.testData;
+  const urlOptions = rest.pageContext.locales;
   return (
     <div>
       <GlobalStyle />

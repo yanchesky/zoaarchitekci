@@ -73,13 +73,27 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }, {});
 
   result.data.projects.edges.forEach(({ node }) => {
+    const locale = node.childMarkdownRemark.frontmatter.language
+      ? node.childMarkdownRemark.frontmatter.language
+      : "pl";
     createPage({
       path: node.childMarkdownRemark.frontmatter.slug,
       component: ProjectTemplate,
       context: {
         slug: node.childMarkdownRemark.frontmatter.slug,
-        testData: languageLinks[node.relativeDirectory],
+        locales: languageLinks[node.relativeDirectory],
+        locale,
       },
     });
   });
+};
+
+exports.onCreatePage = ({ page, actions }) => {
+  const { deletePage } = actions;
+  if (page.path?.length > 2) {
+    const routeLocale = page.path.slice(1, 3);
+    if (page.context?.locale && routeLocale !== page.context?.locale) {
+      deletePage(page);
+    }
+  }
 };
