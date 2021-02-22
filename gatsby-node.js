@@ -90,9 +90,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
 exports.onCreatePage = ({ page, actions }) => {
   const { deletePage } = actions;
-  if (page.path?.length > 2) {
+  if (page.path && page.path.length > 2) {
     const routeLocale = page.path.slice(1, 3);
-    if (page.context?.locale && routeLocale !== page.context?.locale) {
+    if (page.context.locale && routeLocale !== page.context.locale) {
       deletePage(page);
     }
   }
