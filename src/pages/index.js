@@ -3,6 +3,7 @@ import { queryWelcomeSliderImages } from "src/queries";
 import { useLocation } from "@reach/router";
 
 import FullscreenSlider from "src/components/FullscreenSlider";
+import SEO from "../components/SEO";
 
 const IndexPage = () => {
   const location = useLocation();
@@ -23,7 +24,17 @@ const IndexPage = () => {
     };
   }, [location.pathname]);
 
-  return <FullscreenSlider images={backgroundPhotos} />;
+  return (
+    <>
+      <SEO
+        title={"ZOA ARCHITEKCI"}
+        description={
+          "ZOA architekci is a Warsaw-based office for modern architecture and urban planning."
+        }
+      />
+      <FullscreenSlider images={backgroundPhotos} />
+    </>
+  );
 };
 
 export default IndexPage;

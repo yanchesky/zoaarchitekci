@@ -9,6 +9,7 @@ import ProjectFilterComponents from "src/pagesComponents/projekty/ProjectsFilter
 
 import { queryProjects } from "src/queries/projects";
 import { transformQueryProjects, flattenTags } from "src/helpers";
+import SEO from "../components/SEO";
 
 const Projects = () => {
   const intl = useIntl();
@@ -25,6 +26,12 @@ const Projects = () => {
 
   return (
     <ProjectsLayout tags={flattedTags} onFilterClick={setFilter}>
+      <SEO
+        title={`ZOA ARCHITEKCI | ${intl.formatMessage({ id: "projects" })}`}
+        description={
+          "ZOA architekci is a Warsaw-based office for modern architecture and urban planning."
+        }
+      />
       <ProjectFilterComponents onClick={setFilter} tags={flattedTags} />
       <ProjectsGridWrapper flipperKey={filter}>
         {filteredProjects.map((projectThumbnail) => (

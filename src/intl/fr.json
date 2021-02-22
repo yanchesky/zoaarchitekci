@@ -50,7 +50,8 @@
           "architect": "Architecte",
           "architectFemale": "Architecte",
           "officeAdministration": "Administration, secrétariat",
-          "assistantFemale": "Assistante d'archiecte"
+          "assistantFemale": "Assistante d'archiecte",
+          "assistant": "Assistant d'archiecte"
         }
       },
       "prizes": {

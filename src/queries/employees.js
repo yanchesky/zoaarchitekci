@@ -22,7 +22,7 @@ export const queryEmployees = () => {
                   id
                   childImageSharp {
                     fluid(maxWidth: 434, quality: 85) {
-                      ...GatsbyImageSharpFluid
+                      ...GatsbyImageSharpFluid_withWebp
                     }
                   }
                 }
