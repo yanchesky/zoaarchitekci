@@ -2,6 +2,9 @@ const path = require("path");
 require("dotenv").config();
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://sitemaps.com`,
+  },
   flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     "gatsby-plugin-image",
@@ -51,6 +54,100 @@ module.exports = {
         path: "./content",
       },
       __key: "content",
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+ 
+          allSitePage {
+            edges {
+              node {
+                path
+                id
+                isCreatedByStatefulCreatePages
+                context {
+                  intl {
+                    language
+                    languages
+                    originalPath
+                  }
+                  locales {
+                    default
+                    en
+                    fr
+                  }
+                }
+              }
+            }
+          }
+      }`,
+        serialize: ({ site, allSitePage }) => {
+          const statefullPages = allSitePage.edges
+            .filter(({ node }) => node.isCreatedByStatefulCreatePages)
+            .map(({ node }) => {
+              return {
+                url: site.siteMetadata.siteUrl + node.path, // https://sitemaps.com/page-path
+                changefreq: "monthly",
+                priority: 0.5,
+                links: [
+                  {
+                    lang: "en",
+                    url: `${site.siteMetadata.siteUrl}/en${node.context.intl.originalPath}`,
+                  },
+                  {
+                    lang: "fr",
+                    url: `${site.siteMetadata.siteUrl}/fr${node.context.intl.originalPath}`,
+                  },
+                  {
+                    lang: "pl",
+                    url: `${site.siteMetadata.siteUrl}/pl${node.context.intl.originalPath}`,
+                  },
+                  {
+                    lang: "x-default",
+                    url: `${site.siteMetadata.siteUrl}/pl${node.context.intl.originalPath}`,
+                  },
+                ],
+              };
+            });
+
+          const mdPages = allSitePage.edges
+            .filter(({ node }) => !node.isCreatedByStatefulCreatePages)
+            .map(({ node }) => {
+              return {
+                url: site.siteMetadata.siteUrl + node.path, // https://sitemaps.com/page-path
+                changefreq: "monthly",
+                priority: 1,
+                links: [
+                  {
+                    lang: "en",
+                    url: `${site.siteMetadata.siteUrl}/en${node.context.locales.en}`,
+                  },
+                  {
+                    lang: "fr",
+                    url: `${site.siteMetadata.siteUrl}/fr${node.context.locales.fr}`,
+                  },
+                  {
+                    lang: "pl",
+                    url: `${site.siteMetadata.siteUrl}/pl${node.context.locales.default}`,
+                  },
+                  {
+                    lang: "x-default",
+                    url: `${site.siteMetadata.siteUrl}/pl${node.context.locales.default}`,
+                  },
+                ],
+              };
+            });
+
+          return [...statefullPages, ...mdPages];
+        },
+      },
     },
     "gatsby-transformer-remark",
     // {
