@@ -3,7 +3,7 @@ import { queryWelcomeSliderImages } from "src/queries";
 import { useLocation } from "@reach/router";
 
 import FullscreenSlider from "src/components/FullscreenSlider";
-import SEO from "../components/SEO";
+import SEO from "src/components/SEO";
 
 const IndexPage = () => {
   const location = useLocation();

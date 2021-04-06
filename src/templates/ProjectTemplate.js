@@ -119,7 +119,11 @@ const ProjectTemplate = ({ intl, data }) => {
 
   return (
     <Container>
-      <SEO title={frontmatter.title} description={strippedDescription} />
+      <SEO
+        title={frontmatter.title}
+        description={strippedDescription}
+        image={frontmatter.thumbnail}
+      />
       <Wrapper>
         <ProjectTitle>{frontmatter.title}</ProjectTitle>
         <DescirptionWrapper>
@@ -207,6 +211,13 @@ export const pageQuery = graphql`
             id
             fluid(maxWidth: 1500, quality: 85) {
               ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        thumbnail {
+          childImageSharp {
+            fixed(jpegQuality: 95, height: 315, width: 600) {
+              src
             }
           }
         }

@@ -47,6 +47,7 @@ const FullscreenSlider = ({ images }) => {
             fluid={image}
             objectFit="cover"
             fullHeight
+            lazyLoad
           />
         ))}
       </Slider>
