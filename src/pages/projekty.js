@@ -27,7 +27,7 @@ const Projects = () => {
   return (
     <ProjectsLayout tags={flattedTags} onFilterClick={setFilter}>
       <SEO
-        title={`ZOA ARCHITEKCI | ${intl.formatMessage({ id: "projects" })}`}
+        title={intl.formatMessage({ id: "projects" })}
         description={
           "ZOA architekci is a Warsaw-based office for modern architecture and urban planning."
         }
