@@ -44,7 +44,11 @@ const HamburgerMenu = ({
 
   return (
     <HamburgerWrapper>
-      <HamburgerCheckbox className="checkbox-toggle" type="checkbox" />
+      <HamburgerCheckbox
+        aria-label="menu"
+        className="checkbox-toggle"
+        type="checkbox"
+      />
       <HamburgerIconWrapper>
         <div />
       </HamburgerIconWrapper>
