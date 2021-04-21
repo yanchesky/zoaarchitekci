@@ -211,6 +211,7 @@ const Footer = () => {
               baseline
               size="1.0rem"
               icon={linkedinIcon}
+              href="https://www.linkedin.com/company/zoa-architekci/about/"
             >
               <span>linkedin</span>
             </SocialMediaLink>

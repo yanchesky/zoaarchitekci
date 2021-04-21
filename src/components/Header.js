@@ -53,10 +53,10 @@ const StyledList = styled.ul`
   }
 
   &.grayed-header-fonts {
-    color: ${(props) => props.theme.colors["gray-600"]};
+    color: ${(props) => props.theme.colors["gray-100"]};
 
     .globe-icon {
-      filter: brightness(1);
+      filter: brightness(0);
     }
   }
 `;

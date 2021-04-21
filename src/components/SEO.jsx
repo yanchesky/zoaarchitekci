@@ -8,8 +8,7 @@ const SITE_URL = "https://zoa-architekci.web.app";
 const SEO = ({ title, description, image }) => {
   const intl = useIntl();
   const { pathname } = useLocation();
-  console.log("pathname:", pathname);
-  console.log("image:", image);
+
   return (
     <>
       <Helmet titleTemplate="%s | ZOA ARCHITEKCI">

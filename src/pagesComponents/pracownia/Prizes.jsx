@@ -51,22 +51,54 @@ const Prizes = () => {
         {t.formatMessage({ id: "pages.workshop.prizes.title" })}
       </StyledHeading>
 
-      <Year>2008</Year>
+      <Year>2020</Year>
       <Prize
         dangerouslySetInnerHTML={{
-          __html: t.formatMessage({ id: "pages.workshop.prizes.2008.1" }),
+          __html: t.formatMessage({ id: "pages.workshop.prizes.2020.1" }),
         }}
       />
-      <Year>2009</Year>
+      <Year>2019</Year>
       <Prize>
         <StyledParagraph
           dangerouslySetInnerHTML={{
-            __html: t.formatMessage({ id: "pages.workshop.prizes.2009.1" }),
+            __html: t.formatMessage({ id: "pages.workshop.prizes.2019.1" }),
           }}
         />
         <StyledParagraph
           dangerouslySetInnerHTML={{
-            __html: t.formatMessage({ id: "pages.workshop.prizes.2009.2" }),
+            __html: t.formatMessage({ id: "pages.workshop.prizes.2019.2" }),
+          }}
+        />
+      </Prize>
+      <Year>2016</Year>
+      <Prize
+        dangerouslySetInnerHTML={{
+          __html: t.formatMessage({ id: "pages.workshop.prizes.2016.1" }),
+        }}
+      />
+      <Year>2013</Year>
+      <Prize
+        dangerouslySetInnerHTML={{
+          __html: t.formatMessage({ id: "pages.workshop.prizes.2013.1" }),
+        }}
+      />
+
+      <Year>2012</Year>
+      <Prize
+        dangerouslySetInnerHTML={{
+          __html: t.formatMessage({ id: "pages.workshop.prizes.2012.1" }),
+        }}
+      />
+      <Year>2011</Year>
+      <Prize>
+        <StyledParagraph
+          dangerouslySetInnerHTML={{
+            __html: t.formatMessage({ id: "pages.workshop.prizes.2011.1" }),
+          }}
+        />
+        <StyledParagraph
+          dangerouslySetInnerHTML={{
+            __html: t.formatMessage({ id: "pages.workshop.prizes.2011.2" }),
           }}
         />
       </Prize>
@@ -84,56 +116,23 @@ const Prizes = () => {
           }}
         />
       </Prize>
-      <Year>2011</Year>
+      <Year>2009</Year>
       <Prize>
         <StyledParagraph
           dangerouslySetInnerHTML={{
-            __html: t.formatMessage({ id: "pages.workshop.prizes.2011.1" }),
+            __html: t.formatMessage({ id: "pages.workshop.prizes.2009.1" }),
           }}
         />
         <StyledParagraph
           dangerouslySetInnerHTML={{
-            __html: t.formatMessage({ id: "pages.workshop.prizes.2011.2" }),
+            __html: t.formatMessage({ id: "pages.workshop.prizes.2009.2" }),
           }}
         />
       </Prize>
-      <Year>2012</Year>
-
+      <Year>2008</Year>
       <Prize
         dangerouslySetInnerHTML={{
-          __html: t.formatMessage({ id: "pages.workshop.prizes.2012.1" }),
-        }}
-      />
-      <Year>2013</Year>
-      <Prize
-        dangerouslySetInnerHTML={{
-          __html: t.formatMessage({ id: "pages.workshop.prizes.2013.1" }),
-        }}
-      />
-
-      <Year>2016</Year>
-      <Prize
-        dangerouslySetInnerHTML={{
-          __html: t.formatMessage({ id: "pages.workshop.prizes.2016.1" }),
-        }}
-      />
-      <Year>2019</Year>
-      <Prize>
-        <StyledParagraph
-          dangerouslySetInnerHTML={{
-            __html: t.formatMessage({ id: "pages.workshop.prizes.2019.1" }),
-          }}
-        />
-        <StyledParagraph
-          dangerouslySetInnerHTML={{
-            __html: t.formatMessage({ id: "pages.workshop.prizes.2019.2" }),
-          }}
-        />
-      </Prize>
-      <Year>2020</Year>
-      <Prize
-        dangerouslySetInnerHTML={{
-          __html: t.formatMessage({ id: "pages.workshop.prizes.2020.1" }),
+          __html: t.formatMessage({ id: "pages.workshop.prizes.2008.1" }),
         }}
       />
       <StyledHeading>
