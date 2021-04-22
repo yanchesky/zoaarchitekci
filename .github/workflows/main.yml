@@ -13,4 +13,4 @@ jobs:
         with:
           server: ftp.server589298.nazwa.pl
           username: server589298_www
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: ${{ secrets.password }}
