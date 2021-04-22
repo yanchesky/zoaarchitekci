@@ -10,6 +10,6 @@ jobs:
         uses: sebastianpopp/ftp-action@releases/v2
         with:
           host: ftp.server589298.nazwa.pl
-          user: server589298_www
-          password: Janekz0awww
+          user: "server589298_www"
+          password: "Janekz0awww"
           options: "--delete --asci"
