@@ -1,5 +1,5 @@
 ---
-id: "1910"
+id: "2035"
 slug: "/projekty/zespół_budynków_wielorodzinnych_w_józefosławiu"
 date: "2021-01-09"
 title: "Zespół budynków wielorodzinnych"

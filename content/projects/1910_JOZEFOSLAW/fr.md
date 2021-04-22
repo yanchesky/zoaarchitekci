@@ -1,5 +1,5 @@
 ---
-id: "1910"
+id: "2035"
 language: "fr"
 slug: "/projekty/immeuble_d’habitations_familiales_à_józefosław"
 date: "2021-01-09"
