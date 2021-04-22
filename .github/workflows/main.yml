@@ -1,25 +1,16 @@
-
-name: Deploy to Firebase
-
-on:
-  push:
-    branches:
-      - master
-
+on: push
+name: 🚀 Deploy website on push
 jobs:
-  firebase-deploy:
-
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-node@master
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2.3.2
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          node-version: '10.x'
-      - run: npm install
-      - run: npm run build
-      - uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting
-        env:
-          FIREBASE_TOKEN : ${{ secrets.FIREBASE_TOKEN }}
+          server: ftp.server589298.nazwa.pl
+          username: server589298_www
+          password: ${{ secrets.ftp_password }}

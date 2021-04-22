@@ -158,7 +158,7 @@ const Footer = () => {
             <Paragraph>ZOA&nbsp;ARCHITEKCI&nbsp;sp.&nbsp;z&nbsp;o.o.</Paragraph>
             <Paragraph>ul. Pilicka 27/1</Paragraph>
             <Paragraph>02-613 Warszawa</Paragraph>
-            <Paragraph>NIP: 123456789</Paragraph>
+            <Paragraph>NIP: 5213509865</Paragraph>
           </div>
         </div>
         <MiddleColumn>
@@ -191,7 +191,7 @@ const Footer = () => {
           </SocialMediaColumnTitle>
           <SocialMediaLinksWrapper>
             <SocialMediaLink
-              href="https://www.facebook.com/OPEN-architekci-413609808705428"
+              href="https://www.facebook.com/ZOA-Architekci-413609808705428"
               size="1.2rem"
               aria-label="Facebook"
               icon={facebookIcon}
@@ -199,7 +199,7 @@ const Footer = () => {
               <span>facebook</span>
             </SocialMediaLink>
             <SocialMediaLink
-              href="https://www.instagram.com/open_architekci/"
+              href="https://www.instagram.com/zoa_architekci/"
               size="1.1rem"
               aria-label="Instagram"
               icon={instagramIcon}
