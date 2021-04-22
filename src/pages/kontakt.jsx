@@ -24,6 +24,10 @@ const SocialMediaLink = styled.a`
     margin-top: 2px;
     ${(props) => props.baseline && "margin-top: 1px"};
   }
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const StyledHeading = styled.h1`
@@ -62,12 +66,14 @@ const ContactWrapper = styled.div`
 const AddressLinks = styled.a`
   display: block;
   font-size: 1rem;
-  text-decoration: underline;
-  color: ${(props) => props.theme.colors["gray-500"]};
   margin-bottom: 0.5rem;
 
   &:first-of-type {
     margin-top: 0.25rem;
+  }
+
+  &:hover {
+    text-decoration: underline;
   }
 `;
 
@@ -122,13 +128,29 @@ const Kontakt = () => {
           </AddressLinks>
         </AddressContactWrapper>
         <SocialMediaWrapper>
-          <SocialMediaLink size="1.2rem" icon={facebookIcon}>
+          <SocialMediaLink
+            href="https://www.facebook.com/ZOA-Architekci-413609808705428"
+            size="1.2rem"
+            aria-label="Facebook"
+            icon={facebookIcon}
+          >
             <span>facebook</span>
           </SocialMediaLink>
-          <SocialMediaLink size="1.1rem" icon={instagramIcon}>
+          <SocialMediaLink
+            href="https://www.instagram.com/zoa_architekci/"
+            size="1.1rem"
+            aria-label="Instagram"
+            icon={instagramIcon}
+          >
             <span>instagram</span>
           </SocialMediaLink>
-          <SocialMediaLink baseline size="1.0rem" icon={linkedinIcon}>
+          <SocialMediaLink
+            aria-label="Linkedin"
+            baseline
+            size="1.0rem"
+            icon={linkedinIcon}
+            href="https://www.linkedin.com/company/zoa-architekci/about/"
+          >
             <span>linkedin</span>
           </SocialMediaLink>
         </SocialMediaWrapper>
