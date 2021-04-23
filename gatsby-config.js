@@ -3,7 +3,7 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://zoa-architekci.web.app`,
+    siteUrl: `https://zoaarchitekci.pl`,
   },
   flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [

@@ -32,7 +32,7 @@ const IndexPage = () => {
           "ZOA architekci is a Warsaw-based office for modern architecture and urban planning."
         }
       />
-      <FullscreenSlider images={backgroundPhotos} />
+      <FullscreenSlider images={backgroundPhotos.slice(0, 3)} />
     </>
   );
 };
