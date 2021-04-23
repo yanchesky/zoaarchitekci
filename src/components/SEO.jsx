@@ -3,7 +3,7 @@ import { useLocation } from "@reach/router";
 import { Helmet } from "react-helmet";
 import { useIntl } from "gatsby-plugin-intl";
 
-const SITE_URL = "https://zoa-architekci.web.app";
+const SITE_URL = "https://zoaarchitekci.pl";
 
 const SEO = ({ title, description, image }) => {
   const intl = useIntl();
