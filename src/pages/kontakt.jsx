@@ -114,7 +114,7 @@ const Kontakt = () => {
           <Paragraph>ZOA ARCHITEKCI sp. z o.o.</Paragraph>
           <Paragraph>ul. Pilicka 27/1</Paragraph>
           <Paragraph>02-613 Warszawa</Paragraph>
-          <Paragraph>NIP: 123456789</Paragraph>
+          <Paragraph>NIP: 5213509865</Paragraph>
         </AddressWrapper>
         <AddressContactWrapper>
           <AddressLinks href="tel:+48228442211">+48 22 844 22 11</AddressLinks>

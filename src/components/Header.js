@@ -13,9 +13,11 @@ const NavigationWrapper = styled.div`
   margin: 0 1.5rem;
   ${media.mobile`
     margin: 0 3rem;
+    width: calc(100% - 6rem);
   `};
   padding: 1rem 0;
-  position: sticky;
+  position: fixed;
+  width: calc(100% - 3rem);
   z-index: 10;
   top: 0;
   &.bg-white {

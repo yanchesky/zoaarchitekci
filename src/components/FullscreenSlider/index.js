@@ -2,12 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "react-slideshow-image/dist/styles.css";
 import styled from "styled-components";
 import NiceLoadingImage from "src/components/NiceLoadingImage";
 
 const Wrapper = styled.main`
   width: 100vw;
-  height: 100vh;
   top: 0;
   left: 0;
   position: fixed;
