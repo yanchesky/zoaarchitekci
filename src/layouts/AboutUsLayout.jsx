@@ -4,10 +4,9 @@ import { media } from "src/helpers";
 import Footer from "../components/Footer";
 import SubPages from "src/pagesComponents/pracownia/SubPages";
 
-const Wrapper = styled.main`
+const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
   grid-auto-flow: column;
   grid-row-gap: 2rem;
   max-width: ${(props) => props.theme.sizes.maxWidth};
@@ -24,15 +23,14 @@ const Wrapper = styled.main`
 `;
 
 const MarginContainer = styled.div`
-  position: relative;
-  top: 40px;
+  padding-top: 40px;
   margin: 1.5rem;
   ${media.mobile`
     margin: 3rem;
   `};
 `;
 
-function ContactLayout({ children }) {
+function AboutUsLayout({ children }) {
   return (
     <MarginContainer>
       <SubPages />
@@ -42,4 +40,4 @@ function ContactLayout({ children }) {
   );
 }
 
-export default ContactLayout;
+export default AboutUsLayout;

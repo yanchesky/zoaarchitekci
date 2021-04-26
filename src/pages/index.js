@@ -23,6 +23,7 @@ const IndexPage = () => {
     links.classList.remove("grayed-header-fonts");
     return () => {
       links.classList.add("grayed-header-fonts");
+      tlEdges.style.overflowX = "auto";
     };
   }, [location.pathname]);
 

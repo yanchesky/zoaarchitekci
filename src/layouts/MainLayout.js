@@ -26,11 +26,11 @@ const GlobalStyle = createGlobalStyle`
 function MainLayout({ children, ...rest }) {
   const urlOptions = rest.pageContext.locales;
   return (
-    <div>
+    <>
       <GlobalStyle />
       <Header urlOptions={urlOptions} />
-      <main className="">{children}</main>
-    </div>
+      <main>{children}</main>
+    </>
   );
 }
 

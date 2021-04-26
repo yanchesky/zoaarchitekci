@@ -16,10 +16,11 @@ const NavigationWrapper = styled.div`
     width: calc(100% - 6rem);
   `};
   padding: 1rem 0;
-  position: fixed;
+  position: sticky;
   width: calc(100% - 3rem);
-  z-index: 10;
+  z-index: 9;
   top: 0;
+
   &.bg-white {
     background: white;
   }
