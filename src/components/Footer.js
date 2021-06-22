@@ -103,8 +103,6 @@ const SocialMediaColumnTitle = styled.span`
   `};
 `;
 
-//className = "py-8 xs:py-0 sm:py-0 col-span-1 xs:col-span-2 sm:col-span-1";
-
 const SocialMediaColumn = styled.div`
   padding: 2rem;
   ${media.mobile`

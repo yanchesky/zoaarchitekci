@@ -42,7 +42,6 @@ const StyledList = styled.ul`
   align-items: baseline;
   font-family: Facundo, sans-serif;
   position: absolute;
-  //left: calc(100vw - 480px);
   right: 0;
   color: black;
   width: 490px;

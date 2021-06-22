@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import { FadeInOutLink } from "./NavigationLink";
-import { changeLocale } from "gatsby-plugin-intl";
 import { useIntl } from "gatsby-plugin-intl";
 import styled from "styled-components";
 import { useLocation } from "@reach/router";
@@ -55,6 +54,7 @@ const Language = ({
         aria-haspopup="true"
       >
         <img
+          alt="change language"
           className="globe-icon"
           style={{ position: "relative", top: "2px" }}
           width={"16px"}
@@ -70,7 +70,7 @@ const Language = ({
               padding: "0.25rem 1rem",
             }}
           >
-            Polski
+            POLSKI
           </Link>
         </FadeInOutLink>
         <FadeInOutLink to={routeToEnglish} onClick={handleClose}>
@@ -80,7 +80,7 @@ const Language = ({
               padding: "0.25rem 1rem",
             }}
           >
-            English
+            ENGLISH
           </Link>
         </FadeInOutLink>
         <FadeInOutLink to={routeToFrench} onClick={handleClose}>

@@ -4,7 +4,7 @@ export const HamburgerWrapper = styled.div`
   z-index: 1;
 `;
 
-export const LanguagesWrapper = styled.div`
+export const LanguagesWrapper = styled.li`
   margin-top: 8rem;
   font-size: 1.25rem;
 

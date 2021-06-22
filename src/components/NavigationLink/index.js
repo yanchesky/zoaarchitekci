@@ -14,7 +14,6 @@ const FadeInOutLinkWrapper = styled.li`
   margin: 0 0.5rem;
 
   &:hover {
-    //color: #6b7280;
     transition: none;
   }
 
@@ -38,7 +37,6 @@ const StyledTransitionLink = styled(TransitionLink)`
   text-transform: uppercase;
   letter-spacing: 0.05em;
   cursor: pointer;
-  //color: ${(props) => props.theme.colors["gray-600"]};
   &:hover {
     text-decoration: underline;
   }

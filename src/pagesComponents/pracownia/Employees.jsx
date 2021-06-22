@@ -14,15 +14,6 @@ const StyledHeading = styled.h1`
   grid-column-end: 7;
 `;
 
-const OnlyMobile = styled.div`
-  display: block;
-  margin-top: 0.25rem;
-
-  ${media.desktop`
-    //display: none;
-  `};
-`;
-
 const EmployeePhotoWrapper = styled.div`
   position: relative;
 `;
@@ -89,7 +80,7 @@ const Employees = () => {
       </StyledHeading>
 
       <EmployeesWrapper>
-        {presentEmployees.map((employee, index, arr) => {
+        {presentEmployees.map((employee, index) => {
           const isEven = index % 2 === 0;
           return (
             <>
@@ -101,14 +92,14 @@ const Employees = () => {
                   alt={employee.name}
                 />
 
-                <OnlyMobile>
+                <div style={{ marginTop: "0.25rem" }}>
                   <Name isEven={isEven}>{employee.name}</Name>
                   <Role isEven={isEven}>
                     {t.formatMessage({
                       id: `pages.workshop.employees.role.${employee.role}`,
                     })}
                   </Role>
-                </OnlyMobile>
+                </div>
               </EmployeePhotoWrapper>
               {index === 1 && <FirstDummy />}
               {index === 2 && (
@@ -125,7 +116,7 @@ const Employees = () => {
       </StyledHeading>
       <EmployeesWrapper>
         {dividedEmployees.map((employeesColumn, index, arr) => (
-          <div>
+          <div key={index}>
             {employeesColumn.map((employee, index) => (
               <p key={index}>{employee}</p>
             ))}

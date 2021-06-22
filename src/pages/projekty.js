@@ -17,7 +17,7 @@ const Projects = () => {
   const [filter, setFilter] = useState("");
 
   const projects = useMemo(transformQueryProjects(query, intl.locale), []);
-  const flattedTags = useMemo(flattenTags(projects), []);
+  const flattenTags = useMemo(flattenTags(projects), []);
 
   const filteredProjects =
     filter === ""
@@ -25,14 +25,14 @@ const Projects = () => {
       : projects.filter((thumbnail) => thumbnail.tags.includes(filter));
 
   return (
-    <ProjectsLayout tags={flattedTags} onFilterClick={setFilter}>
+    <ProjectsLayout tags={flattenTags} onFilterClick={setFilter}>
       <SEO
         title={intl.formatMessage({ id: "projects" })}
         description={
           "ZOA architekci is a Warsaw-based office for modern architecture and urban planning."
         }
       />
-      <ProjectFilterComponents onClick={setFilter} tags={flattedTags} />
+      <ProjectFilterComponents onClick={setFilter} tags={flattenTags} />
       <ProjectsGridWrapper flipperKey={filter}>
         {filteredProjects.map((projectThumbnail) => (
           <ProjectsGridItem
