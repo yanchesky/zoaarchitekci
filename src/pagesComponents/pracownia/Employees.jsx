@@ -72,7 +72,8 @@ const Employees = () => {
     employees
   );
 
-  const dividedEmployees = divideArray(pastEmployees, 3);
+  const sortedPastEmployees = pastEmployees.sort((a, b) => a.localeCompare(b));
+  const dividedEmployees = divideArray(sortedPastEmployees, 3);
   return (
     <>
       <StyledHeading>

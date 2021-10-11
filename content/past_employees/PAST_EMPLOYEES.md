@@ -55,4 +55,6 @@ names:
     - Marta Sójka
     - Unai Gomez Arriaran
     - Daniel Mermer
+    - Anna Frączkowska
+    - Bartosz Teodorczyk
 ---
