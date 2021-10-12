@@ -8,7 +8,7 @@ import ProjectsGridWrapper from "src/pagesComponents/projekty/ProjectsGridWrappe
 import ProjectFilterComponents from "src/pagesComponents/projekty/ProjectsFilterComponent";
 
 import { queryProjects } from "src/queries/projects";
-import { transformQueryProjects, flattenTags } from "src/helpers";
+import { transformQueryProjects, flattenTags as flatTags } from "src/helpers";
 import SEO from "../components/SEO";
 
 const Projects = () => {
@@ -17,7 +17,7 @@ const Projects = () => {
   const [filter, setFilter] = useState("");
 
   const projects = useMemo(transformQueryProjects(query, intl.locale), []);
-  const flattenTags = useMemo(flattenTags(projects), []);
+  const flattenTags = useMemo(flatTags(projects), []);
 
   const filteredProjects =
     filter === ""
