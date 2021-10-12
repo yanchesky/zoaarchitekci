@@ -10,17 +10,13 @@ jobs:
       uses: jzweifel/gatsby-cli-github-action@master
       with:
         gatsby-arg: build
-
-  deploy:
-    name: Deploy
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Upload ftp
-        uses: sebastianpopp/ftp-action@releases/v2
-        with:
-          host: ftp.server589298.nazwa.pl
-          user: ${{ secrets.ftp_user }}
-          password: ${{ secrets.ftp_password }}
-          options: "--delete --asci"
-
+    
+    - uses: actions/checkout@v2
+    - name: Upload ftp
+      uses: sebastianpopp/ftp-action@releases/v2
+      with:
+        host: ftp.server589298.nazwa.pl
+        user: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_password }}
+        options: "--delete --asci"
+    
