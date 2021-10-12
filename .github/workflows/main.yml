@@ -1,15 +1,22 @@
-name: Deploy via ftp
 on: push
+name: Build Gatsby Site
 jobs:
-  deploy:
-    name: Deploy
+  build:
+    name: Build Gatsby Site
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Upload ftp
-        uses: sebastianpopp/ftp-action@releases/v2
-        with:
-          host: ftp.server589298.nazwa.pl
-          user: "server589298_www@ftp.server589298.nazwa.pl"
-          password: ${{ secrets.ftp_password }}
-          options: "--delete --asci"
+    - uses: actions/checkout@master
+    - name: Build Gatsby Site
+      uses: jzweifel/gatsby-cli-github-action@master
+      with:
+        gatsby-arg: build
+
+    - uses: actions/checkout@v2
+    - name: Upload ftp
+      uses: sebastianpopp/ftp-action@releases/v2
+      with:
+        host: ftp.server589298.nazwa.pl
+        user: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_password }}
+        options: "--delete --asci"
+
