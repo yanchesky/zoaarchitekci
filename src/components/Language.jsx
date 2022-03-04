@@ -89,8 +89,7 @@ const Language = ({
               display: "block",
               padding: "0.25rem 1rem",
             }}
-          >
-            FRANÇOIS
+          >FRANÇAIS
           </Link>
         </FadeInOutLink>
       </GrowSelectList>
