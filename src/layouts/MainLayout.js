@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
 
 function MainLayout({ children, ...rest }) {
   const urlOptions = rest.pageContext.locales;
-  return (
+    return (
     <>
       <GlobalStyle />
       <Header urlOptions={urlOptions} />

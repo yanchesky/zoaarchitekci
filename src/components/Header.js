@@ -87,6 +87,8 @@ const Header = ({ intl, urlOptions }) => {
   const translateToPolish = urlOptions?.["pl"] || urlOptions?.["default"];
   const translateToFrench = urlOptions?.["fr"] || urlOptions?.["default"];
 
+  console.log('urlOptions:', urlOptions);
+
   return (
     <NavigationWrapper className="bg-white" id="navigation-wrapper">
       <Navigation>

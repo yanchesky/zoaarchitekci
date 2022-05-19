@@ -31,9 +31,17 @@ const Language = ({
     setOpen(false);
   };
 
-  const pageToEnglish = location.pathname.replace(intl.locale, "en");
-  const pageToPolish = location.pathname.replace(intl.locale, "pl");
-  const pageToFrench = location.pathname.replace(intl.locale, "fr");
+  const pageToEnglish = location.pathname === "/"
+      ? "/en"
+      : location.pathname.replace(intl.locale, "en");
+
+  const pageToPolish = location.pathname === "/"
+      ? "/pl"
+      : location.pathname.replace(intl.locale, "pl");
+
+  const pageToFrench = location.pathname === "/"
+      ? "/fr"
+      : location.pathname.replace(intl.locale, "fr");
 
   const routeToEnglish = translateToEnglish
     ? `/en${translateToEnglish}`
@@ -45,6 +53,9 @@ const Language = ({
     ? `/fr${translateToFrench}`
     : pageToFrench;
 
+    console.log('routeToFrench:', routeToFrench);
+  console.log('intl.locale:', intl.locale);
+  console.log('location.pathname:', location.pathname);
   return (
     <>
       <Link

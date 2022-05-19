@@ -57,4 +57,7 @@ names:
     - Daniel Mermer
     - Anna Frączkowska
     - Bartosz Teodorczyk
+    - Danuta Pawlak
+    - Grzegorz Maksiak
+    - Monika Maksymiuk
 ---
