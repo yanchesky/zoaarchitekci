@@ -16,4 +16,4 @@ tags:
 - "residential"
 thumbnail: "images/1.jpg"
 ---
-Une hypothèse de conception importante était de créer un domaine ouvert permettant une communication piétonne gratuite à travers le domaine.
+An important design assumption was to create an open estate enabling free pedestrian communication through the estate.
