@@ -19,6 +19,7 @@ names:
     - Monika Zalewska
     - Łukasz Lautsch
     - Sebastian Tabędzki
+    - Paulina Suchenek
     - Agnieszka Jaglarska
     - Piotr Zieliński
     - Michał Rogowski

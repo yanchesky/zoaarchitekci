@@ -11,14 +11,16 @@ location: "Warszawa"
 street: "Wschowska"
 images: 
     - "images/SCHWARTZ-EQ2.jpg"
-    - "images/1.jpg"
     - "images/2.jpg"
     - "images/3.jpg"
     - "images/4.jpg"    
+    - "images/5.jpg"    
+    - "images/6.jpg"    
+    - "images/7.jpg"    
 tags: 
     - "biurowe"
     - "użyteczności publicznej"
-thumbnail: "images/1.jpg"
+thumbnail: "images/2.jpg"
 ---
 Budynek zlokalizowany jest na warszawskiej Woli, w sąsiedztwie istniejącego budynku EQlibrium. Wypełnia on narożnik ul. Jana Kazimierza i Wschowskiej, dopełniając usługowy kwartał zabudowy.
 

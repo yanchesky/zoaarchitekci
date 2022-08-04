@@ -12,12 +12,13 @@ location: "Warsaw"
 street: "Elbląska"
 images: 
     - "images/SCHWARTZ-Ficowskiego_6.jpg"
-    - "images/1.jpg"
     - "images/2.jpg"
     - "images/3.jpg"
     - "images/4.jpg"    
+    - "images/5.jpg"    
+    - "images/6.jpg"    
 tags: 
     - "residential"
-thumbnail: "images/1.jpg"
+thumbnail: "images/2.jpg"
 ---
 An intimate building, located in the post-industrial part of Żoliborz. Our main goal was to provide residents with a large, sunny courtyard, isolated from the hustle and bustle of the neighboring streets. The architecture of the building was inspired by the modest, orderly buildings of the pre-war WSM
