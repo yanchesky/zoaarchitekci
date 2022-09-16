@@ -4,6 +4,7 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
@@ -19,9 +20,11 @@ jobs:
           npm run build
 
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
           server: ftp.server589298.nazwa.pl
           username: ${{ secrets.ftp_user }}
           password: ${{ secrets.ftp_password }}
+          protocol: sftp
+          port: 22
           local-dir: ./public/
