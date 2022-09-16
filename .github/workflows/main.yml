@@ -19,14 +19,6 @@ jobs:
           npm install
           npm run build
 
-      - name: Clean ftp files
-        uses: StephanThierry/ftp-delete-action@/v2.1
-        with:
-          host: server589298.nazwa.pl
-          user: ${{ secrets.ftp_user }}
-          password: ${{ secrets.ftp_password }}
-          remoteFiles: "*"
-
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
