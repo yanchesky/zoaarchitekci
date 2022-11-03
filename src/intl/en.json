@@ -48,9 +48,10 @@
           "seniorArchitectFemale": "senior architect",
           "architect": "architect",
           "architectFemale": "architect",
-          "officeAdministration": "administration, secretariat",
+          "officeAdministration": "office manager",
           "assistantFemale": "architect's assistant",
-          "assistant": "architect's assistant"
+          "assistant": "architect's assistant",
+          "assistantBimManager": "architect's assistant, BIM manager"
         }
       },
       "prizes": {
