@@ -18,6 +18,7 @@ images:
 - "images/6.jpg"     
 tags:
 - "użyteczności publicznej"
+- "konkursowe"
 thumbnail: "images/5.jpg"
 ---
 Projekt zakłada pozostawienie istniejącego szpaleru drzew od ulicy Dobrej, który wytworzy przedpole przed wejściem głównym oraz usługami. Dodatkowo stanowi integralny element fasady budynku – zmienną wraz z porami roku naturalną zieloną elewację.

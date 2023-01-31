@@ -52,7 +52,8 @@
           "officeAdministration": "Responsable administratif",
           "assistantFemale": "Assistante d'archiecte",
           "assistant": "Assistant d'archiecte",
-          "assistantBimManager": "Assistant d'archiecte, Responsable BIM"
+          "assistantBimManager": "Assistant d'archiecte, Responsable BIM",
+          "architectTeamDirector": "directrice de l'équipe d'architectes architecte, spécialiste des procédures"
         }
       },
       "prizes": {

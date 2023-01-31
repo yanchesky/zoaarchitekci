@@ -58,12 +58,6 @@ const FirstDummy = styled.div`
     display: block;
   `};
 `;
-const SecondDummy = styled.div`
-  display: none;
-  ${media.tablet`
-    display: block;
-  `};
-`;
 
 const Employees = () => {
   const t = useIntl();
@@ -103,9 +97,9 @@ const Employees = () => {
                 </div>
               </EmployeePhotoWrapper>
               {index === 1 && <FirstDummy />}
-              {index === 2 && (
+              {index === 3 && (
                 <>
-                  <FirstDummy /> <SecondDummy />
+                  <FirstDummy />
                 </>
               )}
             </>

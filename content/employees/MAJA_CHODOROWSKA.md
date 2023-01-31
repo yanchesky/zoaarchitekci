@@ -1,6 +1,6 @@
 ---
 order: "4"
 name: "Maja Chodorowska"
-role: "architectSpecialistAdministrativeFemale"
+role: "architectTeamDirector"
 image: "images/MAJA_CHODOROWSKA.jpg"    
 ---

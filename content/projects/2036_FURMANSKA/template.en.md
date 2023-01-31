@@ -19,6 +19,7 @@ images:
     - "images/6.jpg"     
 tags:
     - "public utility"
+    - "competition"
 thumbnail: "images/5.jpg"
 ---
 The project assumes leaving the existing row of trees at Dobra Street, which will create a foreground in front of the main entrance and services. In addition, it is an integral element of the building façade - the natural green façade that changes with the seasons.

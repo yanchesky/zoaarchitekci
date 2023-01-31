@@ -19,6 +19,7 @@ images:
     - "images/6.jpg"     
 tags:
     - "bâtiments publics"
+    - "concours"
 thumbnail: "images/5.jpg"
 ---
 Le projet suppose de quitter la rangée d'arbres existante sur la rue Dobra, ce qui créera un premier plan devant l'entrée principale et les services. De plus, il fait partie intégrante de la façade du bâtiment - la façade verte naturelle qui change avec les saisons.

@@ -53,7 +53,8 @@
           "officeAdministration": "Kierownik biura",
           "assistantFemale": "asystentka architekta",
           "assistant": "asystent architekta",
-          "assistantBimManager": "asystent architekta, BIM menadżer"
+          "assistantBimManager": "asystent architekta, BIM menadżer",
+          "architectTeamDirector": "dyrektorka zaspołu architektów, architektka specjalistka ds. postępowań administracyjnych"
         }
       },
       "prizes": {

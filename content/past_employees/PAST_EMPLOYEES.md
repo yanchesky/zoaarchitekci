@@ -38,7 +38,6 @@ names:
     - Diep Nguyen Hong
     - Urszula Godlewska
     - Urszula Konowrocka
-    - Nina Wójcicka
     - Katarzyna Ostaszewska
     - Anna Wajda
     - Paulina Włodek
@@ -61,4 +60,5 @@ names:
     - Danuta Pawlak
     - Grzegorz Maksiak
     - Monika Maksymiuk
+    - Katarzyna Wojtczyk-Eluszkiewicz
 ---

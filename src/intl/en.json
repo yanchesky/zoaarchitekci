@@ -51,7 +51,8 @@
           "officeAdministration": "office manager",
           "assistantFemale": "architect's assistant",
           "assistant": "architect's assistant",
-          "assistantBimManager": "architect's assistant, BIM manager"
+          "assistantBimManager": "architect's assistant, BIM manager",
+          "architectTeamDirector": "director of the team of architects, architect specialist in administrative proceedings"
         }
       },
       "prizes": {

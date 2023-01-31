@@ -15,6 +15,8 @@ images:
   - "images/4.jpg"
 tags:
   - "użyteczności publicznej"
+  - "konkursowe"
+  - "ochrony zdrowia"
 thumbnail: "images/1.jpg"
 ---
 Kompozycja urbanistyczna kompleksu oparta jest na prostopadłym układzie brył, odpowiadającym stronom świata, tworząc charakterystyczny ortogonalny krajobraz dużego zespołu medycznego. Nowoprojektowany obiekt został do tego układu przyłączony poprzez niższą, trzykondygnacyjną część, będącą kontynuacją zarówno kompozycyjnie jak i częściowo funkcjonalnie budynku H2. Główna, sześciokondygnacyjna, bryła, oparta została na schemacie litery H. Ramiona nowoprojektowanego szpitala kontynuują kierunki wskazane przez istniejące obiekty.
