@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useIntl } from "gatsby-plugin-intl";
+import { Link } from "gatsby";
 import { media } from "../../helpers";
 
 const StyledHeading = styled.h1`
@@ -39,6 +40,25 @@ const Prize = styled.div`
   `};
 `;
 
+const PrizeLink = styled(Link)`
+  margin-bottom: 1rem;
+  grid-column-start: 1;
+  display: block;
+
+  ${media.tablet`
+    
+  `};
+  grid-column-end: 7;
+  ${media.tablet`
+  grid-column-start: 3;
+    grid-column-end: 6;
+  `};
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 const StyledParagraph = styled.p`
   margin-bottom: 1rem;
 `;
@@ -51,23 +71,43 @@ const Prizes = () => {
         {t.formatMessage({ id: "pages.workshop.prizes.title" })}
       </StyledHeading>
 
+      <Year>2023</Year>
+      <PrizeLink
+        dangerouslySetInnerHTML={{
+          __html: t.formatMessage({ id: "pages.workshop.prizes.2023.1" }),
+        }}
+        to={t.formatMessage({ id: "pages.workshop.prizes.2023.1.link" })}
+      />
+
+      <Year>2021</Year>
+      <PrizeLink
+        dangerouslySetInnerHTML={{
+          __html: t.formatMessage({ id: "pages.workshop.prizes.2021.1" }),
+        }}
+        to={t.formatMessage({ id: "pages.workshop.prizes.2021.1.link" })}
+      />
+
       <Year>2020</Year>
-      <Prize
+      <PrizeLink
         dangerouslySetInnerHTML={{
           __html: t.formatMessage({ id: "pages.workshop.prizes.2020.1" }),
         }}
+        to={t.formatMessage({ id: "pages.workshop.prizes.2020.1.link" })}
       />
+
       <Year>2019</Year>
       <Prize>
-        <StyledParagraph
+        <PrizeLink
           dangerouslySetInnerHTML={{
             __html: t.formatMessage({ id: "pages.workshop.prizes.2019.1" }),
           }}
+          to={t.formatMessage({ id: "pages.workshop.prizes.2019.1.link" })}
         />
-        <StyledParagraph
+        <PrizeLink
           dangerouslySetInnerHTML={{
             __html: t.formatMessage({ id: "pages.workshop.prizes.2019.2" }),
           }}
+          to={t.formatMessage({ id: "pages.workshop.prizes.2019.2.link" })}
         />
       </Prize>
       <Year>2016</Year>
@@ -84,56 +124,65 @@ const Prizes = () => {
       />
 
       <Year>2012</Year>
-      <Prize
+      <PrizeLink
         dangerouslySetInnerHTML={{
           __html: t.formatMessage({ id: "pages.workshop.prizes.2012.1" }),
         }}
+        to={t.formatMessage({ id: "pages.workshop.prizes.2012.1.link" })}
       />
+
       <Year>2011</Year>
       <Prize>
-        <StyledParagraph
+        <PrizeLink
           dangerouslySetInnerHTML={{
             __html: t.formatMessage({ id: "pages.workshop.prizes.2011.1" }),
           }}
+          to={t.formatMessage({ id: "pages.workshop.prizes.2011.1.link" })}
         />
-        <StyledParagraph
+        <PrizeLink
           dangerouslySetInnerHTML={{
             __html: t.formatMessage({ id: "pages.workshop.prizes.2011.2" }),
           }}
+          to={t.formatMessage({ id: "pages.workshop.prizes.2011.2.link" })}
         />
       </Prize>
       <Year>2010</Year>
       <Prize>
-        <StyledParagraph
+        <PrizeLink
           dangerouslySetInnerHTML={{
             __html: t.formatMessage({ id: "pages.workshop.prizes.2010.1" }),
           }}
+          to={t.formatMessage({ id: "pages.workshop.prizes.2010.1.link" })}
         />
-
-        <StyledParagraph
+        <PrizeLink
           dangerouslySetInnerHTML={{
             __html: t.formatMessage({ id: "pages.workshop.prizes.2010.2" }),
           }}
+          to={t.formatMessage({ id: "pages.workshop.prizes.2010.2.link" })}
         />
       </Prize>
       <Year>2009</Year>
       <Prize>
-        <StyledParagraph
+        <PrizeLink
           dangerouslySetInnerHTML={{
             __html: t.formatMessage({ id: "pages.workshop.prizes.2009.1" }),
           }}
+          to={t.formatMessage({ id: "pages.workshop.prizes.2009.1.link" })}
         />
-        <StyledParagraph
+
+        <PrizeLink
           dangerouslySetInnerHTML={{
             __html: t.formatMessage({ id: "pages.workshop.prizes.2009.2" }),
           }}
+          to={t.formatMessage({ id: "pages.workshop.prizes.2009.2.link" })}
         />
       </Prize>
       <Year>2008</Year>
-      <Prize
+      <PrizeLink
         dangerouslySetInnerHTML={{
           __html: t.formatMessage({ id: "pages.workshop.prizes.2008.1" }),
         }}
+        to={t.formatMessage({ id: "pages.workshop.prizes.2008.1.link" })}
       />
       <StyledHeading>
         <div

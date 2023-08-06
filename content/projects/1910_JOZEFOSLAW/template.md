@@ -6,7 +6,7 @@ title: "Zespół budynków wielorodzinnych"
 year: "2020"
 client: "White Stone"
 area: "10 500 m2"
-status: "underConstruction"
+status: "completed"
 location: "Józefosław"
 images:
     - "images/1.jpg"
@@ -15,4 +15,4 @@ tags:
     - "mieszkaniowe"
 thumbnail: "images/1.jpg"
 ---
-Istotnym założeniem projektowym było stworzenie osiedla otwartego umożliwiające swobodną komunikację pieszą przez teren osiedla.
+Istotnym założeniem projektowym było stworzenie osiedla otwartego, harmonijnie wpisanego w otaczającą zabudowę, umożliwiającego swobodną komunikację pieszą przez teren osiedla.

@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { useIntl } from "gatsby-plugin-intl";
+import { navigate } from "gatsby";
 
 import ProjectsLayout from "src/layouts/ProjectsLayout";
 
@@ -11,10 +12,20 @@ import { queryProjects } from "src/queries/projects";
 import { transformQueryProjects, flattenTags as flatTags } from "src/helpers";
 import SEO from "../components/SEO";
 
+let doc =
+  typeof window !== "undefined"
+    ? window
+    : {
+        location: {
+          search: "",
+        },
+      };
+
 const Projects = () => {
   const intl = useIntl();
   const query = queryProjects();
-  const [filter, setFilter] = useState("");
+  const setFilter = () => {};
+  const filter = new URLSearchParams(doc.location.search).get("filter") || "";
 
   const projects = useMemo(transformQueryProjects(query, intl.locale), []);
   const flattenTags = useMemo(flatTags(projects), []);

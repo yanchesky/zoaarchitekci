@@ -53,29 +53,37 @@
           "officeAdministration": "Kierownik biura",
           "assistantFemale": "asystentka architekta",
           "assistant": "asystent architekta",
-          "assistantBimManager": "asystent architekta, BIM menadżer",
-          "architectTeamDirector": "dyrektorka zaspołu architektów, architektka specjalistka ds. postępowań administracyjnych"
+          "architectBimManager": "architekt, BIM menadżer",
+          "architectTeamDirector": "dyrektorka zespołu architektów, architektka specjalistka ds. postępowań administracyjnych"
         }
       },
       "prizes": {
         "title": "Nagrody",
         "2008": {
-          "1": "IV nagroda w konkursie rekomendowanym przez SARP na siedzibę Teatru Nowego w&nbsp;Warszawie"
+          "1": "IV nagroda w konkursie rekomendowanym przez SARP na siedzibę Teatru Nowego w&nbsp;Warszawie",
+          "2.link": "/pl/projekty/teatr_nowy_warszawa"
         },
         "2009": {
           "1": "III nagroda w&nbsp;konkursie TUP na Bulwary Wisły w&nbsp;Warszawie",
-          "2": "I nagroda w&nbsp;konkursie na projekt Szpitala pediatrycznego WUM w&nbsp;Warszawie"
+          "2.link": "/pl/projekty/bulwary_wisly",
+          "2": "I nagroda w&nbsp;konkursie na projekt Szpitala Pediatrycznego WUM w&nbsp;Warszawie",
+          "2.link": "/pl/projekty/dzieciecy_szpital_kliniczny_wum"
         },
         "2010": {
           "1": "I nagroda w&nbsp;konkursie SARP na projekt rewitalizacji wnętrz Ministerstwa Spraw Zagranicznych w&nbsp;Warszawie",
-          "2": "II nagroda w&nbsp;konkursie SARP na projekt rozbudowy Szpitala Położniczego przy ul. Karowej w&nbsp;Warszawie"
+          "1.link": "/pl/projekty/ministerstwo_spraw_zagranicznych",
+          "2": "II nagroda w&nbsp;konkursie SARP na projekt rozbudowy Szpitala Położniczego przy ul. Karowej w&nbsp;Warszawie",
+          "2.link": "/pl/projekty/szpital_karowa"
         },
         "2011": {
           "1": "I nagroda w&nbsp;konkursie SARP na przebudowę budynku Wydziału Dziennikarstwa i&nbsp;Nauk Politycznych UW w&nbsp;Warszawie",
-          "2": "Wyróżnienie honorowe w konkursie SARP na projekt budynku Wydziału Rzeźby ASP w&nbsp;Warszawie"
+          "1.link": "/pl/projekty/wydział_dziennikarstwa_uw",
+          "2": "Wyróżnienie honorowe w konkursie SARP na projekt budynku Wydziału Rzeźby ASP w&nbsp;Warszawie",
+          "2.link": "/pl/projekty/wydział_rzeźby_asp"
         },
         "2012": {
-          "1": "I nagroda w&nbsp;konkursie na Konstancińskie Centrum Hydroterapii w&nbsp;Konstancinie Jeziornej"
+          "1": "I nagroda w&nbsp;konkursie na Konstancińskie Centrum Hydroterapii w&nbsp;Konstancinie Jeziornej",
+          "1.link": "/pl/projekty/konstancińskie_centrum_hydroterapii"
         },
         "2013": {
           "1": "Budowlana Firma Roku Builder w kategorii Pracownia Architektoniczna"
@@ -85,10 +93,21 @@
         },
         "2019": {
           "1": "II nagroda w&nbsp;konkursie na projekt Parku Żerańskiego",
-          "2": "II nagroda w&nbsp;konkursie na projekt Stadionu Polonii"
+          "1.link": "/pl/projekty/park_żerański/",
+          "2": "II nagroda w&nbsp;konkursie na projekt Stadionu Polonii",
+          "2.link": "/pl/projekty/ośrodek_sportowy_polonii"
         },
         "2020": {
-          "1": "II nagroda w&nbsp;konkursie na projekt budynku kliniczno-dydaktyczno-nadawczego PUM w&nbsp;Szczecinie"
+          "1": "II nagroda w&nbsp;konkursie na projekt budynku kliniczno-dydaktyczno-nadawczego PUM w&nbsp;Szczecinie",
+          "1.link": "/pl/projekty/budynek_kliniczno-dydaktyczno-badawczy-pum/"
+        },
+        "2021": {
+          "1": "Wyróżnienie w konkursie na koncepcję kompleksu Podkarpackiego Centrum Zdrowia Dziecka w Rzeszowie",
+          "1.link": "/pl/projekty/podkarpackie_centrum_zdrowia_dziecka"
+        },
+        "2023": {
+          "1": "Wyróżnienie w konkursie na projekt budynku Wydziału Informatyki Zachodniopomorskiego Uniwersytetu Technologicznego w Szczecinie",
+          "1.link": "/pl/projekty/budynek_wydzialu_informatyki_zut_w_szczecinie"
         }
       }
     }

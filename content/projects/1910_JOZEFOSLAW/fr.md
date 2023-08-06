@@ -7,7 +7,7 @@ title: "Immeuble d’habitations familiales"
 year: "2020"
 client: "White Stone"
 area: "10 500 m2"
-status: "underConstruction"
+status: "completed"
 location: "Józefosław"
 images:
     - "images/1.jpg"
@@ -16,4 +16,4 @@ tags:
     - "logements"
 thumbnail: "images/1.jpg"
 ---
-Une hypothèse de conception importante était de créer un domaine ouvert permettant une communication piétonne gratuite à travers le domaine.
+Une hypothèse importante de la conception était de créer un lotissement ouvert, harmonieusement inscrit dans les bâtiments environnants, permettant une libre communication piétonne à travers la zone du lotissement.

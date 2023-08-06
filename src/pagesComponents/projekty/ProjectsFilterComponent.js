@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useIntl } from "gatsby-plugin-intl";
+import { navigate } from "gatsby";
 
 const Wrapper = styled.form`
   margin: 1rem 0 1rem;
@@ -41,9 +42,21 @@ const Input = styled.input`
   }
 `;
 
-const ProjectFilterComponents = ({ tags, onClick }) => {
+let doc =
+  typeof window !== "undefined"
+    ? window
+    : {
+        location: {
+          search: "",
+          pathname: "",
+        },
+      };
+
+const ProjectFilterComponents = ({ tags }) => {
   const t = useIntl();
   if (!tags) return null;
+
+  const searchParms = new URLSearchParams(doc.location.search);
   return (
     <Wrapper>
       <div style={{ maxWidth: "1366px", margin: "0 auto" }}>
@@ -54,6 +67,10 @@ const ProjectFilterComponents = ({ tags, onClick }) => {
               <React.Fragment key={`tag-filter-element-${index}`}>
                 <Input
                   defaultChecked={index === 0}
+                  checked={
+                    tag === searchParms.get("filter") ||
+                    (index === 0 && searchParms.get("filter") === null)
+                  }
                   type="radio"
                   name="tag-element"
                   id={name}
@@ -61,13 +78,14 @@ const ProjectFilterComponents = ({ tags, onClick }) => {
                 />
                 <TagTitle
                   className="text-gray-500"
-                  onClick={() =>
-                    onClick(
+                  onClick={() => {
+                    navigate(
                       tag === `${t.formatMessage({ id: "everything" })}`
-                        ? ""
-                        : tag
-                    )
-                  }
+                        ? doc.location.pathname
+                        : `?filter=${tag}`,
+                      { replace: false }
+                    );
+                  }}
                   htmlFor={name}
                 >
                   {tag}

@@ -51,29 +51,37 @@
           "officeAdministration": "office manager",
           "assistantFemale": "architect's assistant",
           "assistant": "architect's assistant",
-          "assistantBimManager": "architect's assistant, BIM manager",
+          "architectBimManager": "architect, BIM manager",
           "architectTeamDirector": "director of the team of architects, architect specialist in administrative proceedings"
         }
       },
       "prizes": {
         "title": "Prizes",
         "2008": {
-          "1": "4th prize in a&nbsp;competition recommended by SARP for the seat of Teatr Nowy in Warsaw"
+          "1": "4th prize in a&nbsp;competition recommended by SARP for the seat of Teatr Nowy in Warsaw",
+          "1.link": "/en/projekty/nowy_teatr_warszawa"
         },
         "2009": {
           "1": "3rd prize in the TUP competition on the Vistula Boulevards in Warsaw",
-          "2": "First prize in the competition for the design of the Pediatric Hospital of the Medical University of Warsaw in Warsaw"
+          "2.link": "/en/projekty/vistula_river_boulevards ",
+          "2": "First prize in the competition for the design of the Pediatric Hospital of the Medical University of Warsaw in Warsaw",
+          "2.link": "/en/projekty/pediatric_hospital_of_warsaw_medical_university"
         },
         "2010": {
           "1": "1st prize in the SARP competition for the interior revitalization project of the Ministry of Foreign Affairs in Warsaw",
-          "2": "Second prize in the SARP competition for the extension of the Maternity Hospital at Karowa Street in Warsaw"
+          "1.link": "/en/projekty/ministry_of_foreign_affairs",
+          "2": "Second prize in the SARP competition for the extension of the Maternity Hospital at Karowa Street in Warsaw",
+          "2.link": "/en/projekty/karowa_hospital"
         },
         "2011": {
           "1": "Second prize in the SARP competition for the reconstruction of the building of the Faculty of Journalism and Political Sciences of the University of Warsaw in Warsaw",
-          "2": "Honorable mention in the SARP competition for the design of the building of the Sculpture Department of the Academy of Fine Arts in Warsaw"
+          "1.link": "/en/projekty/faculty_of_journalism_of_university_of_warsaw",
+          "2": "Honorable mention in the SARP competition for the design of the building of the Sculpture Department of the Academy of Fine Arts in Warsaw",
+          "2.link": "/en/projekty/faculty_of_sculpture_asp"
         },
         "2012": {
-          "1": "1st prize in the competition for the Konstancińskie Center of Hydrotherapy in Konstancin Jeziorna"
+          "1": "1st prize in the competition for the Konstancińskie Center of Hydrotherapy in Konstancin Jeziorna",
+          "1.link": "/en/projekty/hotel_and_spa_konstancin"
         },
         "2013": {
           "1": "Construction Company of the Year Builder in the Architectural Studio category"
@@ -83,10 +91,21 @@
         },
         "2019": {
           "1": "Second prize in the competition for the design of Żerański Park",
-          "2": "2nd prize in the competition for the design of the Polonia Stadium"
+          "1.link": "/en/projekty/park_zeranski",
+          "2": "2nd prize in the competition for the design of the Polonia Stadium",
+          "2.link": "/en/projekty/polonia_sports_center"
         },
         "2020": {
-          "1": "Second prize in the competition for the design of the PUM clinical-teaching and broadcasting building in Szczecin"
+          "1": "Second prize in the competition for the design of the PUM clinical-teaching and broadcasting building in Szczecin",
+          "1.link": "/en/projekty/clinical_research_and_teaching_building_of_pum"
+        },
+        "2021": {
+            "1": "Distinction in the competition for the concept of the Podkarpackie Children's Health Center complex in Rzeszów",
+            "1.link": "/en/projekty/childrens_health_center"
+        },
+        "2023": {
+          "1": "Distinction in the competition for the design of the building of the Faculty of Computer Science of the West Pomeranian University of Technology in Szczecin",
+          "1.link": "/en/projekty/building_of_the_faculty_of_computer_science"
         }
       }
     }

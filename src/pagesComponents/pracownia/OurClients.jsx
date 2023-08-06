@@ -25,6 +25,8 @@ import siemens from "src/assets/clients/Siemens.png";
 import warbud from "src/assets/clients/Warbud.png";
 import zdrojowa from "src/assets/clients/Zdrojowa.png";
 import warynski from "src/assets/clients/warynski.png";
+import turret from "src/assets/clients/TURRET-PNG.png";
+import archicom from "src/assets/clients/ARCHICOM-PNG.png";
 
 import { useIntl } from "gatsby-plugin-intl";
 
@@ -134,6 +136,16 @@ const clients = [
     scale: 2,
     alt: "warynski logo",
   },
+  {
+    icon: turret,
+    scale: 1,
+    alt: "turret logo",
+  },
+  {
+  icon: archicom,
+  scale: 1.5,
+  alt: "archicom logo",
+  }
 ];
 
 const StyledHeading = styled.h1`

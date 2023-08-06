@@ -1,5 +1,7 @@
 ---
 names:
+    - Katarzyna Ciżyńska
+    - Agnieszka Wardzińska
     - Mikołaj Wieczorek
     - Iwona Filiks
     - Aneta Chudobińska-Rosa

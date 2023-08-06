@@ -52,29 +52,37 @@
           "officeAdministration": "Responsable administratif",
           "assistantFemale": "Assistante d'archiecte",
           "assistant": "Assistant d'archiecte",
-          "assistantBimManager": "Assistant d'archiecte, Responsable BIM",
+          "architectBimManager": "Architecte, Responsable BIM",
           "architectTeamDirector": "directrice de l'équipe d'architectes architecte, spécialiste des procédures"
         }
       },
       "prizes": {
         "title": "prix d'architecture",
         "2008": {
-          "1": "4e prix d'un concours recommandé par SARP pour le siège du Teatr Nowy à&nbsp;Varsovie"
+          "1": "4e prix d'un concours recommandé par SARP pour le siège du Teatr Nowy à&nbsp;Varsovie",
+          "2.link": "/fr/projekty/théâtre_nowy"
         },
         "2009": {
           "1": "3e prix au concours TUP sur les boulevards de la Vistule à&nbsp;Varsovie",
-          "2": "Premier prix du concours pour la conception de l'hôpital pédiatrique de l'Université de médecine de Varsovie à&nbsp;Varsovie"
+          "2.link": "/fr/projekty/les_boulevards_de_la_vistule",
+          "2": "Premier prix du concours pour la conception de l'hôpital pédiatrique de l'Université de médecine de Varsovie à&nbsp;Varsovie",
+          "2.link": "/fr/projekty/lhopital_pediatrique_de_luniversite_de_medecine_de_varsovie"
         },
         "2010": {
           "1": "1er prix du concours SARP pour le projet de revitalisation intérieure du ministère des Affaires étrangères à&nbsp;Varsovie",
-          "2": "Deuxième prix du concours SARP pour l'extension de la maternité de la rue Karowa à&nbsp;Varsovie"
+          "1.link": "/fr/projekty/ministere_des_affaires_etrangeres_decor_dinterieur",
+          "2": "Deuxième prix du concours SARP pour l'extension de la maternité de la rue Karowa à&nbsp;Varsovie",
+          "2.link": "/fr/projekty/lhopital_karowa"
         },
         "2011": {
           "1": "Deuxième prix du concours SARP pour la reconstruction du bâtiment de la Faculté de journalisme et de sciences politiques de l'Université de Varsovie à&nbsp;Varsovie",
-          "2": "Mention honorable au concours SARP pour la conception du bâtiment du département de sculpture de l'Académie des Beaux-Arts de Varsovie"
+          "1.link": "/fr/projekty/faculte_de_journalisme_de_luniversite",
+          "2": "Mention honorable au concours SARP pour la conception du bâtiment du département de sculpture de l'Académie des Beaux-Arts de Varsovie",
+          "2.link": "/fr/projekty/faculte-de-la-sculpture-academie-des-beaux-arts"
         },
         "2012": {
-          "1": "1er prix du concours du centre d'hydrothérapie Konstancińskie à Konstancin Jeziorna"
+          "1": "1er prix du concours du centre d'hydrothérapie Konstancińskie à Konstancin Jeziorna",
+          "1.link": "/fr/projekty/centre-dhydrotherapie"
         },
         "2013": {
           "1": "Entreprise de construction de l'année dans la catégorie Studio d'architecture"
@@ -84,10 +92,21 @@
         },
         "2019": {
           "1": "Deuxième prix du concours pour la conception du parc Żerański",
-          "2": "2e prix du concours pour la conception du stade Polonia"
+          "1.link": "/fr/projekty/concours_projet_de_parc_zeranski",
+          "2": "2e prix du concours pour la conception du stade Polonia",
+          "2.link": "/fr/projekty/le_centre_sportif_polonia"
         },
         "2020": {
-          "1": "Deuxième prix du concours pour la conception du bâtiment clinique, éducatif et audiovisuel PUM (Université Médicale de Poméranieà) Szczecin"
+          "1": "Deuxième prix du concours pour la conception du bâtiment clinique, éducatif et audiovisuel PUM (Université Médicale de Poméranieà) Szczecin",
+          "1.link": "/fr/projekty/batiment_clinique_educatif_et_audiovisuel_pum"
+        },
+        "2021": {
+          "1": "Distinction au concours pour le concept du complexe du centre de santé pour enfants Podkarpackie à Rzeszów",
+          "1.link": "/fr/projekty/centre_hospitalier_pour_les_enfants"
+        },
+        "2023": {
+          "1": "Distinction au concours pour la conception du bâtiment de la Faculté d'informatique de l'Université de technologie de Poméranie occidentale à Szczecin",
+          "1.link": "/fr/projekty/le_batiment_de_la_faculte_d_informatique_a_l_universite_de_zut"
         }
       }
     }

@@ -9,15 +9,18 @@ const Container = styled.div`
   position: fixed;
   width: 100%;
   z-index: 2;
-  top: 83px;
+  height: 125px;
+  background: white;
+  top: 0;
   left: 0;
+  display: flex;
+  align-items: end;
 `;
 
 const Wrapper = styled.form`
   position: relative;
   margin: 0 auto;
   text-transform: uppercase;
-
   display: flex;
   justify-content: flex-end;
   background: white;
