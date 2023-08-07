@@ -2,7 +2,7 @@
 id: "2206"
 slug: "/projekty/sse_musienne_drk"
 date: "2021-01-09"
-title: "SEE MUSIENNE"
+title: "SSE MUSIENNE"
 year: "2022"
 client: " SOCITEQ Sarl"
 area: "125 ha"
