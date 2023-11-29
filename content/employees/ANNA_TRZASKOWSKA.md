@@ -1,6 +1,6 @@
 ---
 order: "10"
 name: "Anna Trząskowska"
-role: "seniorArchitectFemale"
+role: "architectManagerFemale"
 image: "images/ANNA_TRZASKOWSKA.jpg"   
 ---

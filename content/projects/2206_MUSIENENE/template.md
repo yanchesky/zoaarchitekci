@@ -15,4 +15,4 @@ tags:
     - "urbanistyczne"
 thumbnail: "images/1.jpg"
 ---
-Projekt urbanistyczny Specjalnej Strefy Ekonomicznej Musienene, zlokalizowanej w prowincji Północne Kivu W DRK. Podstawowym celem projektu jest wpisanie tego niezwykle potzebnego zespołu funkcjonalnego w trudne warunki lokalizacyjne (górzysty I podmokły teren) przy jednoczesnym poszanowaniu przyrody I krajobrazu.
+Projekt urbanistyczny Specjalnej Strefy Ekonomicznej Musienene, zlokalizowanej w prowincji Północne Kivu W DRK. Podstawowym celem projektu jest wpisanie tego niezwykle potrzebnego zespołu funkcjonalnego w trudne warunki lokalizacyjne (górzysty I podmokły teren) przy jednoczesnym poszanowaniu przyrody I krajobrazu.
