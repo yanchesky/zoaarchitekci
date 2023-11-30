@@ -1,5 +1,5 @@
 ---
-id: "2032"
+id: "2210"
 slug: "/projekty/osiedle_budynków_metro_art"
 date: "2022-10-09"
 title: "OSIEDLE BUDYNKÓW WIELORODZINNYCH METRO ART "
