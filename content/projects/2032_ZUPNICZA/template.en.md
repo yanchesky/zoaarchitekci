@@ -15,6 +15,8 @@ images:
   - "images/03.jpg"
   - "images/04.jpg"
   - "images/05.jpg"
+  - "images/06.jpg"
+  - "images/07.jpg"
 tags:
   - "residential"
 thumbnail: "images/01.jpg"

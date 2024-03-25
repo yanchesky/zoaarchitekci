@@ -27,6 +27,7 @@ import zdrojowa from "src/assets/clients/Zdrojowa.png";
 import warynski from "src/assets/clients/warynski.png";
 import turret from "src/assets/clients/TURRET-PNG.png";
 import archicom from "src/assets/clients/ARCHICOM-PNG.png";
+import flora from "src/assets/clients/flora.png";
 
 import { useIntl } from "gatsby-plugin-intl";
 
@@ -142,10 +143,15 @@ const clients = [
     alt: "turret logo",
   },
   {
-  icon: archicom,
-  scale: 1.5,
-  alt: "archicom logo",
-  }
+    icon: archicom,
+    scale: 1.5,
+    alt: "archicom logo",
+  },
+  {
+    icon: flora,
+    scale: 1.5,
+    alt: "flora logo",
+  },
 ];
 
 const StyledHeading = styled.h1`

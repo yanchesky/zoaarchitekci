@@ -1,5 +1,5 @@
 ---
-order: "12.2"
+order: "10"
 name: "Monika Brzezińska"
 role: "seniorArchitectFemale"
 image: "images/MONIKA_BRZEZINSKA.jpg"

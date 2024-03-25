@@ -63,4 +63,6 @@ names:
     - Grzegorz Maksiak
     - Monika Maksymiuk
     - Katarzyna Wojtczyk-Eluszkiewicz
+    - Ndonwa Nwafor-Orizu
+    - Oliwia Mzee
 ---
