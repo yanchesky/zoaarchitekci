@@ -118,8 +118,8 @@ const Kontakt = () => {
         </AddressWrapper>
         <AddressContactWrapper>
           <AddressLinks href="tel:+48228442211">+48 22 844 22 11</AddressLinks>
+          <AddressLinks href="tel:+48228442212">+48 22 844 22 12</AddressLinks>
           <AddressLinks href="tel:+48222521635">+48 22 252 16 35</AddressLinks>
-          <AddressLinks href="tel:+48222538634">+48 22 253 86 34</AddressLinks>
           <AddressLinks href="mailto:biuro@zoaarchitekci.pl">
             biuro@zoaarchitekci.pl
           </AddressLinks>

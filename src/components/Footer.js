@@ -176,10 +176,10 @@ const Footer = () => {
               <a href="tel:+48228442211">+48 22 844 22 11</a>
             </Paragraph>
             <Paragraph>
-              <a href="tel:+48222521635">+48 22 252 16 35</a>
+              <a href="tel:+48228442212">+48 22 844 22 12</a>
             </Paragraph>
             <Paragraph>
-              <a href="tel:+48222538634">+48 22 253 86 34</a>
+              <a href="tel:+48222521635">+48 22 252 16 35</a>
             </Paragraph>
           </div>
         </MiddleColumn>
