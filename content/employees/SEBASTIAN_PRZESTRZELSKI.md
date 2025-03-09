@@ -1,6 +1,6 @@
 ---
-order: "16"
+order: "11.5"
 name: "Sebastian Przestrzelski"
-role: "architect"
+role: "seniorArchitect"
 image: "images/SEBASTIAN_PRZESTRZELSKI.jpg"    
 ---

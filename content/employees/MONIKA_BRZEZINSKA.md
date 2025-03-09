@@ -1,6 +1,6 @@
 ---
 order: "10"
 name: "Monika Brzezińska"
-role: "seniorArchitectFemale"
+role: "architectManagerFemale"
 image: "images/MONIKA_BRZEZINSKA.jpg"
 ---

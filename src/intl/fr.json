@@ -42,18 +42,19 @@
       "employees": {
         "role": {
           "partner": "Partenaire",
-          "operationDirectorFemale": "Directrice opérationnel",
+          "operationDirectorFemale": "associée, Directrice opérationnel",
           "architectSpecialistAdministrativeFemale": "Architecte, spécialiste des procédures ",
           "architectManagerFemale": "Architecte chef",
           "architectManager": "Architecte chef",
           "seniorArchitectFemale": "Architecte senior",
+          "seniorArchitect": "Architecte senior",
           "architect": "Architecte",
           "architectFemale": "Architecte",
           "officeAdministration": "Responsable administratif",
           "assistantFemale": "Assistante d'archiecte",
           "assistant": "Assistant d'archiecte",
           "architectBimManager": "Architecte, Responsable BIM",
-          "architectTeamDirector": "directrice de l'équipe d'architectes architecte, spécialiste des procédures"
+          "architectTeamDirector": "associée, directrice de l'équipe d'architectes architecte, spécialiste des procédures"
         }
       },
       "prizes": {

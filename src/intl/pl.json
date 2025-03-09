@@ -43,18 +43,19 @@
       "employees": {
         "role": {
           "partner": "wspólnik",
-          "operationDirectorFemale": "dyrektorka operacyjna",
+          "operationDirectorFemale": "associate, dyrektorka operacyjna",
           "architectSpecialistAdministrativeFemale": "architektka specjalistka ds. postępowań administracyjnych",
           "architectManagerFemale": "architektka kierowniczka",
           "architectManager": "architekt kierownik",
           "seniorArchitectFemale": "starsza architektka",
+          "seniorArchitect": "starszy architekt",
           "architect": "architekt",
           "architectFemale": "architektka",
           "officeAdministration": "Kierownik biura",
           "assistantFemale": "asystentka architekta",
           "assistant": "asystent architekta",
           "architectBimManager": "architekt, BIM menadżer",
-          "architectTeamDirector": "dyrektorka zespołu architektów, architektka specjalistka ds. postępowań administracyjnych"
+          "architectTeamDirector": "associate, dyrektorka zespołu architektów, architektka specjalistka ds. postępowań administracyjnych"
         }
       },
       "prizes": {

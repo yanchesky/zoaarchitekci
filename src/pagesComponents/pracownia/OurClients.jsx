@@ -28,6 +28,9 @@ import warynski from "src/assets/clients/warynski.png";
 import turret from "src/assets/clients/TURRET-PNG.png";
 import archicom from "src/assets/clients/ARCHICOM-PNG.png";
 import flora from "src/assets/clients/flora.png";
+import weisenburger from "src/assets/clients/WEISENBURGER.png";
+import futureal from "src/assets/clients/FUTUREAL.png";
+import fives from "src/assets/clients/5S.png";
 
 import { useIntl } from "gatsby-plugin-intl";
 
@@ -151,6 +154,21 @@ const clients = [
     icon: flora,
     scale: 1.5,
     alt: "flora logo",
+  },
+  {
+    icon: weisenburger,
+    scale: 1.8,
+    alt: "weisenburger logo",
+  },
+  {
+    icon: futureal,
+    scale: 1.5,
+    alt: "futureal logo",
+  },
+  {
+    icon: fives,
+    scale: 1.5,
+    alt: "fives logo",
   },
 ];
 

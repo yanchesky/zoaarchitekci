@@ -1,6 +1,6 @@
 ---
-order: "14"
+order: "10.5"
 name: "Dominika Meller"
-role: "architectFemale"
+role: "architectManagerFemale"
 image: "images/DOMINIKA_MELLER.jpg"
 ---
