@@ -71,6 +71,14 @@ const Prizes = () => {
         {t.formatMessage({ id: "pages.workshop.prizes.title" })}
       </StyledHeading>
 
+      <Year>2024</Year>
+      <PrizeLink
+        dangerouslySetInnerHTML={{
+          __html: t.formatMessage({ id: "pages.workshop.prizes.2024.1" }),
+        }}
+        to={t.formatMessage({ id: "pages.workshop.prizes.2024.1.link" })}
+      />
+
       <Year>2023</Year>
       <PrizeLink
         dangerouslySetInnerHTML={{

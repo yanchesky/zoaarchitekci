@@ -54,6 +54,7 @@
           "assistantFemale": "Assistante d'archiecte",
           "assistant": "Assistant d'archiecte",
           "architectBimManager": "Architecte, Responsable BIM",
+          "seniorArchitectBimManager": "Architecte senior, Responsable BIM",
           "architectTeamDirector": "associée, directrice de l'équipe d'architectes architecte, spécialiste des procédures"
         }
       },
@@ -108,6 +109,10 @@
         "2023": {
           "1": "Distinction au concours pour la conception du bâtiment de la Faculté d'informatique de l'Université de technologie de Poméranie occidentale à Szczecin",
           "1.link": "/fr/projekty/le_batiment_de_la_faculte_d_informatique_a_l_universite_de_zut"
+        },
+        "2024": {
+          "1": "Deuxième prix au concours pour le projet d'extension du complexe de bâtiments existant du Centre d'Oncologie de Wielkopolska avec le bâtiment du Service Ambulatoire d'Oncologie, de Prévention, de Diagnostic Moléculaire et d'Imagerie dans la rue Garbarnia à Poznań",
+          "1.link": "/fr/projekty/extension_wco_poznan"
         }
       }
     }

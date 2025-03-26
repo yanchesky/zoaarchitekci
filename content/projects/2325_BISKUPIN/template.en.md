@@ -21,7 +21,7 @@ images:
     - "images/07.jpg"
     - "images/08.jpg"
 tags: 
-    - "competition"
+    - "competitions"
     - "public utility"
 thumbnail: "images/01.jpg"
 ---

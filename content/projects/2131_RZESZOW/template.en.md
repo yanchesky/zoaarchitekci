@@ -16,7 +16,7 @@ images:
   - "images/4.jpg"
 tags:
   - "public utility"
-  - "competition"
+  - "competitions"
   - "health care"
 thumbnail: "images/1.jpg"
 ---

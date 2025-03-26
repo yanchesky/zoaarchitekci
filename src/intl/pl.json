@@ -28,7 +28,6 @@
         "underConstruction": "W realizacji",
         "conception": "Projekt koncepcyjny",
         "competitionMention": "Projekt konkursowy, wyróżnienie"
-
       }
     },
     "workshop": {
@@ -52,9 +51,10 @@
           "architect": "architekt",
           "architectFemale": "architektka",
           "officeAdministration": "Kierownik biura",
-          "assistantFemale": "asystentka architekta",
-          "assistant": "asystent architekta",
+          "assistantFemale": "asystentka architektka",
+          "assistant": "asystent architekt",
           "architectBimManager": "architekt, BIM menadżer",
+          "seniorArchitectBimManager": "starszy architekt, BIM menadżer",
           "architectTeamDirector": "associate, dyrektorka zespołu architektów, architektka specjalistka ds. postępowań administracyjnych"
         }
       },
@@ -109,6 +109,10 @@
         "2023": {
           "1": "Wyróżnienie w konkursie na projekt budynku Wydziału Informatyki Zachodniopomorskiego Uniwersytetu Technologicznego w Szczecinie",
           "1.link": "/pl/projekty/budynek_wydzialu_informatyki_zut_w_szczecinie"
+        },
+        "2024": {
+          "1": "II nagroda w konkursie projekt rozbudowy istniejącego zespołu budynków Wielkopolskiego Centrum Onkologii o budynek Ambulatoryjnej Onkologii, Profilaktyki, Diagnostyki Molekularnej i Obrazowej przy ul. Garbary w Poznaniu",
+          "1.link": "/pl/projekty/rozbudowa_wco_poznan"
         }
       }
     }

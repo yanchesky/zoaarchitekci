@@ -1,6 +1,6 @@
 ---
-order: "21"
+order: "20"
 name: "Katarzyna Wyrzykowska"
-role: "assistantFemale"
+role: "architectFemale"
 image: "images/KATARZYNA_WYRZYKOWSKA.jpg"
 ---

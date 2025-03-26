@@ -53,6 +53,7 @@
           "assistantFemale": "architect's assistant",
           "assistant": "architect's assistant",
           "architectBimManager": "architect, BIM manager",
+          "seniorArchitectBimManager": "senior architect, BIM manager",
           "architectTeamDirector": "associate, director of the team of architects, architect specialist in administrative proceedings"
         }
       },
@@ -101,12 +102,16 @@
           "1.link": "/en/projekty/clinical_research_and_teaching_building_of_pum"
         },
         "2021": {
-            "1": "Distinction in the competition for the concept of the Podkarpackie Children's Health Center complex in Rzeszów",
-            "1.link": "/en/projekty/childrens_health_center"
+          "1": "Distinction in the competition for the concept of the Podkarpackie Children's Health Center complex in Rzeszów",
+          "1.link": "/en/projekty/childrens_health_center"
         },
         "2023": {
           "1": "Distinction in the competition for the design of the building of the Faculty of Computer Science of the West Pomeranian University of Technology in Szczecin",
           "1.link": "/en/projekty/building_of_the_faculty_of_computer_science"
+        },
+        "2024": {
+          "1": "2nd prize in the competition for the project of expanding the existing building complex of the Wielkopolska Oncology Center with the building of Outpatient Oncology, Prevention, Molecular and Imaging Diagnostics at ul. Garbary in Poznań",
+          "1.link": "/en/projekty/wco_poznan_extension"
         }
       }
     }

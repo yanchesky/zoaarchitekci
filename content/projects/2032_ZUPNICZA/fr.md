@@ -18,8 +18,8 @@ images:
   - "images/06.jpg"
   - "images/07.jpg"
 tags:
-  - "biurowe"
-  - "użyteczności publicznej"
+  - "immobilier d'entreprise"
+  - "bâtiments publics"
 thumbnail: "images/01.jpg"
 ---
 
